@@ -92,15 +92,15 @@ render() {
 
 ### `没有使用`
 
-1、[flux](https://github.com/facebook/flux)
-2、[PureRenderMixin](https://reactjs.org/docs/pure-render-mixin.html)
+* [flux](https://github.com/facebook/flux)
+* [PureRenderMixin](https://reactjs.org/docs/pure-render-mixin.html)
 
 ### `路由`
 
-1、[react-router](https://reacttraining.com/react-router/web/api/Route)
+* [react-router](https://reacttraining.com/react-router/web/api/Route)
 
 ### `弹窗 - 下面的组件都没用 - 写了一个简单的`
 
-1、[react-modal](https://github.com/reactjs/react-modal)
-2、第三方-[react-modal-dialog](https://github.com/qimingweng/react-modal-dialog)
-3、第三方-[react-popup](https://github.com/minutemailer/react-popup)
+* [react-modal](https://github.com/reactjs/react-modal)
+* 第三方-[react-modal-dialog](https://github.com/qimingweng/react-modal-dialog)
+* 第三方-[react-popup](https://github.com/minutemailer/react-popup)
