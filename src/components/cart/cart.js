@@ -30,6 +30,11 @@ export default class Cart extends Component {
     createTemplate() {
         if (this.state.info.success) {
             let result = this.state.info.data;
+            let resource = result.data;
+            let hierarchy = result.hierarchy;
+
+            console.log(resource);
+            console.log(hierarchy);
 
             return <div className="app-cart">
                 <div className="cart-thing">

@@ -5,15 +5,15 @@
     "data": {
         "control": {},
         "data": {
-            "bundlev2_s_2456386471": {
+            "bundle_s_2456386471": {
                 "id": "s_2456386471",
-                "tag": "bundlev2",
+                "tag": "bundle",
                 "fields": {
                     "valid": true,
                     "bundleId": "s_2456386471"
                 }
             },
-            "global_1": {
+            "global": {
                 "id": "1",
                 "tag": "global",
                 "fields": {}
@@ -28,9 +28,9 @@
                     "isRelationItem": false
                 }
             },
-            "shopv2_s_420567757": {
+            "shop_s_420567757": {
                 "id": "s_420567757",
-                "tag": "shopv2",
+                "tag": "shop",
                 "fields": {
                     "seller": "veromoda官方旗舰店",
                     "sType": "B",
@@ -48,9 +48,9 @@
                     "hasBonus": false
                 }
             },
-            "itemv2_414276347456": {
+            "item_414276347456": {
                 "id": "414276347456",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -99,7 +99,7 @@
                     "itemRecParamId": "{\"catid\":\"50012906\",\"sellerid\":\"799637424\",\"nid\":\"43384201402\",\"h5version\":\"2\"}"
                 }
             },
-            "footer_1": {
+            "footer": {
                 "id": "1",
                 "tag": "footer",
                 "fields": {
@@ -122,17 +122,17 @@
                     }
                 }
             },
-            "bundlev2_s_420567757": {
+            "bundle_s_420567757": {
                 "id": "s_420567757",
-                "tag": "bundlev2",
+                "tag": "bundle",
                 "fields": {
                     "valid": true,
                     "bundleId": "s_420567757"
                 }
             },
-            "itemv2_612381897203": {
+            "item_612381897203": {
                 "id": "612381897203",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -180,9 +180,9 @@
                     "itemRecParamId": "{\"catid\":\"50010850\",\"sellerid\":\"420567757\",\"nid\":\"551881638423\",\"h5version\":\"2\"}"
                 }
             },
-            "shopv2_s_196993935": {
+            "shop_s_196993935": {
                 "id": "s_196993935",
-                "tag": "shopv2",
+                "tag": "shop",
                 "fields": {
                     "seller": "优衣库官方旗舰店",
                     "sType": "B",
@@ -200,9 +200,9 @@
                     "hasBonus": false
                 }
             },
-            "itemv2_518682461689": {
+            "item_518682461689": {
                 "id": "518682461689",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -250,9 +250,9 @@
                     "itemRecParamId": "{\"catid\":\"162104\",\"sellerid\":\"196993935\",\"nid\":\"553960722948\",\"h5version\":\"2\"}"
                 }
             },
-            "shopv2_s_2456386471": {
+            "shop_s_2456386471": {
                 "id": "s_2456386471",
-                "tag": "shopv2",
+                "tag": "shop",
                 "fields": {
                     "seller": "baleno班尼路旗舰店",
                     "sType": "B",
@@ -265,9 +265,9 @@
                     "hasBonus": true
                 }
             },
-            "itemv2_422285626754": {
+            "item_422285626754": {
                 "id": "422285626754",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -336,9 +336,9 @@
                     "isRelationItem": false
                 }
             },
-            "shopv2_s_799637424": {
+            "shop_s_799637424": {
                 "id": "s_799637424",
-                "tag": "shopv2",
+                "tag": "shop",
                 "fields": {
                     "seller": "大洋洲袋鼠旗舰店",
                     "sType": "B",
@@ -351,25 +351,25 @@
                     "hasBonus": true
                 }
             },
-            "bundlev2_s_196993935": {
+            "bundle_s_196993935": {
                 "id": "s_196993935",
-                "tag": "bundlev2",
+                "tag": "bundle",
                 "fields": {
                     "valid": true,
                     "bundleId": "s_196993935"
                 }
             },
-            "allItemv2_1": {
+            "allitem": {
                 "id": "1",
-                "tag": "allItemv2",
+                "tag": "allItem",
                 "fields": {
                     "title": "购物车(7)",
                     "value": 7
                 }
             },
-            "itemv2_525621659432": {
+            "item_525621659432": {
                 "id": "525621659432",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -418,9 +418,9 @@
                     "itemRecParamId": "{\"catid\":\"50011159\",\"sellerid\":\"2456386471\",\"nid\":\"558257263131\",\"h5version\":\"2\"}"
                 }
             },
-            "itemv2_450515835622": {
+            "item_450515835622": {
                 "id": "450515835622",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -469,9 +469,9 @@
                     "itemRecParamId": "{\"catid\":\"50010850\",\"sellerid\":\"420567757\",\"nid\":\"542526834899\",\"h5version\":\"2\"}"
                 }
             },
-            "itemv2_611357791886": {
+            "item_611357791886": {
                 "id": "611357791886",
-                "tag": "itemv2",
+                "tag": "item",
                 "fields": {
                     "quantity": {
                         "editable": true,
@@ -520,7 +520,7 @@
                     "itemRecParamId": "{\"catid\":\"50010167\",\"sellerid\":\"2456386471\",\"nid\":\"555846540769\",\"h5version\":\"2\"}"
                 }
             },
-            "banner_1": {
+            "banner": {
                 "id": "1",
                 "tag": "banner",
                 "fields": {
@@ -535,9 +535,9 @@
                     "url": ""
                 }
             },
-            "bundlev2_s_799637424": {
+            "bundle_s_799637424": {
                 "id": "s_799637424",
-                "tag": "bundlev2",
+                "tag": "bundle",
                 "fields": {
                     "valid": true,
                     "bundleId": "s_799637424"
@@ -557,48 +557,51 @@
         "excludes": {},
         "feature": {},
         "hierarchy": {
-            "bundlev2_s_2456386471": [
-                "shopv2_s_2456386471",
-                "group_i_2456386471"
-            ],
-            "global_1": [
-                "banner_1",
-                "allItemv2_1"
-            ],
-            "group_i_420567757": [
-                "itemv2_612381897203",
-                "itemv2_450515835622"
-            ],
-            "group_i_2456386471": [
-                "itemv2_611357791886",
-                "itemv2_525621659432"
-            ],
-            "bundlev2_s_196993935": [
-                "shopv2_s_196993935",
-                "group_i_196993935"
-            ],
-            "group_i_196993935": [
-                "itemv2_518682461689"
-            ],
-            "allItemv2_1": [
-                "bundlev2_s_420567757",
-                "bundlev2_s_2456386471",
-                "bundlev2_s_196993935",
-                "bundlev2_s_799637424",
-                "footer_1"
-            ],
-            "bundlev2_s_420567757": [
-                "shopv2_s_420567757",
-                "group_i_420567757"
-            ],
-            "bundlev2_s_799637424": [
-                "shopv2_s_799637424",
-                "group_i_799637424"
-            ],
-            "group_i_799637424": [
-                "itemv2_422285626754",
-                "itemv2_414276347456"
-            ]
+            "root": "global",
+            "structure": {
+                "global": [
+                    "banner",
+                    "allitem"
+                ],
+                "allitem": [
+                    "bundle_s_420567757",
+                    "bundle_s_2456386471",
+                    "bundle_s_196993935",
+                    "bundle_s_799637424",
+                    "footer"
+                ],
+                "group_i_420567757": [
+                    "item_612381897203",
+                    "item_450515835622"
+                ],
+                "bundle_s_420567757": [
+                    "shop_s_420567757",
+                    "group_i_420567757"
+                ],
+                "group_i_2456386471": [
+                    "item_611357791886",
+                    "item_525621659432"
+                ],
+                "bundle_s_2456386471": [
+                    "shop_s_2456386471",
+                    "group_i_2456386471"
+                ],
+                "group_i_196993935": [
+                    "item_518682461689"
+                ],
+                "bundle_s_196993935": [
+                    "shop_s_196993935",
+                    "group_i_196993935"
+                ],
+                "group_i_799637424": [
+                    "item_422285626754",
+                    "item_414276347456"
+                ],
+                "bundle_s_799637424": [
+                    "shop_s_799637424",
+                    "group_i_799637424"
+                ]
+            }
         },
         "pageMeta": {}
     }
