@@ -1,0 +1,1237 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "description": "",
+    "page": {
+        "totalNumber": "274",
+        "totalPage": "19",
+        "pageSize": "15",
+        "currentPage": "1"
+    },
+    "group": [
+        {
+            "61152246178607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "君宝话费充值专营店",
+                                "subOrderIds": [
+                                    "61152246178607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "-1"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "814020208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "61152246178607758",
+                                "subAuctionIds": [
+                                    "15022124369"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "君宝话费充值专营店",
+                                "shopName": "君宝话费充值专营店",
+                                "shopImg": "./images/order-title-01.jpg",
+                                "shopDisable": "false",
+                                "id": "814020208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "1_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "original": "￥99.98",
+                                    "promotion": "￥99.98"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "广东移动100元充值 快充 即时到帐 自动充值 秒冲快冲"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥99.98"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallRateOrder",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "56867124059607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "钰玲妃旗舰店",
+                                "subOrderIds": [
+                                    "56867124060607758",
+                                    "56867124061607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "3151560175696",
+                                    "3407972686429"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "875110208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "56867124059607758",
+                                "subAuctionIds": [
+                                    "43353035157",
+                                    "45870516829"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "钰玲妃旗舰店",
+                                "shopName": "钰玲妃旗舰店",
+                                "shopImg": "./images/order-title-02.jpg",
+                                "shopDisable": "false",
+                                "id": "875110208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "2_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "颜色分类:I;尺码:M",
+                                "priceInfo": {
+                                    "original": "￥99.00",
+                                    "promotion": "￥40.31"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "钰玲妃棉质女士内裤全棉舒适中低腰三角裤 纯棉内裤女 4条礼盒装"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "2_2",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "颜色分类:五条装;尺码:M",
+                                "priceInfo": {
+                                    "original": "￥320.00",
+                                    "promotion": "￥45.69"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-02.jpg",
+                                "title": "钰玲妃 莫代尔女士内裤 透气中腰隐形无痕三角内裤女夏 礼盒装"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "2"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥86.00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallRateOrder",
+                                    "viewLogistic",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "56531741421607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "3",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "千行你我话费专营店",
+                                "subOrderIds": [
+                                    "56531741421607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "-1"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "1050030208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "56531741421607758",
+                                "subAuctionIds": [
+                                    "22389488793"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "3",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "千行你我话费专营店",
+                                "shopName": "千行你我话费专营店",
+                                "shopImg": "./images/order-title-01.jpg",
+                                "shopDisable": "false",
+                                "id": "1050030208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "3",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "3_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "original": "￥199.30",
+                                    "promotion": "￥199.30"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "官方超快充&mdash;北京联通200元手机话费充值"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "3",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥199.30"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "3",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallAppendRate",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "54211912933607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "4",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "华住酒店旗舰店",
+                                "subOrderIds": [
+                                    "54211912933607758"
+                                ],
+                                "orderType": "700_hotel",
+                                "subItemSkuIds": [
+                                    "0"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "1813030208",
+                                "isB2C": "false",
+                                "needDegrade": "true",
+                                "movieOrderType": "1",
+                                "mainOrderId": "54211912933607758",
+                                "subAuctionIds": [
+                                    "44977347122"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "4",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "华住酒店旗舰店",
+                                "shopName": "华住酒店旗舰店",
+                                "shopImg": "./images/order-title-02.jpg",
+                                "shopDisable": "false",
+                                "id": "1813030208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "4",
+                            "type": "biz",
+                            "fields": {
+                                "code": "STATUS_TRADE_SUCCESS",
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "4_1",
+                            "type": "biz",
+                            "fields": {
+                                "priceInfo": {
+                                    "original": "￥218.00",
+                                    "promotion": "￥218.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "pic": "./images/order-02.jpg",
+                                "title": "汉庭北京通州果园环岛酒店双床房",
+                                "extraDesc": [
+                                    {
+                                        "copy": "false",
+                                        "highLight": "false",
+                                        "index": "0",
+                                        "name": "入住时间",
+                                        "value": "2017-09-06"
+                                    },
+                                    {
+                                        "copy": "false",
+                                        "highLight": "false",
+                                        "index": "0",
+                                        "name": "离店时间",
+                                        "value": "2017-09-07"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "4",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥218.00"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "45898888195607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "5",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "苏宁易购官方旗舰店",
+                                "subOrderIds": [
+                                    "45898888195607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "3406826986685"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "1261690208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "45898888195607758",
+                                "subAuctionIds": [
+                                    "540667950100"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "5",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "苏宁易购官方旗舰店",
+                                "shopName": "苏宁易购官方旗舰店",
+                                "shopImg": "./images/order-title-01.jpg",
+                                "shopDisable": "false",
+                                "id": "1261690208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "5",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "5_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "颜色分类:灰色",
+                                "priceInfo": {
+                                    "original": "￥599.00",
+                                    "promotion": "￥549.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "【狂欢价】Kingston/金士顿 UV400 240G SSD 笔记本台式机固态硬盘非250G"
+                            }
+                        },
+                        {
+                            "tag": "serviceinfo",
+                            "id": "5_1",
+                            "type": "biz",
+                            "fields": {
+                                "main": [
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    },
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "5",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥549.00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "5",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "viewLogistic",
+                                    "applyInvoice",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "34403600627607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "6",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "天猫超市",
+                                "subOrderIds": [
+                                    "34403600628607758",
+                                    "34403600629607758",
+                                    "34403600630607758",
+                                    "34403600631607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "-1",
+                                    "-1",
+                                    "-1",
+                                    "-1"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "725670208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "34403600627607758",
+                                "subAuctionIds": [
+                                    "537464694376",
+                                    "549968930702",
+                                    "40602138049",
+                                    "45792197732"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "6",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "天猫超市",
+                                "shopName": "天猫超市",
+                                "shopImg": "./images/order-title-02.jpg",
+                                "shopDisable": "false",
+                                "id": "725670208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "6",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "6_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "promotion": "￥99.90"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-02.jpg",
+                                "title": "【天猫超市】福临门 浓香压榨一级花生油 5L/瓶  家庭食用油"
+                            }
+                        },
+                        {
+                            "tag": "serviceinfo",
+                            "id": "6_1",
+                            "type": "biz",
+                            "fields": {
+                                "main": [
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "6_2",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "promotion": "￥0.01"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "【天猫超市】欧莱雅美发新款茶树植萃去屑润发乳200ml滋养发丝"
+                            }
+                        },
+                        {
+                            "tag": "serviceinfo",
+                            "id": "6_2",
+                            "type": "biz",
+                            "fields": {
+                                "main": [
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "6_3",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "promotion": "￥69.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-02.jpg",
+                                "title": "【天猫超市】孟乍隆苏吝府泰国茉莉香米5KG 泰米原粮进口大米10斤"
+                            }
+                        },
+                        {
+                            "tag": "serviceinfo",
+                            "id": "6_3",
+                            "type": "biz",
+                            "fields": {
+                                "main": [
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "6_4",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "promotion": "￥58.80"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "【天猫超市】KOKO泰国茉莉香米(国际红) 5kg进口大米 60年老品牌"
+                            }
+                        },
+                        {
+                            "tag": "serviceinfo",
+                            "id": "6_4",
+                            "type": "biz",
+                            "fields": {
+                                "main": [
+                                    {
+                                        "id": "2973",
+                                        "name": "七天退换"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "6",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "4"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥227.71"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "6",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallAppendRate",
+                                    "viewLogistic",
+                                    "applyInvoice",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "30333562819607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "7",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "淘酒店专营店",
+                                "subOrderIds": [
+                                    "30333562819607758"
+                                ],
+                                "orderType": "700_hotel",
+                                "subItemSkuIds": [
+                                    "0"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "2160050208",
+                                "isB2C": "false",
+                                "needDegrade": "true",
+                                "movieOrderType": "1",
+                                "mainOrderId": "30333562819607758",
+                                "subAuctionIds": [
+                                    "524833053340"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "7",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "淘酒店专营店",
+                                "shopName": "淘酒店专营店",
+                                "shopImg": "./images/order-title-02.jpg",
+                                "shopDisable": "false",
+                                "id": "2160050208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "7",
+                            "type": "biz",
+                            "fields": {
+                                "code": "STATUS_TRADE_SUCCESS",
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "7_1",
+                            "type": "biz",
+                            "fields": {
+                                "priceInfo": {
+                                    "original": "￥228.00",
+                                    "promotion": "￥228.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "pic": "./images/order-02.jpg",
+                                "title": "秦皇岛惠天度假酒店大床房-信用住",
+                                "extraDesc": [
+                                    {
+                                        "copy": "false",
+                                        "highLight": "false",
+                                        "index": "0",
+                                        "name": "入住时间",
+                                        "value": "2017-07-15"
+                                    },
+                                    {
+                                        "copy": "false",
+                                        "highLight": "false",
+                                        "index": "0",
+                                        "name": "离店时间",
+                                        "value": "2017-07-16"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "7",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥228.00"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "30868882806607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "8",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "21cake旗舰店",
+                                "subOrderIds": [
+                                    "30868882806607758",
+                                    "0"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "46824125465",
+                                    "0"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "2058860208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "30868882806607758",
+                                "subAuctionIds": [
+                                    "38457043003",
+                                    "0"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "8",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "21cake旗舰店",
+                                "shopName": "21cake旗舰店",
+                                "shopImg": "./images/order-title-01.jpg",
+                                "shopDisable": "false",
+                                "id": "2058860208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "8",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "8_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "蛋糕尺寸:1磅",
+                                "priceInfo": {
+                                    "original": "￥198.00",
+                                    "promotion": "￥198.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "21cake21客芝士乳酪奶酪鲜奶同城速递创意生日蛋糕凍慕斯與焗芝士"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "8_2",
+                            "type": "biz",
+                            "fields": {
+                                "priceInfo": {
+                                    "original": "￥0.00"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "title": "保险服务"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "8",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥198.00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "8",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallAppendRate",
+                                    "viewLogistic",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

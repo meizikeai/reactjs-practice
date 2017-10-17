@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "description": "",
+    "data": [
+        {
+            "name": "推荐",
+            "code": 1
+        },
+        {
+            "name": "最新",
+            "code": 2
+        },
+        {
+            "name": "爆推",
+            "code": 3
+        },
+        {
+            "name": "预告",
+            "code": 4
+        }
+    ]
+}

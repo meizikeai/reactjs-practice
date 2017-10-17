@@ -1,0 +1,1422 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "description": "",
+    "data": {
+        "pageid": "30000000",
+        "pageindex": 1,
+        "pagecount": 2,
+        "bannerlistid": 10000411,
+        "pagetitle": "首页",
+        "templatelist": [
+            {
+                "templateid": 20015346,
+                "templatename": "Banner轮播区",
+                "templatetype": "CarouselFigure",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "id": 11012804,
+                        "imgname": "男装",
+                        "imgurl": "/images/banner-01-1.jpg",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 1,
+                        "updatetime": "0",
+                        "width": 640,
+                        "height": 260
+                    },
+                    {
+                        "id": 11012800,
+                        "imgname": "名品",
+                        "imgurl": "/images/banner-01-2.jpg",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 2,
+                        "updatetime": "0",
+                        "width": 640,
+                        "height": 260
+                    },
+                    {
+                        "id": 11012801,
+                        "imgname": "女装",
+                        "imgurl": "/images/banner-01-3.jpg",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 3,
+                        "updatetime": "0",
+                        "width": 640,
+                        "height": 260
+                    },
+                    {
+                        "id": 11012802,
+                        "imgname": "婴童",
+                        "imgurl": "/images/banner-01-4.jpg",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 4,
+                        "updatetime": "0",
+                        "width": 640,
+                        "height": 260
+                    },
+                    {
+                        "id": 11012803,
+                        "imgname": "鞋靴",
+                        "imgurl": "/images/banner-01-5.jpg",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 5,
+                        "updatetime": "0",
+                        "width": 640,
+                        "height": 260
+                    }
+                ]
+            },
+            {
+                "templateid": 20015347,
+                "templatename": "功能区-5图-搭",
+                "templatetype": "FuncAreaFiveImg",
+                "sort": 5000,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21023303",
+                        "imgname": "商场同款",
+                        "imgurl": "/images/ico-1.png",
+                        "itemposition": "30000000|0|20015347|1|21023303",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21023304",
+                        "imgname": "奢品",
+                        "imgurl": "/images/ico-2.png",
+                        "itemposition": "30000000|0|20015347|2|21023304",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21023305",
+                        "imgname": "断码名品",
+                        "imgurl": "/images/ico-3.png",
+                        "itemposition": "30000000|0|20015347|3|21023305",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    },
+                    {
+                        "itemid": "21023306",
+                        "imgname": "会员专区",
+                        "imgurl": "/images/ico-4.png",
+                        "itemposition": "30000000|0|20015347|4|21023306",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 4
+                    },
+                    {
+                        "itemid": "21023307",
+                        "imgname": "惠生活",
+                        "imgurl": "/images/ico-5.png",
+                        "itemposition": "30000000|0|20015347|5|21023307",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 5
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20015970,
+                "templatename": "爆款专区 每天10点更新",
+                "templatetype": "OneTitle",
+                "sort": 2000,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21024156",
+                        "name": "爆款专区 每天10点更新",
+                        "itemposition": "30000000|20015970|20015970|1|21024156",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20021749,
+                "templatename": "爆款专区",
+                "templatetype": "SingleRowProduct",
+                "sort": 1999,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21-459-9678",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 5200.00,
+                                "name": "【新品】【自营】RED VALENTINO粉色混合材质系带装饰女士长袖连衣裙, NR3VA54034M 534 WOMAN ABITO 38",
+                                "price": 3399.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "9月促销",
+                                        "plabel": "直降",
+                                        "pid": "99643"
+                                    }
+                                ],
+                                "brandid": 1479,
+                                "categoryid": 14393,
+                                "operatemode": 1,
+                                "providercode": 190814,
+                                "groupno": "21-459-9678",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省501.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015970|20021749|1|21-459-9678",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 1,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-459-9649",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 6300.00,
+                                "name": "【新品】【自营】RED VALENTINO黑/红色混合材质条纹编织图案女士高领连衣裙, NR3KD05K36N 05N WOMAN ABITO MAGLIA S",
+                                "price": 4099.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "9月促销",
+                                        "plabel": "直降",
+                                        "pid": "99643"
+                                    }
+                                ],
+                                "brandid": 1479,
+                                "categoryid": 14393,
+                                "operatemode": 1,
+                                "providercode": 190814,
+                                "groupno": "21-459-9649",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省651.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015970|20021749|2|21-459-9649",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 2,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "20-913-5862",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 480.00,
+                                "name": "(自营）SHISEIDO资生堂悦薇珀翡基础护理套装（洁面膏50ml+亮肤水（滋润型）75ml+亮肤乳（滋润型）30ml+化妆棉24片）",
+                                "price": 478.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "资生堂买即赠三件套，赠完为止",
+                                        "plabel": "满赠",
+                                        "pid": "99555"
+                                    }
+                                ],
+                                "brandid": 232,
+                                "categoryid": 14791,
+                                "operatemode": 1,
+                                "providercode": 101492,
+                                "groupno": "20-913-5862",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省2.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015970|20021749|3|20-913-5862",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 3,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-363-8091",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 565.00,
+                                "name": "(自营)Kiehl's科颜氏高保湿礼盒 洁面啫喱+面霜 买二赠二",
+                                "price": 460.00,
+                                "prmotionlist": [],
+                                "brandid": 596,
+                                "categoryid": 14791,
+                                "operatemode": 1,
+                                "providercode": 100245,
+                                "groupno": "21-363-8091",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省20.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015970|20021749|4|21-363-8091",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 4,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-465-2617",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 599.00,
+                                "name": "bread n butter秋冬新品通勤圆领长袖针织衫条纹修身开衫",
+                                "price": 239.00,
+                                "prmotionlist": [],
+                                "brandid": 4595,
+                                "categoryid": 14382,
+                                "operatemode": 3,
+                                "providercode": 189367,
+                                "groupno": "21-465-2616",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015970|20021749|5|21-465-2617",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 5,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-460-0576",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 399.00,
+                                "name": "Jasonwood/坚持我的 经典红黑格子男士2017秋季青少年韩版潮牌纯棉长袖衬衫 371805302",
+                                "price": 240.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "9.5-9.12跨品牌满199减60 可累计",
+                                        "plabel": "满减",
+                                        "pid": "99538"
+                                    }
+                                ],
+                                "brandid": 320,
+                                "categoryid": 14233,
+                                "operatemode": 3,
+                                "providercode": 185966,
+                                "groupno": "21-460-0576",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015970|20021749|6|21-460-0576",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 6,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-448-3250",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 459.00,
+                                "name": "GLM男装秋季新款休闲裤长裤171180003DS",
+                                "price": 169.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "9.5-9.12跨品牌满199减60 可累计",
+                                        "plabel": "满减",
+                                        "pid": "99538"
+                                    }
+                                ],
+                                "brandid": 658,
+                                "categoryid": 14201,
+                                "operatemode": 3,
+                                "providercode": 183542,
+                                "groupno": "21-448-3250",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015970|20021749|7|21-448-3250",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 7,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-459-3553",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 328.00,
+                                "name": "西瑞运动休闲鞋男2017新款网布飞织鞋轻便透气跑步鞋",
+                                "price": 168.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "西瑞开学季满减促销",
+                                        "plabel": "满减",
+                                        "pid": "99580"
+                                    }
+                                ],
+                                "brandid": 4268,
+                                "categoryid": 13676,
+                                "operatemode": 3,
+                                "providercode": 186421,
+                                "groupno": "21-459-3548",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015970|20021749|8|21-459-3553",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 8,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "20-819-0981",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 208.00,
+                                "name": "德国司顿 真空350ml480ml保温杯壶直身杯男女一键开合按钮保温壶 STY072/3",
+                                "price": 168.00,
+                                "prmotionlist": [],
+                                "brandid": 3410,
+                                "categoryid": 14645,
+                                "operatemode": 3,
+                                "providercode": 104412,
+                                "groupno": "20-819-0981",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 240,
+                        "width": 180,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015970|20021749|9|20-819-0981",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 9,
+                        "jumpid": "0"
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20005331,
+                "templatename": "本周推荐",
+                "templatetype": "OneTitle",
+                "sort": 1900,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21008463",
+                        "name": "本周推荐",
+                        "itemposition": "30000000|20005331|20005331|1|21008463",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022617,
+                "templatename": "本周推荐-具体内容",
+                "templatetype": "TwoImage",
+                "sort": 1898,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034934",
+                        "height": 206,
+                        "width": 319,
+                        "imgname": "运动",
+                        "imgurl": "./images/two-01-1.jpg",
+                        "itemposition": "30000000|20005331|20022617|1|21034934",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034935",
+                        "height": 206,
+                        "width": 319,
+                        "imgname": "女装",
+                        "imgurl": "./images/two-01-2.jpg",
+                        "itemposition": "30000000|20005331|20022617|2|21034935",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022618,
+                "templatename": "通栏-内衣浪莎秋焕新8折",
+                "templatetype": "OneImage",
+                "sort": 1897,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034936",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "内衣",
+                        "imgurl": "./images/one-01-1.jpg",
+                        "itemposition": "30000000|20005331|20022618|1|21034936",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20000006,
+                "templatename": "商场同款",
+                "templatetype": "OneTitle",
+                "sort": 1800,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21000015",
+                        "name": "商场同款",
+                        "itemposition": "30000000|20000006|20000006|1|21000015",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022592,
+                "templatename": "喵货-专柜同款9.5-9.12",
+                "templatetype": "ThreeImageLeftBig",
+                "sort": 1790,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034891",
+                        "height": 302,
+                        "width": 319,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/three-left-01-1.jpg",
+                        "itemposition": "30000000|20000006|20022592|1|21034891",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034892",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/three-left-01-2.jpg",
+                        "itemposition": "30000000|20000006|20022592|2|21034892",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034893",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/three-left-01-3.jpg",
+                        "itemposition": "30000000|20000006|20022592|3|21034893",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022595,
+                "templatename": "喵货-专柜同款9.5-9.12",
+                "templatetype": "ThreeImageAbreast",
+                "sort": 1780,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034898",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/abreast-01-1.jpg",
+                        "itemposition": "30000000|20000006|20022595|1|21034898",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034899",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/abreast-01-2.jpg",
+                        "itemposition": "30000000|20000006|20022595|2|21034899",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034900",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "喵货-专柜同款9.5-9.12",
+                        "imgurl": "./images/abreast-01-3.jpg",
+                        "itemposition": "30000000|20000006|20022595|3|21034900",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20013673,
+                "templatename": "美丽课堂",
+                "templatetype": "OneTitle",
+                "sort": 1700,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21020567",
+                        "name": "美丽课堂",
+                        "itemposition": "30000000|20013673|20013673|1|21020567",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20016631,
+                "templatename": "美妆楼层1新9.5",
+                "templatetype": "ThreeImageRightBig",
+                "sort": 1699,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21025341",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "科颜氏",
+                        "imgurl": "./images/three-right-01-1.jpg",
+                        "itemposition": "30000000|20013673|20016631|1|21025341",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21025342",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "兰蔻",
+                        "imgurl": "./images/three-right-01-2.jpg",
+                        "itemposition": "30000000|20013673|20016631|2|21025342",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21025343",
+                        "height": 302,
+                        "width": 319,
+                        "imgname": "面膜专场",
+                        "imgurl": "./images/three-right-01-3.jpg",
+                        "itemposition": "30000000|20013673|20016631|3|21025343",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20000029,
+                "templatename": "奢品馆",
+                "templatetype": "OneTitle",
+                "sort": 1600,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21000057",
+                        "name": "奢品馆",
+                        "itemposition": "30000000|20000029|20000029|1|21000057",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022604,
+                "templatename": "海淘馆9.5-9.12",
+                "templatetype": "TwoImage",
+                "sort": 1498,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034910",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "03",
+                        "imgurl": "./images/two-02-1.jpg",
+                        "itemposition": "30000000|20000027|20022604|1|21034910",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034911",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "04",
+                        "imgurl": "./images/two-02-2.jpg",
+                        "itemposition": "30000000|20000027|20022604|2|21034911",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022521,
+                "templatename": "潮流女装",
+                "templatetype": "OneTitle",
+                "sort": 1400,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034765",
+                        "name": "潮流女装",
+                        "itemposition": "30000000|20022521|1|21034765",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022522,
+                "templatename": "女装楼层1-9.5",
+                "templatetype": "ThreeImageLeftBig",
+                "sort": 1399,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034766",
+                        "height": 302,
+                        "width": 319,
+                        "imgname": "秋日早班机  风衣特辑",
+                        "imgurl": "./images/three-left-02-1.jpg",
+                        "itemposition": "30000000|20022522|1|21034766",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034767",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "初语  满199减80，可累计",
+                        "imgurl": "./images/three-left-02-2.jpg",
+                        "itemposition": "30000000|20022522|2|21034767",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034768",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "兰奥  满499减100，可累计",
+                        "imgurl": "./images/three-left-02-3.jpg",
+                        "itemposition": "30000000|20022522|3|21034768",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022523,
+                "templatename": "女装楼层2-9.5",
+                "templatetype": "ThreeImageAbreast",
+                "sort": 1398,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034769",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "秋日最爱  长袖连衣裙",
+                        "imgurl": "./images/abreast-02-1.jpg",
+                        "itemposition": "30000000|20022523|1|21034769",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034770",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "百搭内衬  衬衫两三语",
+                        "imgurl": "./images/abreast-02-2.jpg",
+                        "itemposition": "30000000|20022523|2|21034770",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034771",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "好穿耐脏  经典牛仔裤",
+                        "imgurl": "./images/abreast-02-3.jpg",
+                        "itemposition": "30000000|20022523|3|21034771",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022621,
+                "templatename": "9.5通栏-夏品清仓+户外",
+                "templatetype": "CarouselFigure",
+                "sort": 1251,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034939",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "1",
+                        "imgurl": "./images/banner-02-1.jpg",
+                        "itemposition": "30000000|20022621|1|21034939",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 1,
+                        "jumpid": ""
+                    },
+                    {
+                        "itemid": "21034940",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "2",
+                        "imgurl": "./images/banner-02-2.jpg",
+                        "itemposition": "30000000|20022621|2|21034940",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 2,
+                        "jumpid": ""
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20015688,
+                "templatename": "精品男装",
+                "templatetype": "OneTitle",
+                "sort": 1200,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21023816",
+                        "name": "精品男装",
+                        "itemposition": "30000000|20015688|20015688|1|21023816",
+                        "jumpurl": "",
+                        "sort": 1,
+                        "jumpid": ""
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022539,
+                "templatename": "男装楼层9.5",
+                "templatetype": "ThreeImageLeftBig",
+                "sort": 1199,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034794",
+                        "height": 302,
+                        "width": 319,
+                        "imgname": "GLM",
+                        "imgurl": "./images/three-left-03-1.jpg",
+                        "itemposition": "30000000|20015688|20022539|1|21034794",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034796",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "美国马球协会",
+                        "imgurl": "./images/three-left-03-2.jpg",
+                        "itemposition": "30000000|20015688|20022539|2|21034796",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034797",
+                        "height": 150,
+                        "width": 319,
+                        "imgname": "BEE ARMOR",
+                        "imgurl": "./images/three-left-03-3.jpg",
+                        "itemposition": "30000000|20015688|20022539|3|21034797",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022543,
+                "templatename": "男装楼层9.5",
+                "templatetype": "ThreeImageAbreast",
+                "sort": 1198,
+                "requestdate": 1504688073945,
+                "items": [
+                    {
+                        "itemid": "21034806",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "秋季上新，T恤潮搭",
+                        "imgurl": "./images/abreast-02-1.jpg",
+                        "itemposition": "30000000|20015688|20022543|1|21034806",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "itemid": "21034807",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "秋季上新，精选衬衫",
+                        "imgurl": "./images/abreast-02-2.jpg",
+                        "itemposition": "30000000|20015688|20022543|2|21034807",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    },
+                    {
+                        "itemid": "21034808",
+                        "height": 200,
+                        "width": 212,
+                        "imgname": "秋季上新，裤装必备",
+                        "imgurl": "./images/abreast-02-3.jpg",
+                        "itemposition": "30000000|20015688|20022543|3|21034808",
+                        "jumpurl": "/ProductList?condition=10000655&title=做爱做的事",
+                        "sort": 3
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022619,
+                "templatename": "通栏-婴童99-20可累计",
+                "templatetype": "OneImage",
+                "sort": 222,
+                "requestdate": 1504688075903,
+                "items": [
+                    {
+                        "itemid": "21034937",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "家居",
+                        "imgurl": "./images/one-02-1.jpg",
+                        "itemposition": "30000000|20022619|1|21034937",
+                        "jumpurl": "/Activities?pageid=30002232",
+                        "sort": 1,
+                        "jumpid": ""
+                    }
+                ]
+            },
+            {
+                "templateid": 20015893,
+                "templatename": "空间占位",
+                "templatetype": "HaveSpace",
+                "sort": 1,
+                "requestdate": 1504688073945,
+                "items": [],
+                "height": 2,
+                "bgcolor": "#ededed"
+            },
+            {
+                "templateid": 20022186,
+                "templatename": "精选好货0905-0908",
+                "templatetype": "DoubleProduct",
+                "sort": 6,
+                "requestdate": 1504688075903,
+                "items": [
+                    {
+                        "itemid": "20-961-1818",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 3490.00,
+                                "name": "TUMI途明新款双肩休闲背包 38cm*25.5cm*3.75cmTM0222681BGP2",
+                                "price": 2303.00,
+                                "prmotionlist": [],
+                                "brandid": 655,
+                                "categoryid": 13637,
+                                "operatemode": 3,
+                                "providercode": 167645,
+                                "groupno": "20-961-1818",
+                                "ismiaowgoods": true,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015680|20022186|1|20-961-1818",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 1,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-095-9019",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 8111.00,
+                                "name": "TUMI途明橙色手提斜跨时尚公文包29*38*8.5CMTM093231ORG",
+                                "price": 4947.00,
+                                "prmotionlist": [],
+                                "brandid": 655,
+                                "categoryid": 13639,
+                                "operatemode": 3,
+                                "providercode": 167645,
+                                "groupno": "21-095-9019",
+                                "ismiaowgoods": null,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015680|20022186|3|21-095-9019",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 3,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "04-002-0026",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 320.00,
+                                "name": "(自营)Lancome兰蔻清滢洁面卸妆乳液200ml",
+                                "price": 318.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "兰蔻满199减20，可累计",
+                                        "plabel": "满减",
+                                        "pid": "99744"
+                                    }
+                                ],
+                                "brandid": 224,
+                                "categoryid": 14797,
+                                "operatemode": 1,
+                                "providercode": 100245,
+                                "groupno": "04-002-0026",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省2.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015680|20021521|25|04-002-0026",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 25,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "20-842-2635",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 1990.00,
+                                "name": "TUMI钱包TM043301D2",
+                                "price": 1413.00,
+                                "prmotionlist": [],
+                                "brandid": 655,
+                                "categoryid": 13931,
+                                "operatemode": 3,
+                                "providercode": 167645,
+                                "groupno": "20-842-2635",
+                                "ismiaowgoods": null,
+                                "savingamountdesc": null,
+                                "exclusivemobile": null,
+                                "isexclusivemobile": false,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015680|20022186|4|20-842-2635",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 4,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-459-9697",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 4350.00,
+                                "name": "【新品】【自营】VALENTINO华伦天奴灰色纯棉印花图案女士短袖T恤, NB3MG05X3G9 080 WOMAN JERSEY T-SHIRT E STAMPA TATOO S",
+                                "price": 3099.00,
+                                "prmotionlist": [
+                                    {
+                                        "name": "9月促销",
+                                        "plabel": "直降",
+                                        "pid": "99643"
+                                    }
+                                ],
+                                "brandid": 369,
+                                "categoryid": 14386,
+                                "operatemode": 1,
+                                "providercode": 190814,
+                                "groupno": "21-459-9697",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省601.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-01.jpg",
+                        "itemposition": "30000000|20015680|20022186|5|21-459-9697",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 5,
+                        "jumpid": "0"
+                    },
+                    {
+                        "itemid": "21-459-9692",
+                        "extra": {
+                            "seckillcountdowndate": 0,
+                            "productdetail": {
+                                "marketprice": 11800.00,
+                                "name": "【新品】【自营】VALENTINO华伦天奴灰色混合材质铆钉装饰女士套头卫衣, NB3MF02A2QL 080 WOMAN FELPA ROCKSTUD UNTITLED XS",
+                                "price": 8299.00,
+                                "prmotionlist": [],
+                                "brandid": 369,
+                                "categoryid": 14372,
+                                "operatemode": 1,
+                                "providercode": 190814,
+                                "groupno": "21-459-9691",
+                                "ismiaowgoods": false,
+                                "savingamountdesc": "比PC端省1701.00元",
+                                "exclusivemobile": "手机专享",
+                                "isexclusivemobile": true,
+                                "imagewidth": 0.0,
+                                "imageheight": 0.0,
+                                "iconurl": null,
+                                "desc": null
+                            },
+                            "navigationname": null
+                        },
+                        "height": 360,
+                        "width": 270,
+                        "imgname": null,
+                        "imgurl": "./images/product-min-02.jpg",
+                        "itemposition": "30000000|20015680|20022186|6|21-459-9692",
+                        "jumpurl": "/Product?code=20-961-1818",
+                        "sort": 6,
+                        "jumpid": "0"
+                    }
+                ]
+            }
+        ]
+    }
+}

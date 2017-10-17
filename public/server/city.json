@@ -1,0 +1,43 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "description": "",
+    "cities": [
+        {
+            "name": "北京"
+        },
+        {
+            "name": "成都"
+        },
+        {
+            "name": "重庆"
+        },
+        {
+            "name": "广州"
+        },
+        {
+            "name": "杭州"
+        },
+        {
+            "name": "南京"
+        },
+        {
+            "name": "上海"
+        },
+        {
+            "name": "深圳"
+        },
+        {
+            "name": "苏州"
+        },
+        {
+            "name": "天津"
+        },
+        {
+            "name": "武汉"
+        },
+        {
+            "name": "西安"
+        }
+    ]
+}

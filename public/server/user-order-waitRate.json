@@ -1,0 +1,300 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "description": "",
+    "page": {
+        "totalNumber": "274",
+        "totalPage": "19",
+        "pageSize": "15",
+        "currentPage": "1"
+    },
+    "group": [
+        {
+            "61152246178607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "君宝话费充值专营店",
+                                "subOrderIds": [
+                                    "61152246178607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "-1"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "814020208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "61152246178607758",
+                                "subAuctionIds": [
+                                    "15022124369"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "君宝话费充值专营店",
+                                "shopName": "君宝话费充值专营店",
+                                "shopImg": "./images/order-title-01.jpg",
+                                "shopDisable": "false",
+                                "id": "814020208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "1_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "",
+                                "priceInfo": {
+                                    "original": "￥99.98",
+                                    "promotion": "￥99.98"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "广东移动100元充值 快充 即时到帐 自动充值 秒冲快冲"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "1"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥99.98"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "1",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallRateOrder",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "56867124059607758": [
+                {
+                    "cellType": "storage",
+                    "cellData": [
+                        {
+                            "tag": "storage",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "sellerNick": "钰玲妃旗舰店",
+                                "subOrderIds": [
+                                    "56867124060607758",
+                                    "56867124061607758"
+                                ],
+                                "orderType": "orderNative",
+                                "subItemSkuIds": [
+                                    "3151560175696",
+                                    "3407972686429"
+                                ],
+                                "shopDisable": "false",
+                                "archive": "false",
+                                "pageName": "订单详情",
+                                "mCardId": "default",
+                                "sellerId": "875110208",
+                                "isB2C": "true",
+                                "needDegrade": "false",
+                                "movieOrderType": "1",
+                                "mainOrderId": "56867124059607758",
+                                "subAuctionIds": [
+                                    "43353035157",
+                                    "45870516829"
+                                ],
+                                "statusCode": "6_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "seller",
+                    "cellData": [
+                        {
+                            "tag": "seller",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "opeanSearch": "false",
+                                "nick": "钰玲妃旗舰店",
+                                "shopName": "钰玲妃旗舰店",
+                                "shopImg": "./images/order-title-02.jpg",
+                                "shopDisable": "false",
+                                "id": "875110208",
+                                "guestUser": "false",
+                                "labels": []
+                            }
+                        },
+                        {
+                            "tag": "state",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "text": "交易成功"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "2_1",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "颜色分类:I;尺码:M",
+                                "priceInfo": {
+                                    "original": "￥99.00",
+                                    "promotion": "￥40.31"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-01.jpg",
+                                "title": "钰玲妃棉质女士内裤全棉舒适中低腰三角裤 纯棉内裤女 4条礼盒装"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "item",
+                    "cellData": [
+                        {
+                            "tag": "item",
+                            "id": "2_2",
+                            "type": "biz",
+                            "fields": {
+                                "skuText": "颜色分类:五条装;尺码:M",
+                                "priceInfo": {
+                                    "original": "￥320.00",
+                                    "promotion": "￥45.69"
+                                },
+                                "highlight": "false",
+                                "quantity": "1",
+                                "showArrow": "false",
+                                "refundStatus": "",
+                                "pic": "./images/order-02.jpg",
+                                "title": "钰玲妃 莫代尔女士内裤 透气中腰隐形无痕三角内裤女夏 礼盒装"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "pay",
+                    "cellData": [
+                        {
+                            "tag": "pay",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "total": {
+                                    "prefix": "共",
+                                    "suffix": "件商品",
+                                    "value": "2"
+                                },
+                                "postFee": {
+                                    "prefix": "(含运费",
+                                    "suffix": ")",
+                                    "value": "￥0.00"
+                                },
+                                "actualFee": {
+                                    "prefix": "合计:",
+                                    "value": "￥86.00"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cellType": "option",
+                    "cellData": [
+                        {
+                            "tag": "option",
+                            "id": "2",
+                            "type": "biz",
+                            "fields": {
+                                "values": [
+                                    "tmallRateOrder",
+                                    "viewLogistic",
+                                    "delOrder"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

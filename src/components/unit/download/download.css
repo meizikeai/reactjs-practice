@@ -1,0 +1,60 @@
+.app-download {
+    width: 100%;
+}
+
+.app-download .download {
+    width: 100%;
+    height: 1.5rem;
+    border-top: 1px solid #ededed;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 120;
+}
+
+.app-download .close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 1.5rem;
+    background: url(./close.png) 0.2rem 0.6rem/0.3rem 0.3rem no-repeat;
+}
+
+.app-download .other {
+    display: flex;
+    margin-left: 0.8rem;
+    height: 1.5rem;
+}
+
+.app-download .other i {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.15rem 0.2rem 0.15rem 0;
+    background: url(./app.png) 0 0/1.2rem 1.2rem no-repeat;
+}
+
+.app-download .other div {
+    flex: 1;
+    height: 1.5rem;
+    padding-top: 0.15rem;
+    color: #333;
+}
+
+.app-download .other div strong {
+    display: inline-block;
+    line-height: 0.68rem;
+    font-size: 14px;
+}
+
+.app-download .open {
+    display: flex;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    background-color: #f50;
+    color: #fff;
+}

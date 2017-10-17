@@ -1,0 +1,244 @@
+.app-user {
+    width: 100%;
+    height: 100%;
+    background: #ededed;
+}
+
+.app-user .user {
+    position: relative;
+    height: 3rem;
+    background: #d34201 url(/images/user-banner.jpg) no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.app-user .user .state {
+    float: right;
+    margin: 0.2rem 0.2rem 0 0;
+}
+
+.app-user .user .state p {
+    text-align: center;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.app-user .user .photo {
+    position: absolute;
+    bottom: -0.9rem;
+    left: 0.45rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    text-align: center;
+    border-radius: 100%;
+    padding: 0.05rem;
+    background: rgba(255, 255, 255, .7);
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+    overflow: hidden;
+}
+
+.app-user .user .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.app-user .user .nick {
+    float: left;
+    width: 100%;
+    padding-left: 2.5rem;
+    margin-top: 1.4rem;
+    font-size: 16px;
+}
+
+.app-user .behavior {
+    margin-bottom: 0.15rem;
+    border-bottom: 1px solid #e7e7e7;
+    background: #fff;
+}
+
+.app-user .behavior ul {
+    width: 100%;
+    padding: 0.15rem 0 0.15rem 2rem;
+    display: flex;
+}
+
+.app-user .behavior ul li {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+}
+
+.app-user .behavior ul li:first-child {
+    border: 0;
+}
+
+.app-user .behavior ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.app-user .order {
+    margin-bottom: 0.15rem;
+    border-bottom: 1px solid #e7e7e7;
+    background: #fff;
+}
+
+.app-user .order ul {
+    width: 100%;
+    padding: 0.15rem 0 0.15rem;
+    display: flex;
+}
+
+.app-user .order ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.app-user .order ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.app-user .order ul li .icons {
+    width: 0.62rem;
+    height: 0.62rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.app-user .order ul li .pay {
+    background: url(./pay.png) 0 0/0.62rem 0.62rem no-repeat;
+}
+
+.app-user .order ul li .send {
+    background: url(./send.png) 0 0/0.62rem 0.62rem no-repeat;
+}
+
+.app-user .order ul li .deliver {
+    background: url(./deliver.png) 0 0/0.62rem 0.62rem no-repeat;
+}
+
+.app-user .order ul li .evaluate {
+    background: url(./evaluate.png) 0 0/0.62rem 0.62rem no-repeat;
+}
+
+.app-user .order ul li .sub {
+    padding-top: 0.1rem;
+}
+
+.app-user .order ul li .number {
+    position: absolute;
+    top: -0.15rem;
+    right: -0.22rem;
+    min-width: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    padding: 0.1rem;
+    border: 1px solid #ff5000;
+    border-radius: 0.5rem;
+    color: #ff5000;
+    font-weight: 700;
+    font-size: 10px;
+    background: #fff;
+    overflow: hidden;
+    opacity: 1;
+    font-style: normal;
+    transition: all .4s ease-out;
+}
+
+.app-user .core-entry {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 0.15rem;
+    background-color: #fff;
+}
+
+.app-user .label-act {
+    padding: 0.18rem 0.2rem;
+    border-top: 1px solid #e7e7e7;
+    overflow: hidden;
+}
+
+.app-user .label-act a {
+    color: #333;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.app-user .label-act .ico {
+    float: left;
+    width: 0.68rem;
+    height: 0.68rem;
+    margin-right: 0.15rem;
+}
+
+.app-user .label-act .ico img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.app-user .label-act .all {
+    background: url(./order.png) 0 0/0.68rem 0.68rem no-repeat;
+}
+
+.app-user .label-act .title {
+    float: left;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    margin-right: 0.15rem;
+}
+
+.app-user .label-act .title p {
+    height: 0.68rem;
+    line-height: 0.68rem;
+}
+
+.app-user .label-act .sub {
+    float: right;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    margin-right: 0.15rem;
+    font-size: 12px;
+    color: #999;
+}
+
+.app-user .label-act .arrow {
+    float: right;
+    width: 0.2rem;
+    height: 0.4rem;
+    margin-top: 0.13rem;
+    background: url(./arrow.png) 0 0/0.2rem 0.4rem no-repeat;
+}
+
+.app-user .other {
+    width: 100%;
+    padding: 0.3rem 0;
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.app-user .other div {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+}
+
+.app-user .other div:first-child {
+    border: 0;
+}
+
+.app-user .other div a {
+    color: #333;
+    text-decoration: none;
+}
+
+.app-user .empty {
+    height: 0.5rem;
+}

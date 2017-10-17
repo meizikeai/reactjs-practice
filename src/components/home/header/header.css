@@ -1,0 +1,102 @@
+.model-home {
+    width: 100%;
+    height: 40px;
+    background-color: #f50;
+}
+
+.model-home .hold {
+    height: 40px;
+}
+
+.model-home .main {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #f50;
+}
+
+.model-home .header {
+    position: relative;
+    padding: 5px 0;
+}
+
+.model-home .check-city {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 60px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.model-home .check-city span {
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.model-home .check-city i {
+    display: inline-block;
+    width: 18px;
+    height: 30px;
+    background: url(./arrowdown.png) -5px 3px/25px 25px no-repeat;
+    vertical-align: middle;
+}
+
+.model-home .search {
+    height: 30px;
+    padding: 0 45px 0 65px;
+}
+
+.model-home .circle {
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.model-home .search-txt {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 45px;
+    border: none;
+}
+
+.model-home .search-txt::-webkit-input-placeholder {
+    color: #cacaca;
+}
+
+.model-home .search-go {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+    border-left: 1px solid #ddd;
+    background: url(./search.png) 5px 0/25px 25px no-repeat;
+}
+
+.model-home .user {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 30px;
+}
+
+.model-home .user a {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background: url(./usercenter.png) 6.5px 1px/28px 28px no-repeat;
+}

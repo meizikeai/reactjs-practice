@@ -1,0 +1,38 @@
+.model-three-image-right-big {
+    width: 100%;
+}
+
+.model-three-image-right-big .picture {
+    display: flex;
+    background-color: #ededed;
+}
+
+.model-three-image-right-big .picture > div {
+    flex: 1;
+    width: 50%;
+}
+
+.model-three-image-right-big .picture a {
+    display: block;
+}
+
+.model-three-image-right-big .picture a img {
+    width: 100%;
+    display: block;
+}
+
+.model-three-image-right-big .picture .picture-1 {
+    border-right: 1px solid transparent;
+}
+
+.model-three-image-right-big .picture .picture-2 {
+    border-left: 1px solid transparent;
+}
+
+.model-three-image-right-big .picture .picture-1 .picture-1-1 {
+    border-bottom: 0.5px solid transparent;
+}
+
+.model-three-image-right-big .picture .picture-1 .picture-1-2 {
+    border-top: 0.5px solid transparent;
+}

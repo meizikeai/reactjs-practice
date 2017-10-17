@@ -1,0 +1,46 @@
+.model-one-title {
+    width: 100%;
+}
+
+.model-one-title .one-title {
+    position: relative;
+    background-color: #fff;
+}
+
+.model-one-title .one-title:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .25rem;
+    height: .50rem;
+    background: url(./triangle.png) 0 0/100% no-repeat;
+}
+
+.model-one-title .one-title a {
+    display: block;
+    display: flex;
+    color: #333;
+}
+
+.model-one-title .one-title h3 {
+    width: 8rem;
+    padding: 0.2rem;
+    font-size: 14px;
+}
+
+.model-one-title .one-title span {
+    width: 2rem;
+    padding: 0.2rem;
+    text-align: right;
+}
+
+.model-one-title .one-title span:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.2rem;
+    height: 0.4rem;
+    margin-left: 0.1rem;
+    background: url(./arrow.png) 0 0/0.2rem 0.4rem no-repeat;
+}

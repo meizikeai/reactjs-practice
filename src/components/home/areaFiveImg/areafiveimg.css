@@ -1,0 +1,34 @@
+.model-area-five-img {
+    width: 100%;
+}
+
+.model-area-five-img .five-img {
+    display: flex;
+    background-color: #fff
+}
+
+.model-area-five-img a {
+    width: 20%;
+    flex: 1;
+}
+
+.model-area-five-img div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.model-area-five-img img {
+    width: 100%;
+    display: block;
+}
+
+.model-area-five-img p {
+    height: 16px;
+    margin: 4px auto 8px;
+    text-align: center;
+    overflow: hidden
+}
+
+.model-area-five-img div a {
+    color: #666
+}
