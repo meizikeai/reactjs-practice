@@ -6,7 +6,7 @@
         "shopList": [
             {
                 "catelogyUrl": "/Activities?pageid=30002232",
-                "catelogyImg": "./images/category-01.jpg",
+                "catelogyImg": "/images/category-01.jpg",
                 "catelogyTitle": "一个不知道是什么活动~",
                 "catelogyId": 300014674
             }
@@ -16,63 +16,63 @@
                 "name": "热门分类",
                 "catelogyList": [
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "女鞋",
                         "name": "时尚女鞋",
                         "flag": 1,
                         "id": 300015173
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "大牌·优选",
                         "name": "大牌·优选",
                         "flag": 3,
                         "id": 300014963
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "踝靴",
                         "name": "品质精选",
                         "flag": 1,
                         "id": 300014964
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "新品 女鞋",
                         "name": "2017新品",
                         "flag": 1,
                         "id": 300014965
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "玛丽珍",
                         "name": "玛丽珍",
                         "flag": 1,
                         "id": 300014966
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "商场同款 女鞋",
                         "name": "商场同款",
                         "flag": 1,
                         "id": 300015596
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "豆豆鞋女",
                         "name": "豆豆鞋",
                         "flag": 1,
                         "id": 300015597
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "小白鞋",
                         "name": "小白鞋",
                         "flag": 1,
                         "id": 300014969
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "渔夫鞋",
                         "name": "渔夫鞋",
                         "flag": 1,
@@ -85,105 +85,105 @@
                 "name": "时尚女鞋",
                 "catelogyList": [
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "单鞋",
                         "name": "单鞋",
                         "flag": 1,
                         "id": 9776
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "休闲鞋女",
                         "name": "休闲鞋",
                         "flag": 1,
                         "id": 6920
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "短靴",
                         "name": "短靴",
                         "flag": 1,
                         "id": 300015598
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "凉鞋女",
                         "name": "凉鞋",
                         "flag": 1,
                         "id": 6917
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "帆布鞋女",
                         "name": "帆布鞋",
                         "flag": 1,
                         "id": 9772
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "豆豆鞋女",
                         "name": "豆豆鞋",
                         "flag": 1,
                         "id": 100005704
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "妈妈鞋",
                         "name": "妈妈鞋",
                         "flag": 1,
                         "id": 12063
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "粗跟单鞋",
                         "name": "粗跟单鞋",
                         "flag": 1,
                         "id": 300015599
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "平底单鞋",
                         "name": "平底单鞋",
                         "flag": 1,
                         "id": 100005724
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "尖头单鞋",
                         "name": "尖头单鞋",
                         "flag": 1,
                         "id": 300015600
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "中跟单鞋",
                         "name": "中跟单鞋",
                         "flag": 1,
                         "id": 12061
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "高跟单鞋",
                         "name": "高跟单鞋",
                         "flag": 1,
                         "id": 100005720
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "深口单鞋",
                         "name": "深口单鞋",
                         "flag": 1,
                         "id": 100006602
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "女靴",
                         "name": "女靴",
                         "flag": 1,
                         "id": 100005710
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "马丁靴",
                         "name": "马丁靴",
                         "flag": 0,
@@ -196,147 +196,147 @@
                 "name": "国际大牌",
                 "catelogyList": [
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "斯凯奇",
                         "name": "斯凯奇",
                         "flag": 1,
                         "id": 300014973
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "ecco女鞋旗舰店",
                         "name": "ECCO",
                         "flag": 1,
                         "id": 300014974
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "CharlesKeith",
                         "name": "CharlesKeith",
                         "flag": 1,
                         "id": 300014975
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "思加图",
                         "name": "思加图",
                         "flag": 1,
                         "id": 300014976
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "玖熙旗舰店",
                         "name": "玖熙",
                         "flag": 1,
                         "id": 300014977
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "keds旗舰店",
                         "name": "keds",
                         "flag": 1,
                         "id": 300014978
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "melissa旗舰店",
                         "name": "melissa",
                         "flag": 1,
                         "id": 300014979
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "havaianas",
                         "name": "havaianas",
                         "flag": 1,
                         "id": 300014980
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "clarks女鞋旗舰店",
                         "name": "clarks",
                         "flag": 1,
                         "id": 300014981
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "烫官方旗舰店",
                         "name": "烫",
                         "flag": 1,
                         "id": 300014982
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "ugg官方旗舰店",
                         "name": "ugg",
                         "flag": 1,
                         "id": 300014983
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "蹀愫",
                         "name": "蹀愫",
                         "flag": 1,
                         "id": 300014984
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "迪芙斯",
                         "name": "迪芙斯",
                         "flag": 1,
                         "id": 300014985
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "汤普葛罗",
                         "name": "汤普",
                         "flag": 1,
                         "id": 300014986
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "bata",
                         "name": "bata",
                         "flag": 1,
                         "id": 300014987
                     },
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "沙驰旗舰店",
                         "name": "沙驰",
                         "flag": 1,
                         "id": 300014988
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "dg旗舰店",
                         "name": "dg",
                         "flag": 1,
                         "id": 300014989
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "派高雁",
                         "name": "派高雁",
                         "flag": 1,
                         "id": 300014990
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "jeffrey campbell女鞋",
                         "name": "jeff",
                         "flag": 1,
                         "id": 300014991
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "偲缇",
                         "name": "偲缇",
                         "flag": 1,
                         "id": 300014992
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "沙驰运动旗舰店",
                         "name": "沙驰运动",
                         "flag": 1,
@@ -349,14 +349,14 @@
                 "name": "专柜同款",
                 "catelogyList": [
                     {
-                        "icon": "./images/brand-03.png",
+                        "icon": "/images/brand-03.png",
                         "searchKey": "百丽集团官方旗舰店",
                         "name": "百丽",
                         "flag": 1,
                         "id": 100008275
                     },
                     {
-                        "icon": "./images/brand-02.png",
+                        "icon": "/images/brand-02.png",
                         "searchKey": "热风",
                         "name": "热风",
                         "path": "300014674_300014676_12426",
@@ -364,28 +364,28 @@
                         "id": 12426
                     },
                     {
-                        "icon": "./images/brand-01.png",
+                        "icon": "/images/brand-01.png",
                         "searchKey": "达芙妮",
                         "name": "达芙妮",
                         "flag": 1,
                         "id": 100008273
                     },
                     {
-                        "icon": "./images/brand-04.png",
+                        "icon": "/images/brand-04.png",
                         "searchKey": "星期六",
                         "name": "星期六",
                         "flag": 1,
                         "id": 300014996
                     },
                     {
-                        "icon": "./images/brand-05.png",
+                        "icon": "/images/brand-05.png",
                         "searchKey": "莱尔斯丹",
                         "name": "莱尔斯丹",
                         "flag": 1,
                         "id": 300014997
                     },
                     {
-                        "icon": "./images/brand-06.png",
+                        "icon": "/images/brand-06.png",
                         "searchKey": "鞋柜女鞋",
                         "name": "鞋柜",
                         "flag": 1,

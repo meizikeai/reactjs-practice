@@ -7,7 +7,7 @@
             {
                 "name": "IZOD男士长袖衬衫",
                 "itemcode": "20-772-6677",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 499.00,
                 "ytprice": 129.00,
                 "instock": true,
@@ -43,7 +43,7 @@
             {
                 "name": "古思奇小怪兽时尚休闲双肩包黑色",
                 "itemcode": "21-146-1041",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1178.00,
                 "ytprice": 258.00,
                 "instock": true,
@@ -79,7 +79,7 @@
             {
                 "name": "axelledesoie女衬衫",
                 "itemcode": "21-376-1179",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1980.00,
                 "ytprice": 599.00,
                 "instock": true,
@@ -115,7 +115,7 @@
             {
                 "name": "axelledesoie女衬衫",
                 "itemcode": "21-376-1182",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 1980.00,
                 "ytprice": 599.00,
                 "instock": true,
@@ -151,7 +151,7 @@
             {
                 "name": "axelledesoie女衬衫",
                 "itemcode": "21-376-1185",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 1980.00,
                 "ytprice": 599.00,
                 "instock": true,
@@ -187,7 +187,7 @@
             {
                 "name": "axelledesoie女衬衫",
                 "itemcode": "21-377-2019",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1680.00,
                 "ytprice": 499.00,
                 "instock": true,
@@ -223,7 +223,7 @@
             {
                 "name": "axelledesoie女衬衫",
                 "itemcode": "21-396-1032",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1580.00,
                 "ytprice": 599.00,
                 "instock": true,
@@ -259,7 +259,7 @@
             {
                 "name": "axelledesoie女装衬衫",
                 "itemcode": "21-401-4321",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 1480.00,
                 "ytprice": 499.00,
                 "instock": true,
@@ -295,7 +295,7 @@
             {
                 "name": "axelledesoie女装衬衫",
                 "itemcode": "21-401-4322",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 1480.00,
                 "ytprice": 499.00,
                 "instock": true,
@@ -331,7 +331,7 @@
             {
                 "name": "axelledesoie女装衬衫",
                 "itemcode": "21-461-9261",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1380.00,
                 "ytprice": 439.00,
                 "instock": true,
@@ -367,7 +367,7 @@
             {
                 "name": "axelledesoie女装真丝衬衫",
                 "itemcode": "21-462-2307",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1680.00,
                 "ytprice": 499.00,
                 "instock": true,
@@ -403,7 +403,7 @@
             {
                 "name": "axelledesoie女印花衬衫",
                 "itemcode": "21-463-0154",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 2080.00,
                 "ytprice": 699.00,
                 "instock": true,
@@ -439,7 +439,7 @@
             {
                 "name": "axelledesoie女烫金碎花衬衫",
                 "itemcode": "21-463-1687",
-                "image": "./images/product-min-01.jpg",
+                "image": "/images/product-min-01.jpg",
                 "price": 1780.00,
                 "ytprice": 599.00,
                 "instock": true,
@@ -475,7 +475,7 @@
             {
                 "name": "axelledesoie女烫金印花衬衫",
                 "itemcode": "21-465-1848",
-                "image": "./images/product-min-02.jpg",
+                "image": "/images/product-min-02.jpg",
                 "price": 1780.00,
                 "ytprice": 699.00,
                 "instock": true,

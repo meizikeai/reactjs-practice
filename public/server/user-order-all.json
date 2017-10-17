@@ -55,7 +55,7 @@
                                 "opeanSearch": "false",
                                 "nick": "君宝话费充值专营店",
                                 "shopName": "君宝话费充值专营店",
-                                "shopImg": "./images/order-title-01.jpg",
+                                "shopImg": "/images/order-title-01.jpg",
                                 "shopDisable": "false",
                                 "id": "814020208",
                                 "guestUser": "false",
@@ -89,7 +89,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "广东移动100元充值 快充 即时到帐 自动充值 秒冲快冲"
                             }
                         }
@@ -188,7 +188,7 @@
                                 "opeanSearch": "false",
                                 "nick": "钰玲妃旗舰店",
                                 "shopName": "钰玲妃旗舰店",
-                                "shopImg": "./images/order-title-02.jpg",
+                                "shopImg": "/images/order-title-02.jpg",
                                 "shopDisable": "false",
                                 "id": "875110208",
                                 "guestUser": "false",
@@ -222,7 +222,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "钰玲妃棉质女士内裤全棉舒适中低腰三角裤 纯棉内裤女 4条礼盒装"
                             }
                         }
@@ -245,7 +245,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-02.jpg",
+                                "pic": "/images/order-02.jpg",
                                 "title": "钰玲妃 莫代尔女士内裤 透气中腰隐形无痕三角内裤女夏 礼盒装"
                             }
                         }
@@ -342,7 +342,7 @@
                                 "opeanSearch": "false",
                                 "nick": "千行你我话费专营店",
                                 "shopName": "千行你我话费专营店",
-                                "shopImg": "./images/order-title-01.jpg",
+                                "shopImg": "/images/order-title-01.jpg",
                                 "shopDisable": "false",
                                 "id": "1050030208",
                                 "guestUser": "false",
@@ -376,7 +376,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "官方超快充&mdash;北京联通200元手机话费充值"
                             }
                         }
@@ -472,7 +472,7 @@
                                 "opeanSearch": "false",
                                 "nick": "华住酒店旗舰店",
                                 "shopName": "华住酒店旗舰店",
-                                "shopImg": "./images/order-title-02.jpg",
+                                "shopImg": "/images/order-title-02.jpg",
                                 "shopDisable": "false",
                                 "id": "1813030208",
                                 "guestUser": "false",
@@ -505,7 +505,7 @@
                                 "highlight": "false",
                                 "quantity": "1",
                                 "showArrow": "false",
-                                "pic": "./images/order-02.jpg",
+                                "pic": "/images/order-02.jpg",
                                 "title": "汉庭北京通州果园环岛酒店双床房",
                                 "extraDesc": [
                                     {
@@ -596,7 +596,7 @@
                                 "opeanSearch": "false",
                                 "nick": "苏宁易购官方旗舰店",
                                 "shopName": "苏宁易购官方旗舰店",
-                                "shopImg": "./images/order-title-01.jpg",
+                                "shopImg": "/images/order-title-01.jpg",
                                 "shopDisable": "false",
                                 "id": "1261690208",
                                 "guestUser": "false",
@@ -630,7 +630,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "【狂欢价】Kingston/金士顿 UV400 240G SSD 笔记本台式机固态硬盘非250G"
                             }
                         },
@@ -753,7 +753,7 @@
                                 "opeanSearch": "false",
                                 "nick": "天猫超市",
                                 "shopName": "天猫超市",
-                                "shopImg": "./images/order-title-02.jpg",
+                                "shopImg": "/images/order-title-02.jpg",
                                 "shopDisable": "false",
                                 "id": "725670208",
                                 "guestUser": "false",
@@ -786,7 +786,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-02.jpg",
+                                "pic": "/images/order-02.jpg",
                                 "title": "【天猫超市】福临门 浓香压榨一级花生油 5L/瓶  家庭食用油"
                             }
                         },
@@ -821,7 +821,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "【天猫超市】欧莱雅美发新款茶树植萃去屑润发乳200ml滋养发丝"
                             }
                         },
@@ -856,7 +856,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-02.jpg",
+                                "pic": "/images/order-02.jpg",
                                 "title": "【天猫超市】孟乍隆苏吝府泰国茉莉香米5KG 泰米原粮进口大米10斤"
                             }
                         },
@@ -891,7 +891,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "【天猫超市】KOKO泰国茉莉香米(国际红) 5kg进口大米 60年老品牌"
                             }
                         },
@@ -1002,7 +1002,7 @@
                                 "opeanSearch": "false",
                                 "nick": "淘酒店专营店",
                                 "shopName": "淘酒店专营店",
-                                "shopImg": "./images/order-title-02.jpg",
+                                "shopImg": "/images/order-title-02.jpg",
                                 "shopDisable": "false",
                                 "id": "2160050208",
                                 "guestUser": "false",
@@ -1035,7 +1035,7 @@
                                 "highlight": "false",
                                 "quantity": "1",
                                 "showArrow": "false",
-                                "pic": "./images/order-02.jpg",
+                                "pic": "/images/order-02.jpg",
                                 "title": "秦皇岛惠天度假酒店大床房-信用住",
                                 "extraDesc": [
                                     {
@@ -1129,7 +1129,7 @@
                                 "opeanSearch": "false",
                                 "nick": "21cake旗舰店",
                                 "shopName": "21cake旗舰店",
-                                "shopImg": "./images/order-title-01.jpg",
+                                "shopImg": "/images/order-title-01.jpg",
                                 "shopDisable": "false",
                                 "id": "2058860208",
                                 "guestUser": "false",
@@ -1163,7 +1163,7 @@
                                 "quantity": "1",
                                 "showArrow": "false",
                                 "refundStatus": "",
-                                "pic": "./images/order-01.jpg",
+                                "pic": "/images/order-01.jpg",
                                 "title": "21cake21客芝士乳酪奶酪鲜奶同城速递创意生日蛋糕凍慕斯與焗芝士"
                             }
                         }

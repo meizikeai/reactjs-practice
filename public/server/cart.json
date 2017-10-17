@@ -3,39 +3,7 @@
     "statusCode": 200,
     "description": "",
     "data": {
-        "controlParas": {
-            "isSettlementAlone": true,
-            "showAutoCleanCard": false,
-            "carts2": "1",
-            "cItemHost": "//a.m.taobao.com/i${itemId}.htm",
-            "remoteCheck": false,
-            "orderByNative": {
-                "YY": "acs.m.taobao.com",
-                "YYZY": "acs.m.taobao.com"
-            },
-            "invalidItemRecommendUrl": "//h5.m.taobao.com/app/searchsimilar/www/search_similar.html?from=cart&client=tmall&",
-            "preLoadOpen": false,
-            "smItemHost": "//page.m.tmall.com/chaoshi/detail.htm?id=${itemId}",
-            "closeDouble11Model": true,
-            "itemRecommendType": "sideslip",
-            "orderByH5Urls": {
-                "YY": "//d.m.taobao.com/yao/proxy.htm?hex=n&use_cod=false&buyer_from=tmall_wap",
-                "ALITRIP": "//tripbuy.fliggy.com/h5/confirmOrderH5.htm?buyer_from=cart",
-                "YYZY": "//d.m.taobao.com/yao/liangXinYao.htm?hex=n&use_cod=false&buyer_from=tmall_wap"
-            },
-            "cShopHost": "//shop.m.taobao.com/shop/shop_index.htm?shop_id=${shopId}",
-            "closeCleanCard": false,
-            "jhsCrossHost": "//ju.taobao.com/m/jusp/alone/kuacoudan/mtp.htm?activityId=${shopId}",
-            "recomm": {
-                "num": 16
-            },
-            "smShopHost": "//chaoshi.m.tmall.com/",
-            "eTag": "e2092b341c3678b53510c82afb4fa0ac",
-            "itemRecommendUrl": "//market.m.taobao.com/apps/market/similar/index.html?wh_weex=true&appid=2016&from=9422176&",
-            "time": 1508134771197,
-            "useACDS": false,
-            "allowClearCache": true
-        },
+        "control": {},
         "data": {
             "bundlev2_s_2456386471": {
                 "id": "s_2456386471",
@@ -70,7 +38,7 @@
                     "checked": false,
                     "coudan": {
                         "needShowInH5": false,
-                        "pic": "//img.alicdn.com/tfs/TB1GulZSVXXXXaWXVXXXXXXXXXX-129-36.png",
+                        "pic": "/images/activity.png",
                         "title": "满2件,享包邮"
                     },
                     "is11": false,
@@ -102,11 +70,10 @@
                         "total": 36900,
                         "totalTitle": "￥369.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i4/799637424/TB2EF7pdXXXXXcXXpXXXXXXXXXX_!!799637424.jpg_sum.jpg",
+                    "pic": "/images/order-01.jpg",
                     "bundleType": "shop",
                     "title": "大洋洲袋鼠新款男士真皮休闲鞋时尚商务男鞋潮流青年板鞋",
                     "url": "${cItemHost}",
-                    "settlement": "43384201402_1_80863031250_null_0_null_null_414276347456_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1492499372000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "43384201402",
                     "showCheckBox": true,
@@ -184,11 +151,10 @@
                         "total": 69900,
                         "totalTitle": "￥699.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i3/420567757/TB2BWhyXTAKh1JjSZFDXXbKlFXa-420567757.jpg_sum.jpg",
+                    "pic": "/images/order-02.jpg",
                     "bundleType": "shop",
                     "title": "Vero Moda2017秋季新品印花A字裙摆七分袖连衣裙|31737C505",
                     "url": "${cItemHost}",
-                    "settlement": "551881638423_1_3376068925875_null_0_null_null_612381897203_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1508123451000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "551881638423",
                     "showCheckBox": true,
@@ -224,7 +190,7 @@
                     "checked": false,
                     "coudan": {
                         "needShowInH5": false,
-                        "pic": "//img.alicdn.com/tfs/TB1GulZSVXXXXaWXVXXXXXXXXXX-129-36.png",
+                        "pic": "/images/activity.png",
                         "title": "满200元,享包邮"
                     },
                     "is11": false,
@@ -255,11 +221,10 @@
                         "total": 14900,
                         "totalTitle": "￥149.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i3/196993935/TB2qk1OXJsmyKJjSZFvXXcE.FXa-196993935.jpg_sum.jpg",
+                    "pic": "/images/order-01.jpg",
                     "bundleType": "shop",
                     "title": "女装 法兰绒衬衫(长袖) 400891 优衣库UNIQLO",
                     "url": "${cItemHost}",
-                    "settlement": "553960722948_1_3406721440189_null_0_null_null_518682461689_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1505310441000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "553960722948",
                     "showCheckBox": true,
@@ -322,11 +287,10 @@
                         "total": 39900,
                         "totalTitle": "￥399.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i2/799637424/TB2Sr8jdBaM.eBjSZFMXXcypVXa_!!799637424.jpg_sum.jpg",
+                    "pic": "/images/order-02.jpg",
                     "bundleType": "shop",
                     "title": "大洋洲袋鼠男士休闲皮鞋真皮英伦系带板鞋时尚手抓纹皮鞋型男潮鞋",
                     "url": "${cItemHost}",
-                    "settlement": "536610366084_1_3417740563510_null_0_null_null_422285626754_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1493452983000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "536610366084",
                     "showCheckBox": true,
@@ -425,11 +389,10 @@
                         "total": 26900,
                         "totalTitle": "￥269.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i3/2456386471/TB2MdpLb5ERMeJjSspjXXcpOXXa_!!2456386471.jpg_sum.jpg",
+                    "pic": "/images/order-01.jpg",
                     "bundleType": "shop",
                     "title": "Baleno/班尼路 风衣男薄 2017秋款韩版宽松外套男冲锋衣男潮牌#@",
                     "url": "${cItemHost}",
-                    "settlement": "558257263131_1_3467585469254_null_0_null_null_525621659432_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1506239578000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "558257263131",
                     "showCheckBox": true,
@@ -477,11 +440,10 @@
                         "total": 32450,
                         "totalTitle": "￥324.50"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i3/420567757/TB29_9KemiJ.eBjSspiXXbqAFXa-420567757.jpg_sum.jpg",
+                    "pic": "/images/order-02.jpg",
                     "bundleType": "shop",
                     "title": "Vero Moda2017春季新品浪漫印花短袖A摆雪纺连衣裙|31717B507",
                     "url": "${cItemHost}",
-                    "settlement": "542526834899_1_3261011792495_null_0_null_null_450515835622_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1498024920000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "542526834899",
                     "showCheckBox": true,
@@ -529,11 +491,10 @@
                         "total": 16900,
                         "totalTitle": "￥169.00"
                     },
-                    "pic": "//img.alicdn.com/bao/uploaded/i1/2456386471/TB2Ldo0btUnyKJjSZFpXXb9qFXa_!!2456386471.jpg_sum.jpg",
+                    "pic": "/images/order-01.jpg",
                     "bundleType": "shop",
                     "title": "Baleno/班尼路 秋装青年休闲时尚中腰直筒男士长裤 水洗牛仔裤",
                     "url": "${cItemHost}",
-                    "settlement": "555846540769_1_3600584079338_null_0_null_null_611357791886_null_null_null_0_null_buyerCondition~0~~cartCreateTime~1508046232000_0_0_null_null_null_null_null_null_null_null_null",
                     "valid": true,
                     "itemId": "555846540769",
                     "showCheckBox": true,
@@ -568,7 +529,7 @@
                     "textCloseDays": 1,
                     "textDisturbCloseSeconds": 86400,
                     "pic": "",
-                    "iconUrl": "//img.alicdn.com/tfs/TB1.8SfSVXXXXaDXpXXXXXXXXXX-31-37.png",
+                    "iconUrl": "/images/prompt.png",
                     "text": "",
                     "textColor": "#FF5000",
                     "url": ""
@@ -593,94 +554,52 @@
                 }
             }
         },
-        "excludes": {
-            "global": [
-                "ALITRIP",
-                "HKDF",
-                "HKGS"
-            ],
-            "inner": {},
-            "innerGlobal": [
-                "HKDF",
-                "SX",
-                "HKGS"
-            ],
-            "tip": {
-                "ALITRIP": "亲，阿里旅行的宝贝不能和其他店铺一起结算哦",
-                "HKDF": "亲，天猫国际免税店的宝贝不能和其他店铺一起结算哦",
-                "SX": "亲，天猫商超的宝贝不能跨区域购买哦",
-                "DEFAULT": "请分开结算以下商品"
-            }
-        },
-        "feature": {
-            "asyncCheck": false,
-            "carts2": true,
-            "clientTotalPrice": false,
-            "forceReload": false,
-            "gzip": true,
-            "maxCheckCount": 0,
-            "otherParams": {
-                "currentCartTotalSize": "7"
-            }
-        },
+        "excludes": {},
+        "feature": {},
         "hierarchy": {
-            "root": "global_1",
-            "structure": {
-                "bundlev2_s_2456386471": [
-                    "shopv2_s_2456386471",
-                    "group_i_2456386471"
-                ],
-                "global_1": [
-                    "banner_1",
-                    "allItemv2_1"
-                ],
-                "group_i_420567757": [
-                    "itemv2_612381897203",
-                    "itemv2_450515835622"
-                ],
-                "group_i_2456386471": [
-                    "itemv2_611357791886",
-                    "itemv2_525621659432"
-                ],
-                "bundlev2_s_196993935": [
-                    "shopv2_s_196993935",
-                    "group_i_196993935"
-                ],
-                "group_i_196993935": [
-                    "itemv2_518682461689"
-                ],
-                "allItemv2_1": [
-                    "bundlev2_s_420567757",
-                    "bundlev2_s_2456386471",
-                    "bundlev2_s_196993935",
-                    "bundlev2_s_799637424",
-                    "footer_1"
-                ],
-                "bundlev2_s_420567757": [
-                    "shopv2_s_420567757",
-                    "group_i_420567757"
-                ],
-                "bundlev2_s_799637424": [
-                    "shopv2_s_799637424",
-                    "group_i_799637424"
-                ],
-                "group_i_799637424": [
-                    "itemv2_422285626754",
-                    "itemv2_414276347456"
-                ]
-            }
+            "bundlev2_s_2456386471": [
+                "shopv2_s_2456386471",
+                "group_i_2456386471"
+            ],
+            "global_1": [
+                "banner_1",
+                "allItemv2_1"
+            ],
+            "group_i_420567757": [
+                "itemv2_612381897203",
+                "itemv2_450515835622"
+            ],
+            "group_i_2456386471": [
+                "itemv2_611357791886",
+                "itemv2_525621659432"
+            ],
+            "bundlev2_s_196993935": [
+                "shopv2_s_196993935",
+                "group_i_196993935"
+            ],
+            "group_i_196993935": [
+                "itemv2_518682461689"
+            ],
+            "allItemv2_1": [
+                "bundlev2_s_420567757",
+                "bundlev2_s_2456386471",
+                "bundlev2_s_196993935",
+                "bundlev2_s_799637424",
+                "footer_1"
+            ],
+            "bundlev2_s_420567757": [
+                "shopv2_s_420567757",
+                "group_i_420567757"
+            ],
+            "bundlev2_s_799637424": [
+                "shopv2_s_799637424",
+                "group_i_799637424"
+            ],
+            "group_i_799637424": [
+                "itemv2_422285626754",
+                "itemv2_414276347456"
+            ]
         },
-        "pageMeta": {
-            "checkMax": 50,
-            "invalidCount": 0,
-            "isEndPage": true,
-            "isExchangeIdentity": true,
-            "isNext": true,
-            "pageNo": 1,
-            "pageSize": 50,
-            "startTimestamp": "2017-04-29 16:03:03",
-            "totalCount": 7,
-            "validCount": 7
-        }
+        "pageMeta": {}
     }
 }

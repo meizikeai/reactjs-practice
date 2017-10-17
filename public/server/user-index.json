@@ -6,7 +6,7 @@
         "info": {
             "userId": "77580258",
             "userLevel": "4",
-            "userLogo": "../images/avatar.jpg",
+            "userLogo": "/images/avatar.jpg",
             "userName": "makelove",
             "favoriteItem": "1",
             "favoriteShop": "56",
@@ -20,25 +20,25 @@
         "entry": [
             {
                 "name": "优惠券",
-                "img": "./images/entry-cart.png",
+                "img": "/images/entry-cart.png",
                 "url": "/User/Coupon",
                 "text": "1张"
             },
             {
                 "name": "余额",
-                "img": "./images/entry-search.png",
+                "img": "/images/entry-search.png",
                 "url": "/User/Balance",
                 "text": "200.00"
             },
             {
                 "name": "手机号",
-                "img": "./images/entry-bao.png",
+                "img": "/images/entry-bao.png",
                 "url": "/User/Phone",
                 "text": "186 0058 0258"
             },
             {
                 "name": "收货地址",
-                "img": "./images/entry-wang.png",
+                "img": "/images/entry-wang.png",
                 "url": "/User/Address",
                 "text": "3个"
             }
@@ -46,13 +46,13 @@
         "other": [
             {
                 "name": "帮助中心",
-                "img": "./images/entry-ticket.png",
+                "img": "/images/entry-ticket.png",
                 "url": "/Help",
                 "text": ""
             },
             {
                 "name": "联系我们",
-                "img": "./images/entry-air.png",
+                "img": "/images/entry-air.png",
                 "url": "/Help",
                 "text": "400 7758 0258"
             }

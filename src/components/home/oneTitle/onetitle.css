@@ -25,6 +25,7 @@
 
 .model-one-title .one-title h3 {
     width: 8rem;
+    flex: 1;
     padding: 0.2rem;
     font-size: 14px;
 }
