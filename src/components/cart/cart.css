@@ -4,20 +4,19 @@
 
 .cart-thing {
     width: 100%;
-    /* padding-top: .32rem; */
 }
 
 .app-cart .bundle {
-    border-top: .32rem solid #ededed;
+    border-top: .2rem solid #ededed;
     border-bottom: 1px solid #e7e7e7;
     background: #fff;
 }
 
-.app-cart .bundle .checkbox {
+.app-cart .checkbox {
     display: none;
 }
 
-.app-cart .bundle label {
+.app-cart label {
     display: inline-block;
     width: .52rem;
     height: .52rem;
@@ -26,7 +25,7 @@
     vertical-align: top;
 }
 
-.app-cart .bundle .checkbox:checked + label {
+.app-cart .checkbox:checked + label {
     background: url(./ischeck.png) 0 0/.52rem no-repeat;
 }
 
@@ -329,21 +328,63 @@
     height: 1.2rem;
 }
 
+.app-cart .footer .foot .check {
+    width: 1.18rem;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    -o-box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -o-box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+}
+
 .app-cart .footer .foot .choice {
-    
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -o-box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
 }
 
 .app-cart .footer .foot .pay {
     flex: 1;
     text-align: right;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-box-pack: end;
+    -o-box-pack: end;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -o-box-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
 }
 
 .app-cart .footer .foot .pay .total {
+    color: #f50;
+    font-size: 16px;
     display: inline;
 }
 
 .app-cart .footer .foot .pay .price {
+    color: #f50;
     display: inline;
+}
+
+.app-cart .footer .foot .pay .price .major {
+    font-size: 16px;
 }
 
 .app-cart .footer .foot .submit {
@@ -360,4 +401,5 @@
     display: -ms-flexbox;
     display: flex;
     margin-left: .32rem;
+    font-size: 16px;
 }

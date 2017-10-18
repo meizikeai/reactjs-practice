@@ -191,7 +191,7 @@ export default class Cart extends Component {
                                             <div className="foot">
                                                 <div className="check">
                                                     <p>
-                                                        <input id="cb-footer" type="checkbox" className="cb o-t-cb" />
+                                                        <input id="cb-footer" type="checkbox" className="checkbox" />
                                                         <label htmlFor="cb-footer"></label>
                                                     </p>
                                                 </div>
@@ -199,11 +199,9 @@ export default class Cart extends Component {
                                                 <div className="pay">
                                                     <div className="total">合计：</div>
                                                     <p className="price" data-symbol="￥">
-                                                        <span>
-                                                            <span className="major">0</span>
-                                                            <span className="point">.</span>
-                                                            <span className="minor">00</span>
-                                                        </span>
+                                                        <span className="major">0</span>
+                                                        <span className="point">.</span>
+                                                        <span className="minor">00</span>
                                                     </p>
                                                 </div>
                                                 <div className="submit">

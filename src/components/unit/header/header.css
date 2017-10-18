@@ -3,7 +3,7 @@
 }
 
 .app-header .header {
-    height: 1rem;
+    height: 1.2rem;
     position: relative;
     z-index: 510;
     background-color: #f50;
@@ -11,18 +11,18 @@
 
 .app-header .back {
     width: 1rem;
-    height: 1rem;
+    height: 1.2rem;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    background: url(./back.png) 0.32rem 0.26rem/0.3rem 0.5rem no-repeat;
+    background: url(./back.png) .32rem .34rem/.3rem .5rem no-repeat;
 }
 
 .app-header .title {
     margin: 0 1rem;
-    height: 1rem;
-    line-height: 1rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     font-weight: 500;
     font-size: 16px;
     white-space: nowrap;
@@ -38,16 +38,16 @@
     top: 0;
     z-index: 1;
     width: 1rem;
-    height: 1rem;
-    padding: 0 0.12rem;
+    height: 1.2rem;
+    padding: 0 .12rem;
 }
 
 .app-header .pull span {
     display: block;
-    width: 0.67rem;
-    height: 0.12rem;
-    margin-top: 0.46rem;
-    background: url(./control.png) 0 0/0.67rem 0.12rem no-repeat;
+    width: .67rem;
+    height: .12rem;
+    margin-top: .56rem;
+    background: url(./control.png) 0 0/.67rem .12rem no-repeat;
 }
 
 .app-header .pull-hover span {
@@ -59,7 +59,7 @@
     display: none;
     position: absolute;
     right: 0;
-    top: 1rem;
+    top: 1.2rem;
     z-index: 1;
     background-color: #fff;
 }
@@ -70,7 +70,7 @@
 
 .app-header .entry .content a {
     width: 25%;
-    padding: 0.25rem 0;
+    padding: .25rem 0;
     text-align: center;
     text-decoration: none;
     color: #333;
@@ -78,16 +78,16 @@
 
 .app-header .entry .content a i {
     display: inline-block;
-    width: 0.68rem;
-    height: 0.68rem;
-    margin-right: 0.06rem;
+    width: .68rem;
+    height: .68rem;
+    margin-right: .06rem;
     vertical-align: top;
 }
 
 .app-header .entry .content a span {
     display: inline-block;
-    height: 0.68rem;
-    line-height: 0.68rem;
+    height: .68rem;
+    line-height: .68rem;
 }
 
 .app-header .entry .content .home {
