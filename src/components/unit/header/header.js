@@ -7,7 +7,6 @@ export default class Header extends Component {
 
         this.state = {
             click: true,
-            title: this.props.title,
             entry: "entry",
             seet: "app-seet"
         };
@@ -66,14 +65,14 @@ export default class Header extends Component {
             <div className="app-header">
                 <div className="header" ref="header">
                     <span className="back" onClick={this.handleBack}></span>
-                    <div className="title">{this.state.title}</div>
+                    <div className="title">{this.props.title}</div>
                     <div className="pull" onClick={this.handleCatalog}><span></span></div>
                     <div className={this.state.entry}>
                         <div className="content">
                             <a href="/"><i className="home"></i><span>首页</span></a>
-                            <a href="/Category"><i className="category"></i><span>分类</span></a>
-                            <a href="/Cart"><i className="cart"></i><span>购物车</span></a>
-                            <a href="/User"><i className="user"></i><span>我的</span></a>
+                            <a href="/category"><i className="category"></i><span>分类</span></a>
+                            <a href="/cart"><i className="cart"></i><span>购物车</span></a>
+                            <a href="/user"><i className="user"></i><span>我的</span></a>
                         </div>
                     </div>
                 </div>

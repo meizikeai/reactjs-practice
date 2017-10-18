@@ -3,14 +3,14 @@
 }
 
 .cart-thing {
-    background-color: #ededed;
-    padding-top: .32rem;
+    width: 100%;
+    /* padding-top: .32rem; */
 }
 
 .app-cart .bundle {
-    margin-bottom: .32rem;
-    background: #fff;
+    border-top: .32rem solid #ededed;
     border-bottom: 1px solid #e7e7e7;
+    background: #fff;
 }
 
 .app-cart .bundle .checkbox {
@@ -306,4 +306,58 @@
 
 .app-cart .bundle .group .hide {
     z-index: -1;
+}
+
+.app-cart .footer {
+    height: 2rem;
+    padding-top: .8rem;
+    cursor: pointer;
+    background-color: #ededed;
+}
+
+.app-cart .footer .foot-fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: .8rem solid transparent;
+}
+
+.app-cart .footer .foot {
+    display: flex;
+    background-color: #fff;
+    height: 1.2rem;
+}
+
+.app-cart .footer .foot .choice {
+    
+}
+
+.app-cart .footer .foot .pay {
+    flex: 1;
+    text-align: right;
+}
+
+.app-cart .footer .foot .pay .total {
+    display: inline;
+}
+
+.app-cart .footer .foot .pay .price {
+    display: inline;
+}
+
+.app-cart .footer .foot .submit {
+    width: 2.78rem;
+    color: #fff;
+    background: #f50;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: .32rem;
 }

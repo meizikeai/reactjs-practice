@@ -12,14 +12,14 @@ export default class Header extends Component {
     }
 
     handleClick() {
-        window.location.href = "/City";
+        window.location.href = "/city";
     }
 
     handleSearch = (e) => {
         let value = this.state.keyword;
 
         if (value) {
-            window.location.href = "/Search?keyword=" + value;
+            window.location.href = "/search?keyword=" + value;
         }
     }
 
@@ -34,7 +34,7 @@ export default class Header extends Component {
         let value = this.state.keyword;
 
         if (code === 13 && value) {
-            window.location.href = "/Search?keyword=" + value;
+            window.location.href = "/search?keyword=" + value;
         }
     }
 
@@ -60,7 +60,7 @@ export default class Header extends Component {
                             </div>
                         </div>
                         <div className="user">
-                            <a href="/User"> </a>
+                            <a href="/user"> </a>
                         </div>
                     </div>
                 </div>

@@ -21,25 +21,25 @@
             {
                 "name": "优惠券",
                 "img": "/images/entry-cart.png",
-                "url": "/User/Coupon",
+                "url": "/user/coupon",
                 "text": "1张"
             },
             {
                 "name": "余额",
                 "img": "/images/entry-search.png",
-                "url": "/User/Balance",
+                "url": "/user/balance",
                 "text": "200.00"
             },
             {
                 "name": "手机号",
                 "img": "/images/entry-bao.png",
-                "url": "/User/Phone",
+                "url": "/user/phone",
                 "text": "186 0058 0258"
             },
             {
                 "name": "收货地址",
                 "img": "/images/entry-wang.png",
-                "url": "/User/Address",
+                "url": "/user/address",
                 "text": "3个"
             }
         ],
@@ -47,13 +47,13 @@
             {
                 "name": "帮助中心",
                 "img": "/images/entry-ticket.png",
-                "url": "/Help",
+                "url": "/help",
                 "text": ""
             },
             {
                 "name": "联系我们",
                 "img": "/images/entry-air.png",
-                "url": "/Help",
+                "url": "/help",
                 "text": "400 7758 0258"
             }
         ]

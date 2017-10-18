@@ -10,10 +10,10 @@ export default class Footer extends Component {
         this.state = {
             footer: [
                 { path: "/", class: "home", name: "首页", check: (path === "/") ? true : false },
-                { path: "/Sale", class: "sale", name: "抢先", check: (path === "/Sale") ? true : false },
-                { path: "/Category", class: "category", name: "分类", check: (path === "/Category") ? true : false },
-                { path: "/Cart", class: "cart", name: "购物车", check: (path === "/Cart") ? true : false },
-                { path: "/User", class: "user", name: "我的", check: (path === "/User") ? true : false }
+                { path: "/sale", class: "sale", name: "抢先", check: (path === "/sale") ? true : false },
+                { path: "/category", class: "category", name: "分类", check: (path === "/category") ? true : false },
+                { path: "/cart", class: "cart", name: "购物车", check: (path === "/cart") ? true : false },
+                { path: "/user", class: "user", name: "我的", check: (path === "/user") ? true : false }
             ]
         };
     }

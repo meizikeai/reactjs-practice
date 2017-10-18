@@ -28,17 +28,17 @@ ReactDOM.render((
     <Router>
         <div className="app">
             <Route exact path="/" component={App} />
-            <Route path="/Search" component={Search} />
-            <Route path="/Product" component={Product} />
-            <Route path="/ProductList" component={ProductList} />
-            <Route path="/Activities" component={Activities} />
-            <Route path="/City" component={City} />
-            <Route path="/Sale" component={Sale} />
-            <Route path="/Category" component={Category} />
-            <Route path="/Cart" component={Cart} />
-            <Route path="/CheckOut" component={CheckOut} />
-            <Route path="/User" component={User} />
-            <Route path="/Order" component={UserOrder} />
+            <Route path="/search" component={Search} />
+            <Route path="/product" component={Product} />
+            <Route path="/productList" component={ProductList} />
+            <Route path="/activities" component={Activities} />
+            <Route path="/city" component={City} />
+            <Route path="/sale" component={Sale} />
+            <Route path="/category" component={Category} />
+            <Route path="/cart" component={Cart} />
+            <Route path="/checkOut" component={CheckOut} />
+            <Route path="/user" component={User} />
+            <Route path="/order" component={UserOrder} />
         </div>
     </Router>
 ), createRoot);

@@ -9,7 +9,8 @@ export default class Cart extends Component {
         super(props);
 
         this.state = {
-            info: {}
+            info: {},
+            fullCount: 0
         }
     }
 
@@ -21,7 +22,25 @@ export default class Cart extends Component {
             .then(function (response) {
                 return response.json();
             }).then(function (json) {
-                self.setState({ info: json });
+                let result = json.data;
+                let resource = result.data;
+                let hierarchy = result.hierarchy;
+                let fullCount = 0;
+
+                if (resource && hierarchy) {
+                    let structure = hierarchy.structure[hierarchy.root];
+                    let e = 0;
+                    for (e in structure) {
+                        if (structure[e] === "allitem") {
+                            fullCount = resource[structure[e]].fields.value;
+                        }
+                    }
+                }
+
+                self.setState({
+                    info: json,
+                    fullCount: fullCount
+                });
             }).catch(function (ex) {
                 console.log("parsing failed", ex);
             });
@@ -33,98 +52,183 @@ export default class Cart extends Component {
             let resource = result.data;
             let hierarchy = result.hierarchy;
 
-            console.log(resource);
-            console.log(hierarchy);
+            let fullhtml = "";
 
-            return <div className="app-cart">
-                <div className="cart-thing">
-                    <div className="bundle">
-                        <div className="shop" data-reactid="">
-                            <div className="shop-title">
-                                <div className="check">
-                                    <p>
-                                        <input className="checkbox" id="cb-150813973007821" type="checkbox" />
-                                        <label htmlFor="cb-150813973007821"></label>
-                                    </p>
-                                </div>
-                                <div className="ico">
-                                    <span></span>
-                                </div>
-                                <div className="contact">
-                                    <a href="//shop.m.taobao.com/shop/shop_index.htm?shop_id=61773004">
-                                        <p className="title">veromoda官方旗舰</p>
-                                        <p className="arrow"></p>
+            let handleShopHTML = (data) => {
+                let fields = data.fields;
+
+                return <div className="shop" data-id={data.id}>
+                    <div className="shop-title">
+                        <div className="check">
+                            <p>
+                                <input className="checkbox" id={"love-" + data.id} type="checkbox" checked={fields.checked} />
+                                <label htmlFor={"love-" + data.id}></label>
+                            </p>
+                        </div>
+                        <div className="ico">
+                            <span></span>
+                        </div>
+                        <div className="contact">
+                            <a href={fields.url + fields.shopId}>
+                                <p className="title">{fields.title}</p>
+                                <p className="arrow"></p>
+                            </a>
+                        </div>
+                        <div className="state">
+                            <p className="edit">编辑</p>
+                        </div>
+                    </div>
+                    {fields.coudan ? <div className="coudan">
+                        <div className="icon">
+                            <img src={fields.coudan.pic} alt={fields.coudan.title} />
+                        </div>
+                        <div className="box">
+                            <div className="title">{fields.coudan.title}</div>
+                            <span></span>
+                        </div>
+                    </div> : ""}
+                </div>
+            };
+
+            let handleItemHTML = (data) => {
+                let fields = data.fields;
+                let total = fields.pay.totalTitle.split(".");
+                let currency = total[0].replace(/\d/ig, "");
+
+                return <div className="each" data-id={data.id}>
+                    <div className="scheme">
+                        <div className="content">
+                            <div className="check">
+                                <p>
+                                    <input className="checkbox" id={"love-" + data.id} type="checkbox" checked={fields.checked} />
+                                    <label htmlFor={"love-" + data.id}></label>
+                                </p>
+                            </div>
+                            <div className="detail">
+                                <div className="picture">
+                                    <a href={fields.url + fields.itemId}>
+                                        <img src={fields.pic} alt={fields.title} />
                                     </a>
                                 </div>
-                                <div className="state">
-                                    <p className="edit">编辑</p>
-                                </div>
-                            </div>
-                            <div className="coudan">
-                                <div className="icon">
-                                    <img src="//img.alicdn.com/tfs/TB1GulZSVXXXXaWXVXXXXXXXXXX-129-36.png" alt="" />
-                                </div>
-                                <div className="box">
-                                    <div className="title">满2件,享包邮</div>
-                                    <span></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="group ">
-                            <div className="each">
-                                <div className="scheme" data-status="open">
-                                    <div className="content">
-                                        <div className="check">
-                                            <p>
-                                                <input className="checkbox" id="cb-150813973008024" type="checkbox" />
-                                                <label htmlFor="cb-150813973008024"></label>
-                                            </p>
-                                        </div>
-                                        <div className="detail">
-                                            <div className="picture">
-                                                <a href="//a.m.taobao.com/i551881638423.htm">
-                                                    <img src="https://gw.alicdn.com/bao/uploaded/i3/420567757/TB2BWhyXTAKh1JjSZFDXXbKlFXa-420567757.jpg_200x200q50s150.jpg_.webp" alt="" />
-                                                </a>
+                                <div className="info">
+                                    <a href={fields.url + fields.itemId}>
+                                        <h3>{fields.title}</h3>
+                                        {
+                                            fields.sku ? <div className="sku">
+                                                <p>{fields.sku.title}</p>
+                                            </div> : ""
+                                        }
+                                    </a>
+                                    <div className="pay">
+                                        <div className="price">
+                                            <div className="sale">
+                                                <span>{currency}</span>
+                                                <span className="major">{total[0].replace(/\D/ig, "")}</span>
+                                                <span className="point">.</span>
+                                                <span className="minor">{total[1]}</span>
                                             </div>
-                                            <div className="info">
-                                                <a href="//a.m.taobao.com/i551881638423.htm">
-                                                    <h3>Vero Moda2017秋季新品印花A字裙摆七分袖连衣裙|31737C505</h3>
-                                                    <div className="sku">
-                                                        <p>E39深蓝色;155/76A/XS</p>
-                                                    </div>
-                                                </a>
-                                                <div className="pay">
-                                                    <div className="price">
-                                                        <div className="sale">
-                                                            <span>￥</span>
-                                                            <span className="major">699</span>
-                                                            <span className="point">.</span>
-                                                            <span className="minor">00</span>
-                                                        </div>
-                                                        <div className="origin">
-                                                            <del>￥269.00</del>
-                                                        </div>
-                                                    </div>
-                                                    <div className="quantity">
-                                                        <span>x</span>
-                                                        <span>1</span>
-                                                    </div>
-                                                </div>
+                                            <div className="origin">
+                                                <del>{fields.pay.originTitle}</del>
                                             </div>
                                         </div>
-                                        <div className="del edit-del">
-                                            <p>删除</p>
+                                        <div className="quantity">
+                                            <span>x</span>
+                                            <span>{fields.quantity.quantity}</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="option hide">
-                                    <div className="del edit-del">
-                                        <p>删除</p>
-                                    </div>
-                                </div>
+                            </div>
+                            <div className="del edit-del">
+                                <p>删除</p>
                             </div>
                         </div>
                     </div>
+                    <div className="option hide">
+                        <div className="del edit-del">
+                            <p>删除</p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            if (resource && hierarchy) {
+                let structure = hierarchy.structure;
+                let root = hierarchy.structure[hierarchy.root];
+
+                fullhtml = ((e) => {
+                    return e.map((e, k) => {
+                        if (e && structure[e]) {
+                            return structure[e].map((o, i) => {
+                                if (o && structure[o]) {
+                                    return <div className="bundle" key={i}>
+                                        {
+                                            structure[o].map((d, l) => {
+                                                if (d && structure[d]) {
+                                                    return <div className="group" key={l}>
+                                                        {
+                                                            structure[d].map((q, j) => {
+                                                                return <div className="main" key={j}>
+                                                                    {
+                                                                        handleItemHTML(resource[q])
+                                                                    }
+                                                                </div>;
+                                                            })
+                                                        }
+                                                    </div>;
+                                                } else {
+                                                    return <div className="head" key={l}>
+                                                        {
+                                                            handleShopHTML(resource[d])
+                                                        }
+                                                    </div>;
+                                                }
+                                            })
+                                        }
+                                    </div>
+                                } else {
+                                    return <div className="footer">
+                                        <div className="foot-fixed">
+                                            <div className="foot">
+                                                <div className="check">
+                                                    <p>
+                                                        <input id="cb-footer" type="checkbox" className="cb o-t-cb" />
+                                                        <label htmlFor="cb-footer"></label>
+                                                    </p>
+                                                </div>
+                                                <div className="choice">全选</div>
+                                                <div className="pay">
+                                                    <div className="total">合计：</div>
+                                                    <p className="price" data-symbol="￥">
+                                                        <span>
+                                                            <span className="major">0</span>
+                                                            <span className="point">.</span>
+                                                            <span className="minor">00</span>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div className="submit">
+                                                    <p>
+                                                        <span>结算</span>
+                                                        <span>(</span>
+                                                        <span>0</span>
+                                                        <span>)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>;
+                                }
+                            });
+                        } else {
+                            return "";
+                        }
+                    });
+                })(root);
+            }
+
+            return <div className="app-cart">
+                <div className="cart-thing">
+                    {fullhtml}
                 </div>
             </div>
         }
@@ -135,7 +239,7 @@ export default class Cart extends Component {
 
         return (
             <div className="page-app-cart">
-                <Header title="购物车" />
+                <Header title={"购物车" + (this.state.fullCount > 0 ? "(" + this.state.fullCount + ")" : "")} />
                 {createTemplate}
             </div>
         );
