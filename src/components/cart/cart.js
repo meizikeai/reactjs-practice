@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../unit/header/header";
+import Header from "../model/header/header";
 import "./cart.css";
 
 export default class Cart extends Component {
@@ -12,6 +12,8 @@ export default class Cart extends Component {
             info: {},
             fullCount: 0
         }
+
+        //暂停搞这个页面
     }
 
     componentDidMount() {

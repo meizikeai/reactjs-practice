@@ -23,36 +23,36 @@
     overflow: hidden;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0px 5px 20px 0px rgba(126, 137, 140, 0.20);
+    box-shadow: 0px 5px 20px 0px rgba(126, 137, 140, .2);
     border: 1px solid #B8C8CC;
 }
 
 .app-unit-layer .unit-layer .header {
-    height: 0.96rem;
+    height: .96rem;
     position: relative;
     border-bottom: 1px solid #ededed;
     background-color: #EDF5F7;
 }
 
 .app-unit-layer .unit-layer .header .title {
-    margin-right: 0.85rem;
-    line-height: 0.85rem;
+    margin-right: .85rem;
+    line-height: .85rem;
     font-weight: 700;
-    padding: 0.08rem 0.28rem 0;
+    padding: .08rem .28rem 0;
     color: #454B4D;
 }
 
 .app-unit-layer .unit-layer .header .close {
     position: absolute;
-    right: 0.08rem;
-    top: 0.08rem;
-    width: 0.85rem;
-    height: 0.85rem;
-    background: url(./close.png) 0.28rem 0.28rem/0.32rem 0.32rem no-repeat;
+    right: .08rem;
+    top: .08rem;
+    width: .85rem;
+    height: .85rem;
+    background: url(./close.png) .28rem .28rem/.32rem .32rem no-repeat;
 }
 
 .app-unit-layer .unit-layer .content {
-    padding: 0.28rem;
+    padding: .28rem;
 }
 
 .app-unit-layer .unit-layer-scene {

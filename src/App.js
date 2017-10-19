@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import HomeHeader from "./components/home/header/header";
-import Footer from "./components/unit/footer/footer";
-import CarouselFigure from "./components/unit/carouselFigure/carouselfigure";
-import AreaFiveImg from "./components/home/areaFiveImg/areafiveimg";
-import HaveSpace from "./components/home/haveSpace/havespace";
-import OneImage from "./components/home/oneImage/oneimage";
-import OneTitle from "./components/home/oneTitle/onetitle";
-import TwoImage from "./components/home/twoImage/twoimage";
-import ThreeImageLeftBig from "./components/home/threeImageLeftBig/threeimageleftbig";
-import ThreeImageRightBig from "./components/home/threeImageRightBig/threeimagerightbig";
-import ThreeImageAbreast from "./components/home/threeImageAbreast/threeimageabreast";
-import DoubleProduct from "./components/home/doubleProduct/doubleproduct";
-import SingleRowProduct from "./components/home/singleRowProduct/singlerowproduct";
-import Download from "./components/unit/download/download";
+import HomeHeader from "./components/model/head/head";
+import Footer from "./components/model/footer/footer";
+import CarouselFigure from "./components/model/carouselFigure/carouselfigure";
+import AreaFiveImg from "./components/model/areaFiveImg/areafiveimg";
+import HaveSpace from "./components/model/haveSpace/havespace";
+import OneImage from "./components/model/oneImage/oneimage";
+import OneTitle from "./components/model/oneTitle/onetitle";
+import TwoImage from "./components/model/twoImage/twoimage";
+import ThreeImageLeftBig from "./components/model/threeImageLeftBig/threeimageleftbig";
+import ThreeImageRightBig from "./components/model/threeImageRightBig/threeimagerightbig";
+import ThreeImageAbreast from "./components/model/threeImageAbreast/threeimageabreast";
+import DoubleProduct from "./components/model/doubleProduct/doubleproduct";
+import SingleRowProduct from "./components/model/singleRowProduct/singlerowproduct";
+import Download from "./components/model/download/download";
 
 export default class App extends Component {
     constructor(props) {

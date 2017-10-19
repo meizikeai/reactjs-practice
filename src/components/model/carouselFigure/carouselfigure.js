@@ -39,7 +39,7 @@ export default class CarouselFigure extends Component {
         );
 
         return (
-            <div className="app-carousel-figure" data-id={data.templateid}>
+            <div className="model-carousel-figure" data-id={data.templateid}>
                 <ReactSwipe className="carousel" swipeOptions={config}>
                     {createCarousel}
                 </ReactSwipe>

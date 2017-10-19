@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../../unit/header/header";
-import Footer from "../../unit/footer/footer";
-import Download from "../../unit/download/download";
-import TipLayer from "../../unit/layer/layer";
+import Header from "../../model/header/header";
+import Footer from "../../model/footer/footer";
+import Download from "../../model/download/download";
+import TipLayer from "../../model/layer/layer";
 
 import "./index.css";
 
@@ -66,32 +66,32 @@ export default class Index extends Component {
                 <section className="order">
                     <ul>
                         <li>
-                            <a href="/order">
+                            <a href="/user/order">
                                 <p className="icons pay">{info.order2Pay > 0 ? <i className="number">{info.order2Pay}</i> : ''}</p>
                                 <p className="sub">待付款</p>
                             </a>
                         </li>
                         <li>
-                            <a href="/order">
+                            <a href="/user/order">
                                 <p className="icons send">{info.order2Deliver > 0 ? <i className="number">{info.order2Deliver}</i> : ''}</p>
                                 <p className="sub">待发货</p>
                             </a>
                         </li>
                         <li>
-                            <a href="/order">
+                            <a href="/user/order">
                                 <p className="icons deliver">{info.order2Receive > 0 ? <i className="number">{info.order2Receive}</i> : ''}</p>
                                 <p className="sub">待收货</p>
                             </a>
                         </li>
                         <li>
-                            <a href="/order">
+                            <a href="/user/order">
                                 <p className="icons evaluate">{info.order2Rate > 0 ? <i className="number">{info.order2Rate}</i> : ''}</p>
                                 <p className="sub">待评价</p>
                             </a>
                         </li>
                     </ul>
                     <div className="label-act">
-                        <a href="/order">
+                        <a href="/user/order">
                             <div className="ico all"></div>
                             <div className="title"><p>全部订单</p></div>
                             <div className="arrow"></div>

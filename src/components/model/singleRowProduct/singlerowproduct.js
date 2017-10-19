@@ -18,11 +18,10 @@ export default class SingleRowProduct extends Component {
             },
             screen: this.screenWidth(),
             width: this.createWidth(),
-            breadth: this.createWidth() * this.count + 2,
+            breadth: this.createWidth() * this.count,
             distance: 0, //touch事件移动的X轴距里
             startlate: 0, //touchstart开始时translateX的坐标点
-            movelate: 0,  //touchmove时translateX的坐标点
-            class: ""
+            movelate: 0  //touchmove时translateX的坐标点
         };
     }
 
@@ -37,7 +36,7 @@ export default class SingleRowProduct extends Component {
     handleResize = () => {
         const screen = this.screenWidth();
         const width = this.createWidth();
-        const breadth = width * this.count + 2;
+        const breadth = width * this.count;
 
         if (this.that) {
             this.setTransform(this.that, 0);
@@ -59,14 +58,19 @@ export default class SingleRowProduct extends Component {
         return Math.round(breadth / 4 + (breadth / 4) / this.count);
     }
 
-    setTransform(_node, late) {
-        _node.style.transform = 'translate3d(' + late + 'px, 0px, 0px)';
+    setTransform = (late, effect, bool) => {
+        if (bool) {
+            this.refs.singlemain.style.transition = "";
+        } else {
+            this.refs.singlemain.style.transform = 'translate3d(' + late + 'px, 0px, 0px)';
+            this.refs.singlemain.style.transition = effect;
+        }
     }
 
     handleStart = (e) => {
         e.stopPropagation();
 
-        let that = e.currentTarget;
+        let that = this.refs.singlemain;
         let touches = e.touches[0];
 
         //记录下来屏变时重置~
@@ -102,14 +106,13 @@ export default class SingleRowProduct extends Component {
         });
 
         if (this.state.startlate > 0) {
-            this.setTransform(that, this.state.startlate);
+            this.setTransform(this.state.startlate, "");
         }
     }
 
     handleMove = (e) => {
         e.stopPropagation();
 
-        let that = e.currentTarget;
         let { scroll, startlate, distance, movelate, breadth, screen, start } = this.state;
         let touches = e.touches[0];
 
@@ -147,13 +150,12 @@ export default class SingleRowProduct extends Component {
                 delta: delta
             });
 
-            this.setTransform(that, movelate);
+            this.setTransform(movelate, "");
         }
     }
 
     handleEnd = (e) => {
         let self = this;
-        let that = e.currentTarget;
         let { start, delta, movelate, distance, breadth, screen } = this.state;
 
         var duration = +new Date() - start.time;
@@ -163,16 +165,15 @@ export default class SingleRowProduct extends Component {
             duration = 0;
         }
 
-        this.setState({
-            class: "single-tranfast"
-        });
+        setTimeout(() => {
+            this.setTransform(0, 0, true);
+        }, 200);
 
         if (movelate > 0 && distance > 0 && pass) {
-            this.setTransform(that, 0);
+            this.setTransform(0, "0.2s ease 0s");
         } else if (Math.abs(movelate) >= (breadth - screen) && distance <= 0 && pass) {
-            this.setTransform(that, -(breadth - screen));
+            this.setTransform(-(breadth - screen), "0.2s ease 0s");
         } else {
-
             var where = 0;
 
             if (delta.x > 0) {
@@ -191,8 +192,8 @@ export default class SingleRowProduct extends Component {
 
             if (pass) {
                 setTimeout(function () {
-                    self.setTransform(that, where);
-                }, 0);
+                    self.setTransform(where, "0.2s ease 0s");
+                }, 2);
             }
         }
     }
@@ -228,7 +229,7 @@ export default class SingleRowProduct extends Component {
         return (
             <div className="model-single-product" data-id={data.templateid}>
                 <div className="single-product">
-                    <div className={"single-main " + this.state.class} {...bindEvents}>
+                    <div className="single-main" {...bindEvents} ref="singlemain">
                         <div className="single-list">
                             <div className="single-box cf" style={{ width: this.state.breadth }}>
                                 {createHTML}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../unit/header/header";
+import Header from "../model/header/header";
 import "./category.css";
 
 export default class Category extends Component {

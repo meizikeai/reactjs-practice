@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./header.css";
+import "./head.css";
 
-export default class Header extends Component {
+export default class head extends Component {
     constructor(props) {
         super(props);
 
@@ -48,7 +48,7 @@ export default class Header extends Component {
             <div className="model-home">
                 <div className="hold"></div>
                 <div className="main">
-                    <div className="header">
+                    <div className="head">
                         <div className="check-city" onClick={this.handleClick}>
                             <span>{this.state.city}</span>
                             <i></i>

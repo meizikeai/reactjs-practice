@@ -37,8 +37,13 @@ ReactDOM.render((
             <Route path="/category" component={Category} />
             <Route path="/cart" component={Cart} />
             <Route path="/checkOut" component={CheckOut} />
-            <Route path="/user" component={User} />
-            <Route path="/order" component={UserOrder} />
+            <Route exact path="/user" component={User} />
+            <Route path="/user/order" component={UserOrder} />
+            <Route path="/user/coupon" component={UserOrder} />
+            <Route path="/user/balance" component={UserOrder} />
+            <Route path="/user/phone" component={UserOrder} />
+            <Route path="/user/address" component={UserOrder} />
+            <Route path="/help" component={UserOrder} />
         </div>
     </Router>
 ), createRoot);

@@ -1,17 +1,17 @@
-.app-product {
+.app-productlist-class {
     width: 100%;
     height: 0.96rem;
     background-color: #fff;
 }
 
-.app-product .every {
+.app-productlist-class .every {
     float: left;
     width: 33.3333%;
     position: relative;
     height: 0.96rem;
 }
 
-.app-product .key {
+.app-productlist-class .key {
     display: block;
     height: 0.96rem;
     padding: 0.24rem 0;
@@ -21,7 +21,7 @@
     text-align: center
 }
 
-.app-product .key span {
+.app-productlist-class .key span {
     height: 0.48rem;
     line-height: 0.48rem;
     display: block;
@@ -29,11 +29,11 @@
     border-left: 1px solid #ededed;
 }
 
-.app-product .key:first-child {
+.app-productlist-class .first:first-child span {
     border-left: none;
 }
 
-.app-product .current span {
+.app-productlist-class .current span {
     font-weight: 500;
     color: #f50;
 }

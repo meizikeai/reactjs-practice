@@ -93,7 +93,3 @@
 .model-single-product .single-list .pro-none {
     display: none;
 }
-
-.model-single-product .single-tranfast {
-    transition: transform .3s cubic-bezier(0.333333, 0.666667, 0.666667, 1)
-}

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../../unit/header/header";
-import TipLayer from "../../unit/layer/layer";
+import Header from "../../model/header/header";
+import TipLayer from "../../model/layer/layer";
 
 import "./order.css";
 

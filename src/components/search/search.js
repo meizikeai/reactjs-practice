@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../unit/header/header";
-import Footer from "../unit/footer/footer";
+import Header from "../model/header/header";
+import Footer from "../model/footer/footer";
 import "./search.css";
 
 export default class Search extends Component {
@@ -80,7 +80,7 @@ export default class Search extends Component {
         let every = this.state.every;
         let result = every.map((item, index) => {
             return <div className="every" key={index} onClick={this.handleEvery.bind(this, item)}>
-                <div className={"key " + (index + 1 === this.state.initcode ? "current" : "")}>
+                <div className={"key" + (index === 0 ? " first" : "") + (index + 1 === this.state.initcode ? " current" : "")}>
                     <span>{item.name}</span>
                 </div>
             </div>

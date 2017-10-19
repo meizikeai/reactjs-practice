@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../unit/header/header";
-import Footer from "../unit/footer/footer";
+import Header from "../model/header/header";
+import Footer from "../model/footer/footer";
 import "./sale.css";
 
 export default class Sale extends Component {

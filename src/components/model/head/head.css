@@ -1,11 +1,11 @@
 .model-home {
     width: 100%;
-    height: 40px;
+    height: 1.1rem;
     background-color: #f50;
 }
 
 .model-home .hold {
-    height: 40px;
+    height: 1.1rem;
 }
 
 .model-home .main {
@@ -14,50 +14,49 @@
     left: 0px;
     z-index: 999;
     width: 100%;
-    height: 40px;
+    height: 1.1rem;
     color: #fff;
     background-color: #f50;
 }
 
-.model-home .header {
+.model-home .head {
     position: relative;
-    padding: 5px 0;
+    padding: .12rem 0;
 }
 
 .model-home .check-city {
     position: absolute;
     left: 0;
-    top: 5px;
-    width: 60px;
-    height: 30px;
-    padding-left: 5px;
+    top: .12rem;
+    height: .85rem;
+    padding-left: .14rem;
 }
 
 .model-home .check-city span {
     display: inline-block;
-    width: 32px;
-    height: 30px;
-    line-height: 30px;
+    height: .85rem;
+    line-height: .85rem;
+    padding-right: .1rem;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .model-home .check-city i {
     display: inline-block;
-    width: 18px;
-    height: 30px;
-    background: url(./arrowdown.png) -5px 3px/25px 25px no-repeat;
+    width: .45rem;
+    height: .85rem;
+    background: url(./arrowdown.png) -.18rem .05rem/.8rem .8rem no-repeat;
     vertical-align: middle;
 }
 
 .model-home .search {
-    height: 30px;
-    padding: 0 45px 0 65px;
+    height: .85rem;
+    padding: 0 1.25rem 0 1.8rem;
 }
 
 .model-home .circle {
-    height: 30px;
-    border-radius: 3px;
+    height: .85rem;
+    border-radius: .1rem;
     background-color: #fff;
     overflow: hidden;
     position: relative;
@@ -65,9 +64,9 @@
 
 .model-home .search-txt {
     width: 100%;
-    height: 30px;
-    padding-left: 5px;
-    padding-right: 45px;
+    height: .85rem;
+    padding-left: .15rem;
+    padding-right: 1.25rem;
     border: none;
 }
 
@@ -77,26 +76,26 @@
 
 .model-home .search-go {
     position: absolute;
-    right: 4px;
-    top: 2px;
-    width: 25px;
-    height: 25px;
-    padding-left: 5px;
+    right: .1rem;
+    top: .09rem;
+    width: .65rem;
+    height: .65rem;
+    padding-left: .15rem;
     border-left: 1px solid #ddd;
-    background: url(./search.png) 5px 0/25px 25px no-repeat;
+    background: url(./search.png) .1rem 0/.65rem .65rem no-repeat;
 }
 
 .model-home .user {
     position: absolute;
     right: 0;
-    top: 5px;
-    width: 40px;
-    height: 30px;
+    top: .12rem;
+    width: 1rem;
+    height: .85rem;
 }
 
 .model-home .user a {
     display: block;
-    width: 40px;
-    height: 30px;
-    background: url(./usercenter.png) 6.5px 1px/28px 28px no-repeat;
+    width: 1rem;
+    height: .85rem;
+    background: url(./usercenter.png) 0 0/.8rem .8rem no-repeat;
 }

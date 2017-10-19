@@ -4,7 +4,7 @@
 
 .app-footer .footer {
     width: 100%;
-    height: 44px;
+    height: 1.2rem;
     font-size: 12px;
     position: fixed;
     bottom: 0px;
@@ -13,7 +13,7 @@
 
 .app-footer .hold {
     width: 100%;
-    height: 44px;
+    height: 1.2rem;
     background: transparent;
 }
 
@@ -25,7 +25,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    box-shadow: 0 0 3px 0 rgba(155, 143, 143, 0.3);
+    box-shadow: 0 0 3px 0 rgba(155, 143, 143, .3);
     background-color: #fff
 }
 
@@ -38,7 +38,7 @@
 .app-footer .container ul li {
     float: left;
     width: 20%;
-    padding-top: 5px;
+    padding: .1rem 0;
     text-align: center;
     position: relative
 }
@@ -52,29 +52,15 @@
     display: block
 }
 
-.app-footer .container ul em {
-    position: absolute;
-    right: 15%;
-    top: 5px;
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
-    text-align: center;
-    font-size: 12px;
-    background-color: #f50;
-    border-radius: 10px;
-    color: #fff
-}
-
 .app-footer .container ul a i {
     display: block;
-    width: 18px;
-    height: 18px;
-    margin: 0 auto 2px
+    width: .5rem;
+    height: .5rem;
+    margin: 0 auto .08rem;
 }
 
 .app-footer .container ul a.home i {
-    width: 22px;
+    width: .56rem;
     background: url(./bar-default-home.png) 0 0/100% no-repeat;
 }
 
@@ -87,7 +73,7 @@
 }
 
 .app-footer .container ul a.cart i {
-    width: 20px;
+    width: .55rem;
     background: url(./bar-default-cart.png) 0 0/100% no-repeat;
 }
 

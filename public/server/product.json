@@ -3,6 +3,988 @@
     "statusCode": 200,
     "description": "",
     "data": {
-        
+        "seller": {
+            "enable": true,
+            "userId": 420567757,
+            "shopId": 61773004,
+            "shopName": "veromoda官方旗舰店",
+            "shopUrl": "//veromoda.m.tmall.com",
+            "allProduct": "//veromoda.m.tmall.com/shop/shop_auction_search.htm?sort=default",
+            "shopIcon": "//img.alicdn.com/imgextra//3b/44/TB1oLbdJFXXXXcEXpXXSutbFXXX.jpg",
+            "wwUrl": "http://im.m.taobao.com/ww/ad_ww_dialog.htm?item_num_id=551881638423&pds=wwseller%23h%23detail&to_user=dmVyb21vZGG52be9xuy9orXq",
+            "fans": null,
+            "certIcon": null,
+            "allItemCount": 2421,
+            "newItemCount": null,
+            "weitaoId": null,
+            "sellerType": "B",
+            "shopType": "B",
+            "evaluates": [
+                {
+                    "title": "宝贝描述",
+                    "score": "4.8 ",
+                    "type": "desc",
+                    "level": "1"
+                },
+                {
+                    "title": "卖家服务",
+                    "score": "4.8 ",
+                    "type": "serv",
+                    "level": "1"
+                },
+                {
+                    "title": "物流服务",
+                    "score": "4.8 ",
+                    "type": "post",
+                    "level": "1"
+                }
+            ],
+            "sellerNick": "veromoda官方旗舰店",
+            "creditLevel": null,
+            "tagIcon": null,
+            "shopTitleIcon": null,
+            "starts": "2010-06-11 09:23:53",
+            "goodRatePercentage": null,
+            "encryptSellerId": "UMmIWMFxuMG8u",
+            "certShopList": null
+        },
+        "item": {
+            "enable": true,
+            "itemId": 551881638423,
+            "title": "Vero Moda2017秋季新品印花A字裙摆七分袖连衣裙|31737C505",
+            "subtitle": "拼接，印花，七分袖，绑带，拉链",
+            "images": [
+                "//img.alicdn.com/imgextra/i4/420567757/TB1pVkdc_ZRMeJjSspnXXcJdFXa_!!0-item_pic.jpg",
+                "//img.alicdn.com/imgextra/i4/420567757/TB2KP4fuEhnpuFjSZFEXXX0PFXa-420567757.jpg",
+                "//img.alicdn.com/imgextra/i4/420567757/TB2JgNAuC8mpuFjSZFMXXaxpVXa-420567757.jpg",
+                "//img.alicdn.com/imgextra/i2/420567757/TB2GcHiq4XlpuFjSsphXXbJOXXa-420567757.jpg",
+                "//img.alicdn.com/imgextra/i2/420567757/TB2xMs8udFopuFjSZFHXXbSlXXa-420567757.jpg"
+            ],
+            "videos": null,
+            "categoryId": "50010850",
+            "rootCategoryId": "16",
+            "brandValueId": "null",
+            "logo": null,
+            "skuText": "请选择颜色分类 尺码 ",
+            "commentCount": null,
+            "favcount": 3350,
+            "tmallDescUrl": "http://mdetail.tmall.com/templates/pages/desc?id=551881638423",
+            "taobaoPcDescUrl": null,
+            "moduleDescUrl": null,
+            "moduleDescParams": null,
+            "h5moduleDescUrl": null,
+            "titleIcon": null,
+            "themeType": null,
+            "slogon": null,
+            "extData": {
+                "addressLevel": 2
+            }
+        },
+        "trade": {
+            "enable": true,
+            "buyEnable": true,
+            "cartEnable": true,
+            "buyText": null,
+            "cartText": null,
+            "redirectUrl": null,
+            "waitForStart": null,
+            "startTime": null,
+            "buyParam": null,
+            "hintBanner": null,
+            "tradeConfig": {
+                "1": "//h5.m.taobao.com/awp/base/order.htm",
+                "2": "//buy.m.tmall.com/order/confirmOrderWap.htm"
+            },
+            "tradeParams": {
+                "buyNow": "true",
+                "_input_charset": "utf-8"
+            },
+            "useTrade30": true,
+            "useNativeTrade": null
+        },
+        "rate": null,
+        "tabBar": {
+            "enable": true,
+            "rateListTabEnable": true,
+            "propertyTabEnable": false
+        },
+        "mock": {
+            "enable": true,
+            "trade": {
+                "enable": true,
+                "buyEnable": true,
+                "cartEnable": true,
+                "buyText": null,
+                "cartText": null,
+                "redirectUrl": null,
+                "waitForStart": null,
+                "startTime": null,
+                "buyParam": null,
+                "hintBanner": null,
+                "tradeConfig": null,
+                "tradeParams": null,
+                "useTrade30": null,
+                "useNativeTrade": null
+            },
+            "price": {
+                "price": {
+                    "priceMoney": null,
+                    "priceText": "699.00",
+                    "priceTitle": null,
+                    "lineThrough": null
+                },
+                "extraPrices": null
+            },
+            "skuCore": {
+                "sku2info": {
+                    "0": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 600
+                    },
+                    "3376068925875": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    },
+                    "3376068925877": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    },
+                    "3376068925876": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    },
+                    "3376068925879": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    },
+                    "3376068925878": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    },
+                    "3376068925880": {
+                        "price": {
+                            "priceMoney": 69900,
+                            "priceText": "699.00",
+                            "priceTitle": "价格",
+                            "lineThrough": null
+                        },
+                        "quantity": 100
+                    }
+                },
+                "skuItem": {
+                    "skuTitle": null,
+                    "hideQuantity": true
+                }
+            },
+            "skuBase": null,
+            "delivery": {
+                "from": null,
+                "to": null,
+                "areaId": null,
+                "postage": null
+            },
+            "feature": {
+                "hasSku": true,
+                "showSku": true
+            }
+        },
+        "skuBase": {
+            "enable": true,
+            "skus": [
+                {
+                    "skuId": 3376068925875,
+                    "propPath": "20509:397490054;1627207:801810489"
+                },
+                {
+                    "skuId": 3376068925876,
+                    "propPath": "20509:387654415;1627207:801810489"
+                },
+                {
+                    "skuId": 3376068925877,
+                    "propPath": "20509:387654416;1627207:801810489"
+                },
+                {
+                    "skuId": 3376068925878,
+                    "propPath": "20509:387654417;1627207:801810489"
+                },
+                {
+                    "skuId": 3376068925879,
+                    "propPath": "20509:39331866;1627207:801810489"
+                },
+                {
+                    "skuId": 3376068925880,
+                    "propPath": "20509:427664426;1627207:801810489"
+                }
+            ],
+            "props": [
+                {
+                    "pid": 20509,
+                    "name": "尺码",
+                    "values": [
+                        {
+                            "vid": 397490054,
+                            "name": "155/76A/XS",
+                            "image": null
+                        },
+                        {
+                            "vid": 387654415,
+                            "name": "160/80A/S",
+                            "image": null
+                        },
+                        {
+                            "vid": 387654416,
+                            "name": "165/84A/M",
+                            "image": null
+                        },
+                        {
+                            "vid": 387654417,
+                            "name": "170/88A/L",
+                            "image": null
+                        },
+                        {
+                            "vid": 39331866,
+                            "name": "175/92A/XL",
+                            "image": null
+                        },
+                        {
+                            "vid": 427664426,
+                            "name": "180/96A/XXL",
+                            "image": null
+                        }
+                    ]
+                },
+                {
+                    "pid": 1627207,
+                    "name": "颜色分类",
+                    "values": [
+                        {
+                            "vid": 801810489,
+                            "name": "E39深蓝色",
+                            "image": "//img.alicdn.com/imgextra/i3/420567757/TB2BWhyXTAKh1JjSZFDXXbKlFXa-420567757.jpg"
+                        }
+                    ]
+                }
+            ],
+            "components": null,
+            "skuExtra": {
+                "pickupPoints": null,
+                "tickets": null,
+                "enableDuration": null
+            }
+        },
+        "jumpUrl": {
+            "enable": true,
+            "apis": {
+                "barterUrl": "//suggest.taobao.com/sug?area=app_detail&nid=551881638423",
+                "skipEsi": "http://mdskip.m.tmall.com/mobile/queryH5Detail.htm",
+                "reqMemberUrl": "//vip.tmall.com/tm-member/superfans/index",
+                "cartUrl": "//h5.m.taobao.com/awp/base/cart.htm",
+                "addFavUrl": "//fav.m.tmall.com/to_collection.htm?xid=0db2&pds=addfav#h#detail&itemNumId=551881638423",
+                "statsUrl": "//go.mmstat.com/1.gif?logtype=2&category=cart_{loc}_50010850",
+                "reUrl": "//u.m.taobao.com/reg/newUser.htm?pds=reg%23h%23",
+                "memberShopUrl": "//vip.tmall.com/tm-member/superfans/index",
+                "rateUrl": "//rate.tmall.com/list_detail_rate.htm",
+                "propertyUrl": "//mdetail.tmall.com/mobile/itemPackage.do?itemId=551881638423",
+                "descUrl": "//dsc.taobaocdn.com/i7/550/880/551881638423/TB1Uo.SXr7U5uJjSZFF8quYHpla.desc%7Cvar%5Edesc%3Bsign%5E667df02df444e5992a8dc6e04a81700a%3Blang%5Egbk%3Bt%5E1508378049",
+                "recommendUrl": "//aldcdn.tmall.com/recommend.htm?appId=03126&itemId=551881638423",
+                "loginUrl": "//login.tmall.com/?",
+                "newSelectCityApi": "//mdskip.taobao.com/json/detailSelectCity.do?isAreaSell=false&itemId=551881638423",
+                "myUrl": "//h5.m.taobao.com/my/index.htm#!myTaobao",
+                "httpsDescUrl": "//desc.alicdn.com/i7/550/880/551881638423/TB1Uo.SXr7U5uJjSZFF8quYHpla.desc%7Cvar%5Edesc%3Bsign%5E667df02df444e5992a8dc6e04a81700a%3Blang%5Egbk%3Bt%5E1508378049",
+                "longTailUrl": "//aldcdn.tmall.com/recommend.htm ",
+                "logOutUrl": "//login.m.taobao.com/logout.htm?pds=logout%23h%23"
+            }
+        },
+        "props": {
+            "enable": true,
+            "groupProps": [
+                {
+                    "基本信息": [
+                        {
+                            "材质成分": "聚酯纤维100% "
+                        },
+                        {
+                            "销售渠道类型": "商场同款(线上线下都销售) "
+                        },
+                        {
+                            "货号": "31737C505 "
+                        },
+                        {
+                            "风格": "甜美 "
+                        },
+                        {
+                            "甜美": "瑞丽 "
+                        },
+                        {
+                            "裙长": "中裙 "
+                        },
+                        {
+                            "袖长": "七分袖 "
+                        },
+                        {
+                            "袖型": "其他 "
+                        },
+                        {
+                            "腰型": "中腰 "
+                        },
+                        {
+                            "衣门襟": "套头 "
+                        },
+                        {
+                            "裙型": "A字裙 "
+                        },
+                        {
+                            "图案": "大花 "
+                        },
+                        {
+                            "品牌": "Vero Moda "
+                        },
+                        {
+                            "面料": "其他 "
+                        },
+                        {
+                            "成分含量": "95%以上 "
+                        },
+                        {
+                            "材质": "涤纶 "
+                        },
+                        {
+                            "适用年龄": "25-29周岁 "
+                        },
+                        {
+                            "年份季节": "2017年秋季 "
+                        },
+                        {
+                            "颜色分类": "E39深蓝色 "
+                        },
+                        {
+                            "尺码": "155/76A/XS 160/80A/S 165/84A/M 170/88A/L 175/92A/XL 180/96A/XXL "
+                        }
+                    ]
+                }
+            ],
+            "propsList": null
+        },
+        "tags": {
+            "enable": true,
+            "tags": {
+                "isMemberShopItem": false,
+                "isBundleItem": false,
+                "canEditInItemDet": true,
+                "isAllowReport": true,
+                "isHiddenShopAction": true,
+                "useTrade30": true,
+                "isDownShelf": false,
+                "is0YuanBuy": false,
+                "isCarService": false,
+                "isChaoshi": false,
+                "isShowEcityBasicSign": false,
+                "isItemAllowSellerView": true,
+                "goNewAuctionFlow": false,
+                "isShowEcityVerticalSign": false,
+                "isHouseholdService": false,
+                "isSevenDaysRefundment": false,
+                "isVaccine": false,
+                "isHasPos": false,
+                "isAutoYushou": false,
+                "isOnePriceCar": false,
+                "isVitual3C": false,
+                "isFullCarSell": false,
+                "isHideAttentionBtn": false,
+                "isNABundleItem": false,
+                "showDiscountRecommend": false,
+                "enableAliMedicalComponent": true,
+                "isService": false,
+                "isOtcDrug": false,
+                "mlhNewDesc": false,
+                "isEnableAppleSku": true,
+                "isWTContract": false,
+                "isHkItem": false,
+                "isShowContentModuleTitle": false,
+                "isAreaSell": false,
+                "isH5NewLogin": true,
+                "isHkO2OItem": false,
+                "isSavingEnergy": false,
+                "showFushiPoiInfo": false,
+                "isCustomizedItem": false,
+                "isMeiz": false,
+                "globalSellItem": false,
+                "isShowEcityDesc": false,
+                "isSkuColorShow": false,
+                "autoccUser": false,
+                "isMenDianInventroy": false,
+                "isMeilihui": false,
+                "isLadderGroupon": false,
+                "isHidePoi": false,
+                "isNewAttraction": true,
+                "isPreSellBrand": false,
+                "loginBeforeCart": false,
+                "isAutoFinancing": false,
+                "showSuperMarketBuy": false,
+                "isPrescriptionDrug": false,
+                "isTmallComboSupport": false,
+                "isIFCShop": false,
+                "isAlicomMasterCard": false,
+                "isCarCascade": false,
+                "isSkuMemorized": false,
+                "isTeMai": false,
+                "allowRate": true,
+                "isShowPreClosed": false,
+                "isO2OStaging": false,
+                "isPurchaseMallVipBuyer": false,
+                "cdn75": false,
+                "isNewMedical": false,
+                "isCarYuEBao": false,
+                "isCyclePurchase": false,
+                "isAliTelecomNew": false,
+                "show9sVideo": true,
+                "isHkDirectSale": false,
+                "tryReportDisable": false,
+                "isB2Byao": false,
+                "isRegionLevel": false,
+                "isContractPhoneItem": false,
+                "supermarketAndQianggou": false,
+                "isZhengChe": false,
+                "isDianZiMendian": false,
+                "isNextDayService": false,
+                "timeKillAuction": false
+            }
+        },
+        "traceDatas": {
+            "mods/module-pintuan/index": {
+                "module": "pintuan"
+            },
+            "mods/module-hko2o/index": {
+                "module": "hko2o"
+            },
+            "mods/module-title/index": {
+                "module": "title"
+            },
+            "mods/module-coupon/index": {
+                "module": "CouponInfo"
+            },
+            "mods/module-prom/index": {
+                "module": "Promotion"
+            }
+        },
+        "detailDesc": {},
+        "syncModules": [
+            "mods/module-preview/index",
+            "mods/module-jhs/index",
+            "mods/module-focus/index",
+            "mods/module-from/index",
+            "mods/module-text/index",
+            "mods/module-title/index",
+            "mods/module-price/index",
+            "mods/module-adds/index",
+            "mods/module-atmosphere/index",
+            "mods/module-coupon/index",
+            "mods/module-prom/index",
+            "mods/module-advantage/index",
+            "mods/module-sku/index",
+            "mods/module-related/index",
+            "mods/module-shop/index",
+            "mods/module-review/index",
+            "mods/module-recommend/index",
+            "mods/module-smartjump/index",
+            "mods/module-app-download-popup/index",
+            "mods/module-recommend-down/index"
+        ]
+    },
+    "details": {
+        "addressData": {
+            "currentAreaEnable": true,
+            "success": true,
+            "useNewRegionalSales": true
+        },
+        "buyer": {
+            "tmallMemberLevel": 0
+        },
+        "consumerProtection": {
+            "items": [
+                {
+                    "desc": "该商品由中国人保承保正品保证险",
+                    "serviceId": 3838,
+                    "title": "正品保证",
+                    "type": 0
+                },
+                {
+                    "desc": "极速退款是为诚信会员提供的退款退货流程的专享特权，额度是根据每个用户当前的信誉评级情况而定",
+                    "serviceId": 2979,
+                    "title": "极速退款",
+                    "type": 0
+                },
+                {
+                    "desc": "消费者保障服务，卖家承诺7天退换",
+                    "serviceId": 2973,
+                    "title": "七天退换",
+                    "type": 0
+                }
+            ],
+            "params": "155:3838,2979,2973",
+            "passValue": "none",
+            "strength": "normal"
+        },
+        "debugData": {},
+        "delivery": {
+            "areaId": 110101,
+            "areaSell": false,
+            "completedTo": "北京 北京市 东城区",
+            "from": "天津",
+            "overseaContraBandFlag": false,
+            "postage": "快递: 6.00",
+            "to": "东城区"
+        },
+        "extendedData": {},
+        "feature": {
+            "makeup": false,
+            "renovation": false,
+            "hasAddCartCoudan": false,
+            "isDonateItem": false,
+            "showCuntaoTag": false,
+            "recommendReason": false,
+            "switchToOldApp": false,
+            "useMeiLiHuiPrice": false,
+            "hideShopDsr": false,
+            "hasCombo": false,
+            "o2O": false,
+            "pricedCoupon": false,
+            "hasCoupon": false,
+            "cainiaoNoramal": true,
+            "showSku": true,
+            "showShopCard": false,
+            "showYaoDai": false,
+            "nabundleItem": false,
+            "hasSku": true,
+            "bundleItem": false,
+            "showTmallApp": false,
+            "hasNewCombo": false,
+            "hasCartRecommend": false,
+            "noShareGroup": true,
+            "fmcgRecommend": false,
+            "hasBrandScene": false,
+            "isXinxuan": false,
+            "superActTime": false,
+            "hasAddTmallCartCoudan": false,
+            "hasApparelIcon": false,
+            "multistage": false,
+            "hasQualification": false,
+            "openGradient": false,
+            "isTspace": false,
+            "hasIntervalPrice": true,
+            "hotItem": false,
+            "hasMeal": false,
+            "shareGroup": false,
+            "showSMww": false,
+            "includeSkuData": true,
+            "waitForStart": false,
+            "hideSMww": false
+        },
+        "item": {
+            "descType": 0,
+            "infoText": {},
+            "itemId": 551881638423,
+            "sellCount": 55,
+            "showShopActivitySize": 2,
+            "skuText": "请选择颜色分类/尺码",
+            "title": "Vero Moda2017秋季新品印花A字裙摆七分袖连衣裙|31737C505",
+            "videoDetail": {},
+            "videos": []
+        },
+        "layout": {
+            "moduleScene": {},
+            "success": true
+        },
+        "modules": [
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-preview/index",
+                "name": "商品主预览图"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-jhs/index",
+                "name": "聚划算信息"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-focus/index",
+                "name": "大促氛围(主图处)"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-from/index",
+                "name": "来源地信息"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-title/index",
+                "name": "商品标题"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-price/index",
+                "name": "商品价格"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-adds/index",
+                "name": "快递信息发货地"
+            },
+            {
+                "data": {},
+                "groupId": "1",
+                "key": "mods/module-atmosphere/index",
+                "name": "大促氛围(物流信息处）"
+            },
+            {
+                "data": {},
+                "groupId": "4",
+                "key": "mods/module-coupon/index",
+                "name": "购物券信息"
+            },
+            {
+                "data": {},
+                "groupId": "4",
+                "key": "mods/module-prom/index",
+                "name": "优惠活动信息"
+            },
+            {
+                "data": {},
+                "groupId": "4",
+                "key": "mods/module-advantage/index",
+                "name": "商品服务信息"
+            },
+            {
+                "data": {},
+                "groupId": "5",
+                "key": "mods/module-sku/index",
+                "name": "sku模块"
+            },
+            {
+                "data": {},
+                "groupId": "",
+                "key": "mods/module-related/index",
+                "name": "相关版本"
+            },
+            {
+                "data": {},
+                "groupId": "6",
+                "key": "mods/module-review/index",
+                "name": "同步评价模块"
+            },
+            {
+                "data": {},
+                "groupId": "7",
+                "key": "mods/module-shop/index",
+                "name": "店铺模块",
+                "version": ""
+            },
+            {
+                "data": {},
+                "key": "mods/module-recommend/index",
+                "name": "商品推荐"
+            },
+            {
+                "data": {},
+                "key": "mods/module-smartjump/index",
+                "name": "smartjump",
+                "version": "4.1.21"
+            },
+            {
+                "data": {},
+                "key": "mods/module-app-download-popup/index",
+                "name": "app下载弹层",
+                "version": "4.0.11"
+            },
+            {
+                "data": {},
+                "key": "mods/module-recommend-down/index",
+                "name": "下架商品推荐"
+            },
+            {
+                "data": {},
+                "groupId": "desc",
+                "key": "detail-mods/desc/index",
+                "name": "详情自定义模块",
+                "version": "4.0.1"
+            }
+        ],
+        "otherInfo": {
+            "bucketId": 14,
+            "success": true,
+            "systemTime": "1508401286973"
+        },
+        "params": {
+            "trackParams": {
+                "shop_id": "61773004",
+                "abtest": ""
+            }
+        },
+        "price": {
+            "price": {
+                "priceText": "699"
+            },
+            "shopProm": [
+                {
+                    "activityId": 4805290417,
+                    "content": [
+                        "满1件,送50元优惠券",
+                        "满2件,享部分地区包邮,送50元优惠券"
+                    ],
+                    "iconText": "促销",
+                    "period": "2017.10.14-2017.10.22",
+                    "title": "2件包邮 送优惠券",
+                    "type": 3
+                },
+                {
+                    "activityId": 0,
+                    "content": [
+                        "购买可得349积分"
+                    ],
+                    "iconText": "积分",
+                    "title": "购买可得349积分",
+                    "type": 5
+                }
+            ]
+        },
+        "resource": {
+            "coupon": {},
+            "entrances": {}
+        },
+        "skuBase": {
+            "props": [
+                {
+                    "name": "颜色分类",
+                    "pid": 1627207,
+                    "values": [
+                        {
+                            "image": "//gw.alicdn.com/bao/uploaded/i3/420567757/TB2BWhyXTAKh1JjSZFDXXbKlFXa-420567757.jpg",
+                            "name": "E39深蓝色",
+                            "vid": 801810489
+                        }
+                    ]
+                },
+                {
+                    "name": "尺码",
+                    "pid": 20509,
+                    "values": [
+                        {
+                            "name": "155/76A/XS",
+                            "vid": 397490054
+                        },
+                        {
+                            "name": "160/80A/S",
+                            "vid": 387654415
+                        },
+                        {
+                            "name": "165/84A/M",
+                            "vid": 387654416
+                        },
+                        {
+                            "name": "170/88A/L",
+                            "vid": 387654417
+                        },
+                        {
+                            "name": "175/92A/XL",
+                            "vid": 39331866
+                        },
+                        {
+                            "name": "180/96A/XXL",
+                            "vid": 427664426
+                        }
+                    ]
+                }
+            ],
+            "skus": [
+                {
+                    "propPath": "1627207:801810489;20509:397490054",
+                    "skuId": 3376068925875
+                },
+                {
+                    "propPath": "1627207:801810489;20509:387654415",
+                    "skuId": 3376068925876
+                },
+                {
+                    "propPath": "1627207:801810489;20509:387654416",
+                    "skuId": 3376068925877
+                },
+                {
+                    "propPath": "1627207:801810489;20509:387654417",
+                    "skuId": 3376068925878
+                },
+                {
+                    "propPath": "1627207:801810489;20509:39331866",
+                    "skuId": 3376068925879
+                },
+                {
+                    "propPath": "1627207:801810489;20509:427664426",
+                    "skuId": 3376068925880
+                }
+            ]
+        },
+        "skuCore": {
+            "sku2info": {
+                "3376068925875": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 382
+                },
+                "0": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 1853
+                },
+                "3376068925877": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 586
+                },
+                "3376068925876": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 634
+                },
+                "3376068925880": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 0
+                },
+                "3376068925879": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 22
+                },
+                "3376068925878": {
+                    "price": {
+                        "priceMoney": 69900,
+                        "priceText": "699"
+                    },
+                    "quantity": 229
+                }
+            },
+            "skuItem": {
+                "hideQuantity": false,
+                "location": "东城区",
+                "showAddress": false
+            }
+        },
+        "skuVertical": {
+            "installment": {
+                "enable": true,
+                "period": [
+                    {
+                        "count": 3,
+                        "couponPrice": 0,
+                        "ratio": 0.023
+                    },
+                    {
+                        "count": 6,
+                        "couponPrice": 0,
+                        "ratio": 0.045
+                    },
+                    {
+                        "count": 12,
+                        "couponPrice": 0,
+                        "ratio": 0.075
+                    }
+                ],
+                "title": "花呗分期（可选）"
+            }
+        },
+        "trade": {
+            "buyEnable": true,
+            "cartConfirmEnable": true,
+            "cartEnable": true,
+            "isWap": true,
+            "tradeParams": {}
+        },
+        "userInfo": {
+            "activeStatus": 0,
+            "companyPurchaseUser": false,
+            "loginMember": false,
+            "loginUserType": "buyer",
+            "success": true,
+            "userId": 0
+        },
+        "vertical": {
+            "askAll": {
+                "answerIcon": "https://img.alicdn.com/tps/TB1Z7c2LXXXXXXmaXXXXXXXXXXX-132-42.png",
+                "answerText": "不怕冷，可以的。。",
+                "askIcon": "https://img.alicdn.com/tps/TB1tVU6PpXXXXXFaXXXXXXXXXXX-102-60.png",
+                "askText": "冬天可以穿吗？",
+                "linkUrl": "//h5.m.taobao.com/wendajia/question.htm?itemId=551881638423&wdjType=1",
+                "modelList": [
+                    {
+                        "answerCountText": "4个回答",
+                        "askText": "冬天可以穿吗？",
+                        "firstAnswer": "不怕冷，可以的。。"
+                    },
+                    {
+                        "answerCountText": "3个回答",
+                        "askText": "下摆掉色会染上上衣吗",
+                        "firstAnswer": "不掉色"
+                    }
+                ],
+                "questNum": 12,
+                "showNum": 1,
+                "title": "问大家(12)"
+            },
+            "cuntao": {
+                "success": true
+            },
+            "freshFood": {
+                "nationalFlag": "//g.alicdn.com/mui/flag-img/circle@2x/CN.png"
+            }
+        }
     }
 }

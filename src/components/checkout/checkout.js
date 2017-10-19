@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import Header from "../unit/header/header";
-// import Footer from "../unit/footer/footer";
+import Header from "../model/header/header";
+// import Footer from "../model/footer/footer";
 
 export default class Checkout extends Component {
     constructor(props) {

@@ -25,6 +25,7 @@
 }
 
 .app-user-order-list .user-order-list {
+    padding-top: 0.15rem;
     background-color: #eee;
 }
 
