@@ -3,8 +3,9 @@ import "whatwg-fetch";
 
 import Header from "../../model/header/header";
 import Footer from "../../model/footer/footer";
-import Download from "../../model/download/download";
-import TipLayer from "../../model/layer/layer";
+
+import ModelLayer from "../../model/model-layer/model-layer";
+import ModelDownload from "../../model/model-download/model-download";
 
 import "./index.css";
 
@@ -147,8 +148,8 @@ export default class Index extends Component {
                 <Header title="用户中心" />
                 {createTemplate}
                 <Footer path={this.props.location.pathname} />
-                <Download />
-                <TipLayer />
+                <ModelDownload />
+                <ModelLayer />
             </div>
         );
     }

@@ -1,0 +1,42 @@
+.block-carousel-figure {
+    width: 100%;
+    position: relative;
+}
+
+.block-carousel-figure .category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block-carousel-figure a, .block-carousel-figure img {
+    width: 100%;
+    display: block;
+}
+
+.block-carousel-figure .marker {
+    width: 100%;
+    bottom: .2rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-carousel-figure .pointer {
+    display: inline-block;
+    background: #f5734b;
+    width: .16rem;
+    height: .16rem;
+    border-radius: 100%;
+    margin: 0 .1rem;
+}
+
+.block-carousel-figure .default {
+    display: inline-block;
+    background: #ccc;
+    width: .16rem;
+    height: .16rem;
+    border-radius: 100%;
+    margin: 0 .1rem;
+}

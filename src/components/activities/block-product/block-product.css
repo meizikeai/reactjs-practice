@@ -1,0 +1,97 @@
+.block-product {
+    width: 100%;
+}
+
+.block-product .product-double {
+    margin: .2rem .2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-product .product-double .every {
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+
+.block-product .product-double .pro-one {
+    display: block;
+    margin-right: .1rem;
+    position: relative;
+    background-color: #fff;
+}
+
+.block-product .product-double .pro-one.pro-line {
+    margin-right: 0;
+    margin-left: .1rem;
+}
+
+.block-product .product-double .pro-img {
+    text-align: center;
+}
+
+.block-product .product-double .pro-img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.block-product .product-double .pro-like {
+    margin: 0 .2rem;
+}
+
+.block-product .product-double .pro-name {
+    height: 1rem;
+    line-height: 0.5rem;
+    margin: 0.1rem 0 0;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    color: #333
+}
+
+.block-product .product-double .pro-price {
+    margin-bottom: .1rem;
+}
+
+.block-product .product-double .pro-price .sell {
+    margin-right: 0.1rem;
+    color: #f50;
+}
+
+.block-product .product-double .pro-price .sell b {
+    font-size: 16px
+}
+
+.block-product .product-double .pro-price .market {
+    color: #666
+}
+
+.block-product .product-double .pro-sales {
+    padding-bottom: 0.2rem;
+    text-align: center;
+    clear: both;
+}
+
+.block-product .product-double .pro-sales span {
+    display: block;
+    padding: 0.15rem 0;
+    border-radius: 0.1rem;
+    background-color: #f50;
+    color: #fff;
+}
+
+.block-product .product-double .pro-prom {
+    position: absolute;
+    top: .2rem;
+    right: 0;
+    padding: 0.08rem 0.1rem;
+    background-color: #f50;
+    color: #fff
+}
+
+.block-product .product-double .pro-none {
+    display: none;
+}

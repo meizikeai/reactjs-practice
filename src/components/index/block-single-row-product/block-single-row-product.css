@@ -1,0 +1,94 @@
+.block-single-row-product {
+    width: 100%;
+}
+
+.block-single-row-product .single-product {
+    overflow: hidden;
+}
+
+.block-single-row-product .single-list {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.block-single-row-product .single-list .single-box {
+    padding-left: 2px;
+}
+
+.block-single-row-product .single-list .pro-one {
+    float: left;
+    padding: 0 2px 0 0;
+}
+
+.block-single-row-product .single-list .pro-img {
+    position: relative;
+    text-align: center
+}
+
+.block-single-row-product .single-list .pro-img a {
+    display: block;
+}
+
+.block-single-row-product .single-list .pro-img img {
+    width: 100%;
+    display: block;
+}
+
+.block-single-row-product .single-list .pro-img i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 24px;
+    background: url(./hot.png) 0 0/100% no-repeat
+}
+
+.block-single-row-product .single-list .pro-like {
+    background-color: #fff;
+}
+
+.block-single-row-product .single-list .pro-name {
+    text-align: center;
+    padding: 4px auto 0;
+    color: #f50;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.block-single-row-product .single-list .pro-price {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.block-single-row-product .single-list .pro-price.phone-enjoy {
+    padding-left: 14px;
+    background: url(./phone.png) 0 0 no-repeat;
+    background-size: 13px;
+}
+
+.block-single-row-product .single-list .pro-price span {
+    display: block
+}
+
+.block-single-row-product .single-list .pro-price .sell {
+    font-size: 12px;
+    color: #666;
+}
+
+.block-single-row-product .single-list .pro-price .market {
+    color: #666
+}
+
+.block-single-row-product .single-list .pro-prom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.1rem;
+    font-size: 12px;
+    background-color: #f50;
+    color: #fff
+}
+
+.block-single-row-product .single-list .pro-none {
+    display: none;
+}

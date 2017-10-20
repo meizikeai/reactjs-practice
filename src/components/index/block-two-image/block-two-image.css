@@ -1,0 +1,28 @@
+.block-two-image {
+    width: 100%;
+}
+
+.block-two-image .picture {
+    display: flex;
+}
+
+.block-two-image .picture > div {
+    flex: 1;
+}
+
+.block-two-image .picture a {
+    display: block;
+}
+
+.block-two-image .picture img {
+    width: 100%;
+    display: block;
+}
+
+.block-two-image .picture .picture-1 {
+    border-right: 1px solid transparent;
+}
+
+.block-two-image .picture .picture-2 {
+    border-left: 1px solid transparent;
+}

@@ -1,0 +1,34 @@
+.block-area-five-icon {
+    width: 100%;
+}
+
+.block-area-five-icon .five-img {
+    display: flex;
+    background-color: #fff
+}
+
+.block-area-five-icon a {
+    width: 20%;
+    flex: 1;
+}
+
+.block-area-five-icon div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block-area-five-icon img {
+    width: 100%;
+    display: block;
+}
+
+.block-area-five-icon p {
+    height: 16px;
+    margin: 4px auto 8px;
+    text-align: center;
+    overflow: hidden
+}
+
+.block-area-five-icon div a {
+    color: #666
+}

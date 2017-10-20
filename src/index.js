@@ -30,7 +30,7 @@ ReactDOM.render((
             <Route exact path="/" component={App} />
             <Route path="/search" component={Search} />
             <Route path="/product" component={Product} />
-            <Route path="/productList" component={ProductList} />
+            <Route path="/productlist" component={ProductList} />
             <Route path="/activities" component={Activities} />
             <Route path="/city" component={City} />
             <Route path="/sale" component={Sale} />

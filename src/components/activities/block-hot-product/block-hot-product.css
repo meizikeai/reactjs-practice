@@ -1,0 +1,66 @@
+.block-hot-product {
+    width: 100%;
+}
+
+.block-hot-product .product {
+    margin: 0 .2rem 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.1rem 0 0 0.1rem;
+    overflow: hidden;
+}
+
+.block-hot-product .product .every {
+    width: 33.3333%;
+}
+
+.block-hot-product .product .pro-one {
+    display: block;
+    position: relative;
+    background-color: #fff;
+}
+
+.block-hot-product .product .pro-img {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.block-hot-product .product .pro-img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.block-hot-product .product .pro-name {
+    overflow: hidden;
+    padding: 0 0.2rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    color: #333;
+    text-align: center;
+}
+
+.block-hot-product .product .pro-price {
+    padding: 0.1rem 0.2rem;
+    text-align: center;
+}
+
+.block-hot-product .product .pro-price span {
+    color: #f50;
+}
+
+.block-hot-product .product .pro-sales {
+    padding: 0 0.2rem 0.2rem;
+    text-align: center;
+    clear: both;
+}
+
+.block-hot-product .product .pro-sales span {
+    display: inline-block;
+    padding: 0.05rem 0.3rem;
+    border-radius: 1rem;
+    background-color: #f50;
+    color: #fff;
+}

@@ -3,5 +3,219 @@
     "statusCode": 200,
     "description": "",
     "data": {
+        "pageId": "30002232",
+        "pageTitle": "双11全球美味捕获者",
+        "bgcolor": "#0d3d17",
+        "template": [
+            {
+                "templateid": 20022618,
+                "templatename": "推广图",
+                "templatetype": "OneImage",
+                "requestdate": 1504688073945,
+                "sort": 1,
+                "items": [
+                    {
+                        "itemid": "21034936",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "内衣",
+                        "imgurl": "/images/activities-01.webp",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20022619,
+                "templatename": "推广图",
+                "templatetype": "OneImage",
+                "requestdate": 1504688073945,
+                "sort": 1,
+                "items": [
+                    {
+                        "itemid": "21034936",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "内衣",
+                        "imgurl": "/images/activities-02.webp",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20022522,
+                "templatename": "热推产品",
+                "templatetype": "hotProduct",
+                "requestdate": 1504688073945,
+                "sort": 3,
+                "items": [
+                    {
+                        "sku": "20-188-0046",
+                        "title": "奶蓟草片",
+                        "img": "/images/product-min-01.jpg",
+                        "price": 799.00,
+                        "sales": "抢5倍膨胀",
+                        "sort": 1
+                    },
+                    {
+                        "sku": "20-188-0047",
+                        "title": "维骨力关节灵",
+                        "img": "/images/product-min-02.jpg",
+                        "price": 899.00,
+                        "sales": "高端关节养护",
+                        "sort": 2
+                    },
+                    {
+                        "sku": "20-188-0048",
+                        "title": "蜂胶润喉糖",
+                        "img": "/images/product-min-01.jpg",
+                        "price": 499.00,
+                        "sales": "润喉舒咽清凉",
+                        "sort": 3
+                    },
+                    {
+                        "sku": "20-188-0046",
+                        "title": "新谷金装酵素",
+                        "img": "/images/product-min-02.jpg",
+                        "price": 799.00,
+                        "sales": "津贴400减50",
+                        "sort": 4
+                    },
+                    {
+                        "sku": "20-188-0047",
+                        "title": "雀巢咖啡",
+                        "img": "/images/product-min-01.jpg",
+                        "price": 899.00,
+                        "sales": "下单加赠4条",
+                        "sort": 5
+                    },
+                    {
+                        "sku": "20-188-0048",
+                        "title": "善存维生素",
+                        "img": "/images/product-min-02.jpg",
+                        "price": 499.00,
+                        "sales": "第2件尾款0元",
+                        "sort": 6
+                    }
+                ]
+            },
+            {
+                "templateid": 20022619,
+                "templatename": "推广图",
+                "templatetype": "OneImage",
+                "requestdate": 1504688073945,
+                "sort": 1,
+                "items": [
+                    {
+                        "itemid": "21034936",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "内衣",
+                        "imgurl": "/images/activities-03.webp",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20022617,
+                "templatename": "小活动",
+                "templatetype": "TwoImage",
+                "requestdate": 1504688073945,
+                "sort": 2,
+                "items": [
+                    {
+                        "id": "21034934",
+                        "height": 206,
+                        "width": 319,
+                        "imgname": "运动",
+                        "imgurl": "/images/brand-03.png",
+                        "jumpurl": "/productList?condition=10000655&title=做爱做的事",
+                        "sort": 1
+                    },
+                    {
+                        "id": "21034935",
+                        "height": 206,
+                        "width": 319,
+                        "imgname": "女装",
+                        "imgurl": "/images/brand-04.png",
+                        "jumpurl": "/productList?condition=10000655&title=做爱做的事",
+                        "sort": 2
+                    }
+                ]
+            },
+            {
+                "templateid": 20022619,
+                "templatename": "推广图",
+                "templatetype": "OneImage",
+                "requestdate": 1504688073945,
+                "sort": 1,
+                "items": [
+                    {
+                        "itemid": "21034936",
+                        "height": 140,
+                        "width": 640,
+                        "imgname": "内衣",
+                        "imgurl": "/images/activities-04.webp",
+                        "jumpurl": "",
+                        "sort": 1
+                    }
+                ]
+            },
+            {
+                "templateid": 20022522,
+                "templatename": "产品列表",
+                "templatetype": "Product",
+                "requestdate": 1504688073945,
+                "sort": 4,
+                "items": [
+                    {
+                        "sku": "20-188-0046",
+                        "title": "三只松鼠坚果大礼包零食干果组合特产礼盒8袋 F套餐 G套餐 H套餐 J套餐 K套餐",
+                        "price": 599.00,
+                        "market": 1000.00,
+                        "img": "/images/product-min-01.jpg",
+                        "brand": "/images/brand-01.png",
+                        "sales": "满199-20元",
+                        "feature": "满减",
+                        "sort": 1
+                    },
+                    {
+                        "sku": "20-188-0047",
+                        "title": "御泥坊鲜嫩美莓面膜贴套装亮肤收缩毛孔玻尿酸补水保湿女",
+                        "price": 899.00,
+                        "market": 1000.00,
+                        "img": "/images/product-min-02.jpg",
+                        "brand": "/images/brand-02.png",
+                        "sales": "领券399减20",
+                        "feature": "赠送",
+                        "sort": 2
+                    },
+                    {
+                        "sku": "20-188-0048",
+                        "title": "美多丝水疗素洗发乳护发素滋养头皮柔顺护理精油洗护套餐",
+                        "price": 699.00,
+                        "market": 1000.00,
+                        "img": "/images/product-min-02.jpg",
+                        "brand": "/images/brand-03.png",
+                        "sales": "全场5折起",
+                        "feature": "",
+                        "sort": 3
+                    },
+                    {
+                        "sku": "20-188-0048",
+                        "title": "方广宝宝面条婴幼儿无盐面1段450g*3盒儿童营养辅食面6-36个月",
+                        "price": 699.00,
+                        "market": 1000.00,
+                        "img": "/images/product-min-01.jpg",
+                        "brand": "/images/brand-04.png",
+                        "sales": "全场5折起",
+                        "feature": "特价",
+                        "sort": 4
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -1,0 +1,25 @@
+.block-three-image-abreast {
+    width: 100%;
+}
+
+.block-three-image-abreast .picture {
+    display: flex;
+}
+
+.block-three-image-abreast .picture a {
+    display: block;
+}
+
+.block-three-image-abreast .picture a img {
+    width: 100%;
+    display: block;
+}
+
+.block-three-image-abreast .picture div {
+    flex: 1;
+}
+
+.block-three-image-abreast .picture .picture-2 {
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}

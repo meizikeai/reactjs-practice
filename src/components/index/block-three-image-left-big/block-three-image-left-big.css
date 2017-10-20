@@ -1,0 +1,37 @@
+.block-three-image-left-big {
+    width: 100%;
+}
+
+.block-three-image-left-big .picture {
+    display: flex;
+}
+
+.block-three-image-left-big .picture > div {
+    flex: 1;
+    width: 50%;
+}
+
+.block-three-image-left-big .picture a {
+    display: block;
+}
+
+.block-three-image-left-big .picture a img {
+    width: 100%;
+    display: block;
+}
+
+.block-three-image-left-big .picture .picture-1 {
+    border-right: 1px solid transparent;
+}
+
+.block-three-image-left-big .picture .picture-2 {
+    border-left: 1px solid transparent;
+}
+
+.block-three-image-left-big .picture .picture-2 .picture-2-1 {
+    border-bottom: 0.5px solid transparent;
+}
+
+.block-three-image-left-big .picture .picture-2 .picture-2-2 {
+    border-top: 0.5px solid transparent;
+}

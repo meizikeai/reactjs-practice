@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "whatwg-fetch";
 
 import Header from "../../model/header/header";
-import TipLayer from "../../model/layer/layer";
+import ModelLayer from "../../model/model-layer/model-layer";
 
 import "./order.css";
 
@@ -234,7 +234,7 @@ export default class Index extends Component {
                 <Header title="订单管理" />
                 {createTitle}
                 {createTemplate}
-                <TipLayer />
+                <ModelLayer />
             </div>
         );
     }

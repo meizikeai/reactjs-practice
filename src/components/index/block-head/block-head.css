@@ -1,0 +1,98 @@
+.block-head {
+    width: 100%;
+}
+
+.block-head .hold {
+    height: 1.1rem;
+}
+
+.block-head .main {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    color: #fff;
+    background-color: #f50;
+}
+
+.block-head .head {
+    position: relative;
+    padding: .12rem 0;
+}
+
+.block-head .check-city {
+    position: absolute;
+    left: 0;
+    top: .12rem;
+    height: .85rem;
+    padding-left: .14rem;
+}
+
+.block-head .check-city span {
+    display: inline-block;
+    height: .85rem;
+    line-height: .85rem;
+    padding-right: .1rem;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.block-head .check-city i {
+    display: inline-block;
+    width: .45rem;
+    height: .85rem;
+    background: url(./arrowdown.png) -.18rem .05rem/.8rem .8rem no-repeat;
+    vertical-align: middle;
+}
+
+.block-head .search {
+    height: .85rem;
+    padding: 0 1.25rem 0 1.8rem;
+}
+
+.block-head .circle {
+    height: .85rem;
+    border-radius: .1rem;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.block-head .search-txt {
+    width: 100%;
+    height: .85rem;
+    padding-left: .15rem;
+    padding-right: 1.25rem;
+    border: none;
+}
+
+.block-head .search-txt::-webkit-input-placeholder {
+    color: #cacaca;
+}
+
+.block-head .search-go {
+    position: absolute;
+    right: .1rem;
+    top: .09rem;
+    width: .65rem;
+    height: .65rem;
+    padding-left: .15rem;
+    border-left: 1px solid #ddd;
+    background: url(./search.png) .1rem 0/.65rem .65rem no-repeat;
+}
+
+.block-head .user {
+    position: absolute;
+    right: 0;
+    top: .12rem;
+    width: 1rem;
+    height: .85rem;
+}
+
+.block-head .user a {
+    display: block;
+    width: 1rem;
+    height: .85rem;
+    background: url(./usercenter.png) 0 0/.8rem .8rem no-repeat;
+}

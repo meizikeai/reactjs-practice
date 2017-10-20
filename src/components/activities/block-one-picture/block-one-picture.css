@@ -1,0 +1,12 @@
+.block-one-picture {
+    width: 100%;
+}
+
+.block-one-picture a {
+    display: block;
+}
+
+.block-one-picture img {
+    display: block;
+    width: 100%;
+}

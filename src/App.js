@@ -1,27 +1,32 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
 
-import HomeHeader from "./components/model/head/head";
 import Footer from "./components/model/footer/footer";
-import CarouselFigure from "./components/model/carouselFigure/carouselfigure";
-import AreaFiveImg from "./components/model/areaFiveImg/areafiveimg";
-import HaveSpace from "./components/model/haveSpace/havespace";
-import OneImage from "./components/model/oneImage/oneimage";
-import OneTitle from "./components/model/oneTitle/onetitle";
-import TwoImage from "./components/model/twoImage/twoimage";
-import ThreeImageLeftBig from "./components/model/threeImageLeftBig/threeimageleftbig";
-import ThreeImageRightBig from "./components/model/threeImageRightBig/threeimagerightbig";
-import ThreeImageAbreast from "./components/model/threeImageAbreast/threeimageabreast";
-import DoubleProduct from "./components/model/doubleProduct/doubleproduct";
-import SingleRowProduct from "./components/model/singleRowProduct/singlerowproduct";
-import Download from "./components/model/download/download";
+import ModelEmpty from "./components/model/model-empty/model-empty";
+import ModelLayer from "./components/model/model-layer/model-layer";
+import ModelDownload from "./components/model/model-download/model-download";
+
+import BlockHead from "./components/index/block-head/block-head";
+
+import BlockCarouselFigure from "./components/index/block-carousel-figure/block-carousel-figure";
+import BlockAreaFiveIcon from "./components/index/block-area-five-icon/block-area-five-icon";
+import BlockHaveSpace from "./components/index/block-have-space/block-have-space";
+import BlockOneTitle from "./components/index/block-one-title/block-one-title";
+import BlockOneImage from "./components/index/block-one-image/block-one-image";
+import BlockTwoImage from "./components/index/block-two-image/block-two-image";
+import BlockThreeImageLeftBig from "./components/index/block-three-image-left-big/block-three-image-left-big";
+import BlockThreeImageRightBig from "./components/index/block-three-image-right-big/block-three-image-right-big";
+import BlockThreeImageAbreast from "./components/index/block-three-image-abreast/block-three-image-abreast";
+import BlockDoubleProduct from "./components/index/block-double-product/block-double-product";
+import BlockSingleRowProduct from "./components/index/block-single-row-product/block-single-row-product";
 
 export default class App extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            info: {}
+            info: {},
+            bgcolor: "#fee"
         }
     }
 
@@ -41,7 +46,10 @@ export default class App extends Component {
             .then(function (response) {
                 return response.json();
             }).then(function (json) {
-                self.setState({ info: json });
+                self.setState({
+                    info: json,
+                    bgcolor: json.data.bgcolor
+                });
             }).catch(function (ex) {
                 console.log("parsing failed", ex);
             });
@@ -68,29 +76,29 @@ export default class App extends Component {
             return templateList.map((service, index) => {
                 switch (service.templatetype) {
                     case "CarouselFigure":
-                        return <CarouselFigure data={service} key={index} />;
+                        return <BlockCarouselFigure data={service} key={index} />;
                     case "FuncAreaFiveImg":
-                        return <AreaFiveImg data={service} key={index} />;
+                        return <BlockAreaFiveIcon data={service} key={index} />;
                     case "HaveSpace":
-                        return <HaveSpace data={service} key={index} />;
+                        return <BlockHaveSpace data={service} key={index} />;
                     case "OneTitle":
-                        return <OneTitle data={service} key={index} />;
+                        return <BlockOneTitle data={service} key={index} />;
                     case "OneImage":
-                        return <OneImage data={service} key={index} />;
+                        return <BlockOneImage data={service} key={index} />;
                     case "TwoImage":
-                        return <TwoImage data={service} key={index} />;
+                        return <BlockTwoImage data={service} key={index} />;
                     case "ThreeImageLeftBig":
-                        return <ThreeImageLeftBig data={service} key={index} />;
+                        return <BlockThreeImageLeftBig data={service} key={index} />;
                     case "ThreeImageRightBig":
-                        return <ThreeImageRightBig data={service} key={index} />;
+                        return <BlockThreeImageRightBig data={service} key={index} />;
                     case "ThreeImageAbreast":
-                        return <ThreeImageAbreast data={service} key={index} />;
+                        return <BlockThreeImageAbreast data={service} key={index} />;
                     case "DoubleProduct":
-                        return <DoubleProduct data={service} key={index} />;
+                        return <BlockDoubleProduct data={service} key={index} />;
                     case "SingleRowProduct":
-                        return <SingleRowProduct data={service} key={index} />;
+                        return <BlockSingleRowProduct data={service} key={index} />;
                     default:
-                        return <div style={{ textAlign: "center", paddingTop: "25px" }}>不好啦，漏掉模块啦~</div>;
+                        return <ModelEmpty key={index} />;
                 }
             });
         }
@@ -101,10 +109,13 @@ export default class App extends Component {
 
         return (
             <div className="page-app-index">
-                <HomeHeader />
-                {createTemplate}
+                <BlockHead />
+                <div className="block-full" style={{ backgroundColor: this.state.bgcolor }}>
+                    {createTemplate}
+                </div>
                 <Footer path={this.props.location.pathname} />
-                <Download />
+                <ModelDownload />
+                <ModelLayer />
             </div>
         );
     }

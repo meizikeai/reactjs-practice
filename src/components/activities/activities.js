@@ -3,14 +3,25 @@ import "whatwg-fetch";
 
 import Header from "../model/header/header";
 import Footer from "../model/footer/footer";
+import ModelEmpty from "../model/model-empty/model-empty";
+
+import BlockOnePicture from "./block-one-picture/block-one-picture";
+import BlockTwoPicture from "./block-two-picture/block-two-picture";
+import BlockProduct from "./block-product/block-product";
+import BlockHotProduct from "./block-hot-product/block-hot-product";
 
 export default class Activities extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            info: {}
+            info: {},
+            pageTitle: "活动页",
+            bgcolor: "#fff",
         }
+
+        // 简单示意下，这里写最简的三个模块，一图、两图、产品列表~
+        // 可以根据需求开发新模块~
     }
 
     componentDidMount() {
@@ -21,7 +32,11 @@ export default class Activities extends Component {
             .then(function (response) {
                 return response.json();
             }).then(function (json) {
-                self.setState({ info: json });
+                self.setState({
+                    info: json,
+                    pageTitle: json.data.pageTitle,
+                    bgcolor: json.data.bgcolor
+                });
             }).catch(function (ex) {
                 console.log("parsing failed", ex);
             });
@@ -30,10 +45,22 @@ export default class Activities extends Component {
     createTemplate() {
         if (this.state.info.success) {
             let result = this.state.info.data;
+            let template = result.template;
 
-            console.log(result);
-
-            return ""
+            return template.map((e, k) => {
+                switch (e.templatetype) {
+                    case "OneImage":
+                        return <BlockOnePicture data={e} key={k} />;
+                    case "TwoImage":
+                        return <BlockTwoPicture data={e} key={k} />;
+                    case "Product":
+                        return <BlockProduct data={e} key={k} />;
+                    case "hotProduct":
+                        return <BlockHotProduct data={e} bgcolor={this.state.bgcolor} key={k} />;
+                    default:
+                        return <ModelEmpty key={k} />;
+                }
+            });
         }
     }
 
@@ -42,8 +69,10 @@ export default class Activities extends Component {
 
         return (
             <div className="page-app-activities">
-                <Header title="活动页" />
-                {createTemplate}
+                <Header title={this.state.pageTitle} />
+                <div className="block-full" style={{ backgroundColor: this.state.bgcolor }}>
+                    {createTemplate}
+                </div>
                 <Footer />
             </div>
         );

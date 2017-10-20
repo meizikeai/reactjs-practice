@@ -30,17 +30,18 @@
 ## 页面入口 - 每个页面总要有入口的~
 
 1、活动页
-/Activities?pageid=30002232
+/activities?pageid=30002232
 
 2、列表页
-/ProductList?condition=10000655
+/productlist?condition=10000655
 
 3、搜索页
-/SearchList?keyword=love
+/search?keyword=love
 
 4、详情页
-/ProductDetail?code=20-961-1818
+/product?id=20-961-1818
 
+...
 
 ## 事件绑定方式
 ```js
