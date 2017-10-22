@@ -28,18 +28,33 @@ export default class Activities extends Component {
         console.log(2);
         let self = this;
 
-        fetch("./server/activities.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({
-                    info: json,
-                    pageTitle: json.data.pageTitle,
-                    bgcolor: json.data.bgcolor
-                });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
+        // URLSearchParams - 实验性API
+        // 具体见：https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams
+        // 所以使用 getUrlParam 见下列方法
+        // let pageid = new URLSearchParams(this.props.location.search).get('pageid');
+
+        let pageid = this.getUrlParam(this.props.location.search, "pageid");
+
+        fetch("./server/activities.json?pageid=" + pageid, {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({
+                info: json,
+                pageTitle: json.data.pageTitle,
+                bgcolor: json.data.bgcolor
             });
+
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
+    }
+
+    getUrlParam = (search, name) => {
+        let regexp = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        let data = search && search.substring(1).match(regexp);
+        return data && decodeURIComponent(data[2]);
     }
 
     createTemplate() {

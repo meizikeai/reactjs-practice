@@ -42,17 +42,18 @@ export default class App extends Component {
         console.log(2);
         let self = this;
 
-        fetch("./server/home.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({
-                    info: json,
-                    bgcolor: json.data.bgcolor
-                });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
+        fetch("./server/home.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({
+                info: json,
+                bgcolor: json.data.bgcolor
             });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     componentWillUpdate() {

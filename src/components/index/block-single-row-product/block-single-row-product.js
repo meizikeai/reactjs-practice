@@ -34,19 +34,23 @@ export default class BlockSingleRowProduct extends Component {
     }
 
     handleResize = () => {
-        const screen = this.screenWidth();
-        const width = this.createWidth();
-        const breadth = width * this.count + 2;
+        setTimeout(() => {
+            const screen = this.screenWidth();
+            const width = this.createWidth();
+            const breadth = width * this.count + 2;
 
-        if (this.that) {
-            this.setTransform(this.that, 0);
-        }
+            console.log(screen, width, breadth);
 
-        this.setState({
-            screen: screen,
-            breadth: breadth,
-            width: width
-        });
+            if (this.refs.singlemain) {
+                this.setTransform(0, 0);
+            }
+
+            this.setState({
+                screen: screen,
+                breadth: breadth,
+                width: width
+            });
+        }, 100);
     }
 
     screenWidth() {

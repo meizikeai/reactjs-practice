@@ -35,27 +35,28 @@ export default class Category extends Component {
         console.log(2);
         const self = this;
 
-        fetch("./server/category.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                const code = json.data && json.data.catelogyList && json.data.catelogyList[0].id;
+        fetch("./server/category.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            const code = json.data && json.data.catelogyList && json.data.catelogyList[0].id;
 
-                self.getCategoryList(code);
+            self.getCategoryList(code);
 
-                self.setState({
-                    code: code,
-                    classData: json
-                });
-
-                self.setState({
-                    classHeight: self.refs.catelogy.clientHeight,
-                    middleHeight: window.screen.height - self.state.headerHeight,
-                    leftHeight: self.refs.catelogy.clientHeight - window.screen.height + self.state.headerHeight
-                });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
+            self.setState({
+                code: code,
+                classData: json
             });
+
+            self.setState({
+                classHeight: self.refs.catelogy.clientHeight,
+                middleHeight: window.screen.height - self.state.headerHeight,
+                leftHeight: self.refs.catelogy.clientHeight - window.screen.height + self.state.headerHeight
+            });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
 
         window.addEventListener("resize", this.handleResize);
     }
@@ -67,21 +68,22 @@ export default class Category extends Component {
     getCategoryList(id) {
         let self = this;
 
-        fetch("./server/category-list.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({
-                    contentData: json
-                });
-
-                self.setState({
-                    brandHeight: self.refs.content.clientHeight,
-                    rightHeight: self.refs.content.clientHeight - window.screen.height + self.state.headerHeight
-                })
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
+        fetch("./server/category-list.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({
+                contentData: json
             });
+
+            self.setState({
+                brandHeight: self.refs.content.clientHeight,
+                rightHeight: self.refs.content.clientHeight - window.screen.height + self.state.headerHeight
+            })
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     handleResize = () => {

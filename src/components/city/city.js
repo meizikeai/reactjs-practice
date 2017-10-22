@@ -17,14 +17,15 @@ export default class City extends Component {
     componentDidMount() {
         let self = this;
 
-        fetch("./server/city.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({ info: json });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
-            });
+        fetch("./server/city.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({ info: json });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     createCity() {

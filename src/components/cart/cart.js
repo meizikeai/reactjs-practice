@@ -20,32 +20,33 @@ export default class Cart extends Component {
         console.log(2);
         let self = this;
 
-        fetch("./server/cart.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                let result = json.data;
-                let resource = result.data;
-                let hierarchy = result.hierarchy;
-                let fullCount = 0;
+        fetch("./server/cart.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            let result = json.data;
+            let resource = result.data;
+            let hierarchy = result.hierarchy;
+            let fullCount = 0;
 
-                if (resource && hierarchy) {
-                    let structure = hierarchy.structure[hierarchy.root];
-                    let e = 0;
-                    for (e in structure) {
-                        if (structure[e] === "allitem") {
-                            fullCount = resource[structure[e]].fields.value;
-                        }
+            if (resource && hierarchy) {
+                let structure = hierarchy.structure[hierarchy.root];
+                let e = 0;
+                for (e in structure) {
+                    if (structure[e] === "allitem") {
+                        fullCount = resource[structure[e]].fields.value;
                     }
                 }
+            }
 
-                self.setState({
-                    info: json,
-                    fullCount: fullCount
-                });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
+            self.setState({
+                info: json,
+                fullCount: fullCount
             });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     createTemplate() {

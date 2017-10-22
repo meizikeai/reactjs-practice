@@ -13,24 +13,36 @@ export default class Product extends Component {
         this.state = {
             info: {}
         }
-
-        this.id = new URLSearchParams(this.props.location.search).get('id');
     }
 
     componentDidMount() {
         console.log(2);
         let self = this;
 
-        if (this.id) {
-            fetch("./server/product.json")
-                .then(function (response) {
-                    return response.json();
-                }).then(function (json) {
-                    self.setState({ info: json });
-                }).catch(function (ex) {
-                    console.log("parsing failed", ex);
-                });
+        this.sku = this.getUrlParam(this.props.location.search, "id");
+
+        // URLSearchParams - 实验性API
+        // 具体见：https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams
+        // 所以使用 getUrlParam 见下列方法
+        // this.sku = new URLSearchParams(this.props.location.search).get('id');
+
+        if (this.sku) {
+            fetch("./server/product.json?id=" + this.sku, {
+                method: "get"
+            }).then(function (response) {
+                return response.json();
+            }).then(function (json) {
+                self.setState({ info: json });
+            }).catch(function (ex) {
+                console.log("parsing failed", ex);
+            });
         }
+    }
+
+    getUrlParam = (search, name) => {
+        let regexp = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        let data = search && search.substring(1).match(regexp);
+        return data && decodeURIComponent(data[2]);
     }
 
     createTemplate() {

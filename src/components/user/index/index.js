@@ -22,14 +22,15 @@ export default class Index extends Component {
         console.log(2);
         let self = this;
 
-        fetch("../server/user-index.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({ info: json });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
-            });
+        fetch("../server/user-index.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({ info: json });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     handleTipLayer = (e) => {

@@ -8,6 +8,7 @@
 
 .block-two-image .picture > div {
     flex: 1;
+    width: 50%;
 }
 
 .block-two-image .picture a {

@@ -17,14 +17,15 @@ export default class Checkout extends Component {
         console.log(2);
         let self = this;
 
-        fetch("./server/checkout.json")
-            .then(function (response) {
-                return response.json();
-            }).then(function (json) {
-                self.setState({ info: json });
-            }).catch(function (ex) {
-                console.log("parsing failed", ex);
-            });
+        fetch("./server/checkout.json", {
+            method: "get"
+        }).then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            self.setState({ info: json });
+        }).catch(function (ex) {
+            console.log("parsing failed", ex);
+        });
     }
 
     createTemplate() {

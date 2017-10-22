@@ -61,6 +61,8 @@ export default class Header extends Component {
     }
 
     render() {
+        document.title = this.props.title + " - My Test";
+
         return (
             <div className="app-header">
                 <div className="header" ref="header">
