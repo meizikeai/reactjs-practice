@@ -16,7 +16,7 @@ export default class Activities extends Component {
 
         this.state = {
             info: {},
-            pageTitle: "活动页",
+            pageTitle: "",
             bgcolor: "#fff",
         }
 

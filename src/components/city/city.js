@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+
 import "whatwg-fetch";
+import Position from "../model/model-position/model-position";
 
 import Header from "../model/header/header";
 import "./city.css";
@@ -10,7 +12,7 @@ export default class City extends Component {
 
         this.state = {
             info: {},
-            city: "北京"
+            city: ""
         }
     }
 
@@ -26,6 +28,10 @@ export default class City extends Component {
         }).catch(function (ex) {
             console.log("parsing failed", ex);
         });
+
+        Position.getPosition((val) => {
+            this.setState({ city: val });
+        });
     }
 
     createCity() {
@@ -38,10 +44,6 @@ export default class City extends Component {
     }
 
     handleCity(item) {
-        item && item.name && this.setState({
-            city: item.name
-        });
-
         localStorage.city = item.name;
         setTimeout(() => window.history.back(), 300);
     }

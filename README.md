@@ -91,17 +91,16 @@ render() {
 
 例举一些想用而没用的
 
+### `在使用中`
+
+* [fetch](https://github.com/github/fetch)
+* [react-router](https://reacttraining.com/react-router/web/api/Route)
+* [react-swipe](http://voronianski.github.io/react-swipe)
+
 ### `没有使用`
 
 * [flux](https://github.com/facebook/flux)
 * [PureRenderMixin](https://reactjs.org/docs/pure-render-mixin.html)
-
-### `路由`
-
-* [react-router](https://reacttraining.com/react-router/web/api/Route)
-
-### `弹窗 - 下面的组件都没用 - 写了一个简单的`
-
 * [react-modal](https://github.com/reactjs/react-modal)
 * 第三方-[react-modal-dialog](https://github.com/qimingweng/react-modal-dialog)
 * 第三方-[react-popup](https://github.com/minutemailer/react-popup)

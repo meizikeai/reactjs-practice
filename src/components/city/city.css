@@ -12,8 +12,9 @@
 
 .app-city .check span {
     color: #f50;
-    margin-right: 0.3rem;
+    margin-right: 0.2rem;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .app-city .hot {

@@ -115,7 +115,7 @@ export default class Index extends Component {
                             <div className="seller">
                                 <div className="picture"><img src={store.fields.shopImg} alt={store.fields.shopName} /></div>
                                 <div className="contact">
-                                    <a href={"/order?id=" + store.fields.id}>
+                                    <a href={"/user/order?id=" + store.fields.id}>
                                         <span className="title">{store.fields.shopName}</span>
                                         <span className="arrow"></span>
                                     </a>

@@ -44,9 +44,15 @@ export default class Cart extends Component {
                 info: json,
                 fullCount: fullCount
             });
+
+            console.log(result);
         }).catch(function (ex) {
             console.log("parsing failed", ex);
         });
+    }
+
+    handleSubmit() {
+        window.location.href = "/checkout";
     }
 
     createTemplate() {
@@ -64,7 +70,7 @@ export default class Cart extends Component {
                     <div className="shop-title">
                         <div className="check">
                             <p>
-                                <input className="checkbox" id={"love-" + data.id} type="checkbox" checked={fields.checked} />
+                                <input className="checkbox" id={"love-" + data.id} type="checkbox" defaultChecked={fields.checked} />
                                 <label htmlFor={"love-" + data.id}></label>
                             </p>
                         </div>
@@ -103,7 +109,7 @@ export default class Cart extends Component {
                         <div className="content">
                             <div className="check">
                                 <p>
-                                    <input className="checkbox" id={"love-" + data.id} type="checkbox" checked={fields.checked} />
+                                    <input className="checkbox" id={"love-" + data.id} type="checkbox" defaultChecked={fields.checked} />
                                     <label htmlFor={"love-" + data.id}></label>
                                 </p>
                             </div>
@@ -189,12 +195,16 @@ export default class Cart extends Component {
                                         }
                                     </div>
                                 } else {
+                                    let footer = resource[o];
+                                    let price = footer.fields.pay.priceTitle.replace("￥", "").split(".");
+
+                                    console.log(footer);
                                     return <div className="footer">
                                         <div className="foot-fixed">
                                             <div className="foot">
                                                 <div className="check">
                                                     <p>
-                                                        <input id="cb-footer" type="checkbox" className="checkbox" />
+                                                        <input id="cb-footer" type="checkbox" className="checkbox" defaultChecked={footer.fields.checkAll.checked} />
                                                         <label htmlFor="cb-footer"></label>
                                                     </p>
                                                 </div>
@@ -202,16 +212,17 @@ export default class Cart extends Component {
                                                 <div className="pay">
                                                     <div className="total">合计：</div>
                                                     <p className="price" data-symbol="￥">
-                                                        <span className="major">0</span>
+                                                        <span>￥</span>
+                                                        <span className="major">{price[0]}</span>
                                                         <span className="point">.</span>
-                                                        <span className="minor">00</span>
+                                                        <span className="minor">{price[1]}</span>
                                                     </p>
                                                 </div>
-                                                <div className="submit">
+                                                <div className="submit" onClick={this.handleSubmit}>
                                                     <p>
                                                         <span>结算</span>
                                                         <span>(</span>
-                                                        <span>0</span>
+                                                        <span>{footer.fields.quantity.value}</span>
                                                         <span>)</span>
                                                     </p>
                                                 </div>

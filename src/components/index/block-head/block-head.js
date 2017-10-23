@@ -1,12 +1,20 @@
 import React, { Component } from "react";
+
+import Position from "../../model/model-position/model-position";
 import "./block-head.css";
 
 export default class BlockHead extends Component {
     constructor(props) {
         super(props);
 
+        if (!localStorage.city) {
+            Position.getPosition((val) => {
+                this.setState({ city: val });
+            });
+        }
+
         this.state = {
-            city: localStorage.city || "北京",
+            city: localStorage.city || "中山",
             keyword: ""
         }
     }
