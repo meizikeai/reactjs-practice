@@ -20,6 +20,6 @@
 }
 
 .block-three-image-abreast .picture .picture-2 {
-    border-left: 2px solid transparent;
-    border-right: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }

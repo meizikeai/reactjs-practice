@@ -21,11 +21,11 @@
 }
 
 .block-three-image-right-big .picture .picture-1 {
-    border-right: 1px solid transparent;
+    border-right: 0.5px solid transparent;
 }
 
 .block-three-image-right-big .picture .picture-2 {
-    border-left: 1px solid transparent;
+    border-left: 0.5px solid transparent;
 }
 
 .block-three-image-right-big .picture .picture-1 .picture-1-1 {
