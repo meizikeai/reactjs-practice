@@ -62,7 +62,7 @@ export default class Header extends Component {
 
     render() {
         if (this.props.title) {
-            document.title = this.props.title + " - My Test";
+            document.title = this.props.title + " - React For Beginners";
         }
 
         return (
