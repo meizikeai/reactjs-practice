@@ -1,3 +1,6 @@
+.page-app-user-index{
+    background: #ededed;
+}
 .app-user {
     width: 100%;
     height: 100%;
@@ -6,7 +9,7 @@
 
 .app-user .user {
     position: relative;
-    height: 3rem;
+    min-height: 2.8rem;
     background: #d34201 url(/images/user-banner.jpg) no-repeat top center;
     background-size: cover;
     color: #fff;
@@ -47,10 +50,9 @@
 }
 
 .app-user .user .nick {
-    float: left;
-    width: 100%;
-    padding-left: 2.5rem;
-    margin-top: 1.4rem;
+    position: absolute;
+    left: 2.5rem;
+    bottom: .12rem;
     font-size: 16px;
 }
 
@@ -237,8 +239,4 @@
 .app-user .other div a {
     color: #333;
     text-decoration: none;
-}
-
-.app-user .empty {
-    height: 0.5rem;
 }

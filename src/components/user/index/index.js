@@ -135,8 +135,6 @@ export default class Index extends Component {
                     <div className="feedback"><a href="">意见反馈</a></div>
                     <div className="topc"><a href="">电脑版</a></div>
                 </footer>
-
-                <div className="empty"></div>
             </div>
         }
     }
