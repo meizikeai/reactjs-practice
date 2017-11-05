@@ -45,7 +45,6 @@ export default class ModelDownload extends Component {
                     </div>
                     <span className="open" onClick={this.handleOpenApp}>立即打开</span>
                 </div>
-
             </div>
         </div>
     }
