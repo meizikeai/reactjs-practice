@@ -199,7 +199,7 @@ export default class Cart extends Component {
                                     let price = footer.fields.pay.priceTitle.replace("￥", "").split(".");
 
                                     console.log(footer);
-                                    return <div className="footer">
+                                    return <div className="footer" key={i}>
                                         <div className="foot-fixed">
                                             <div className="foot">
                                                 <div className="check">
