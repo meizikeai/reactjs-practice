@@ -23,39 +23,37 @@
     overflow: hidden;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0px 5px 20px 0px rgba(126, 137, 140, .2);
-    border: 1px solid #B8C8CC;
-}
-
-.model-layer .layer .header {
-    height: .96rem;
-    position: relative;
-    border-bottom: 1px solid #ededed;
-    background-color: #EDF5F7;
+    font-size: 14px;
+    box-shadow: 0px 5px 20px 0px rgba(102, 102, 102, 0.2);
 }
 
 .model-layer .layer .header .title {
-    margin-right: .85rem;
-    line-height: .85rem;
+    padding: .5rem .3rem 0;
     font-weight: 700;
-    padding: .08rem .28rem 0;
+    text-align: center;
     color: #454B4D;
 }
 
-.model-layer .layer .header .close {
-    position: absolute;
-    right: .08rem;
-    top: .08rem;
-    width: .85rem;
-    height: .85rem;
-    background: url(./close.png) .28rem .28rem/.32rem .32rem no-repeat;
-}
-
 .model-layer .layer .content {
-    padding: .28rem;
+    padding: .3rem;
 }
 
-.model-layer .layer-scene {
+.model-layer .layer .footer {
+    border-top: 1px solid #ededed;
+    display: flex;
+}
+
+.model-layer .layer .footer>div {
+    flex: 1;
+    padding: .3rem;
+    text-align: center;
+}
+
+.model-layer .layer .footer .cancel {
+    border-right: 1px solid #ededed;
+}
+
+.model-layer .layer-back {
     width: 100%;
     height: 100%;
     position: fixed;

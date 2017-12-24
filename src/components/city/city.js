@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import "whatwg-fetch";
 import Position from "../model/model-position/model-position";
 
 import Header from "../model/header/header";

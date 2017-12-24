@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ModeLayer from "../model-layer/model-layer";
 import "./model-download.css";
 
 export default class ModelDownload extends Component {
@@ -26,7 +27,7 @@ export default class ModelDownload extends Component {
         setTimeout(function () {
             document.body.removeChild(iframe);
             (function () {
-                window.AppUnitLayer && window.AppUnitLayer.show({
+                ModeLayer.show({
                     content: "协议不可能是“mobile://Page?id=Home”，请修改后再试一下~"
                 })
             })()

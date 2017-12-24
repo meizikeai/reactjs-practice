@@ -21,12 +21,18 @@
     width: .52rem;
     height: .52rem;
     cursor: pointer;
-    background: url(./check.png) 0 0/.52rem no-repeat;
+    background-position: 0 0;
+    background-size: .52rem;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAA3NCSVQICAjb4U/gAAAALVBMVEX///+hprehprehprehprehprehprehprehprehprehprehprehprehprehprd0XKVXAAAAD3RSTlMAESIzRGZ3iJmqu8zd7v8zDtSdAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAPVJREFUKJF1k88KQUEUxg/yrygLG4m8gLKVUlZ28gTyAsrCTskLKLL3BFKysJO1IixkYSMkrr5nMPeie+/0OYuZ6TedP3PONyKWecpjYNWKicO8PVh2zDjYSIHTWi0PmzaAeUkk3gYOP5YAhp9THhh8kyww+90XYHySJXG3w3cwtfYRqjb042FuAdyc1dVQV2sWTScMYm96G+KyhfL34uKGRWQkhL4bhtGVFHJu6MNOKlpIFfQqnbsOFZlcdVh5yuasw/RLsNVhFIKlDiP/IHOniWhJtHj6TNoQ2jraZDoOPjg6YioGLhsqMCpFLloub/oR9C/zBsU0n4PhpWahAAAAAElFTkSuQmCC);
     vertical-align: top;
 }
 
-.app-cart .checkbox:checked + label {
-    background: url(./ischeck.png) 0 0/.52rem no-repeat;
+.app-cart .checkbox:checked+label {
+    background-position: 0 0;
+    background-size: .52rem;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAA3NCSVQICAjb4U/gAAAAh1BMVEX/////UAD/UAD/UAD/UAD/UAD/UAD/UAD/UAD/UAD/UAD/UAD/////+vj/9fD/8ev/8On/7OP/6d//5Nj/4NL/3s//2cj/1MH/zLX/w6f/wKP/upv/t5b/rYf/qID/oXb/mWb/jlr/jFj/dTb/cC//biz/bSr/aCP/XhT/Wg7/Vgn/UQL/UADQOR1YAAAALXRSTlMAESJEd4iZqrvM3e7///////////////////////////////////////////9INcYgAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAARJJREFUOI2N1et2wiAMAOBApVZg7j7dzbn71Lz/8w0qcsKtJr/EfgcIDSkADdGpQaMLPahOQCtkb5CE6WWdzbGIeYXOTOncrLOMicp0YdJkq2LRcogLwXOJbK4bVo95TDvEkJGs5kvDSM7CcXF53iH6KXsO7N3RnN2hDyOgaz/9evyIvztQTfe5tBeH00DB0HLfl9au42gAPeFW+zjUMOEeduSPBiwchdvbbdtReGNtkD+lQ5LMmw3y97p0mh7Pq5PvR3efOXc89MBH6d3dX56dSl/hi5NXNedeYVoUXtacK4qszJ6qzpdZVriHzXPFjYXLvgr8y8W+rvwGwG8p7CbFb3v8Rgr81gzsZj9ulX4+0kf/qVXH8bP2GwMAAAAASUVORK5CYII=);
 }
 
 .app-cart .bundle .shop {
@@ -59,14 +65,14 @@
 
 .app-cart .bundle .shop .shop-title .ico {
     margin-right: .32rem;
-    width: .48rem;
+    width: .5rem;
     display: flex;
     align-items: center;
 }
 
 .app-cart .bundle .shop .shop-title .ico span {
-    width: .48rem;
-    height: .48rem;
+    width: .5rem;
+    height: .5rem;
     display: inline-block;
     vertical-align: middle;
     background-color: #f50;
@@ -110,8 +116,10 @@
     flex: 1;
     min-width: .2rem;
     min-height: 1.05rem;
-    background: url(./arrow.png) 0 center no-repeat;
+    background-position: 0 center;
     background-size: .2rem .347rem;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAaCAYAAABozQZiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MjQzMkFFNTQ0MEYxMUU1OTZDRjk2ODYxMEYzRTU0MSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MjQzMkFFNjQ0MEYxMUU1OTZDRjk2ODYxMEYzRTU0MSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjUyNDMyQUUzNDQwRjExRTU5NkNGOTY4NjEwRjNFNTQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUyNDMyQUU0NDQwRjExRTU5NkNGOTY4NjEwRjNFNTQxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+YpVSkgAAATZJREFUeNpinDlzJhsDA0MBEP8E4mlpaWm/GYgETECcC8SdQDwBiNfOmjWLjRTNv5D4vkC8hlgDQJqnAfEycgxgAvrxL5COI8cAkM0M5BrABGOQYwDj////UQSACpmB1CIgjkIS3gcyCGjBN6w2Y3HBXCRhJyDeAjSYC69mJANSgXgGkrAjugFMuAIDaADIP1n4DMDwMzoAKmSEpoUMJOHbQGzERCghILlgDpKwKhDPZiIyGbMCsSya2HuCmqFxvAaI3ZGEdwBxDhORGn2RhEEB6AX0zj+cAYZD42IgjoeGA/aowqERlGwTYRqxasajMQ6aeLCnMFI0omiGZojFxGqEa0bKSWHEagQBZikpKWxZkKBGmM1xaBo3EaMRphk50DYDcSgxGkGABYgXgJwPxXNIKfQBAgwAqZCKsABxZ/8AAAAASUVORK5CYII=);
 }
 
 .app-cart .bundle .shop .shop-title .state {
@@ -134,7 +142,7 @@
 
 .app-cart .bundle .shop .coudan .icon img {
     width: auto;
-    height: .4rem;
+    height: .5rem;
     vertical-align: top;
 }
 

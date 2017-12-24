@@ -1,3 +1,4 @@
+import "whatwg-fetch";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -19,10 +20,9 @@ import UserOrder from "./components/user/order/order";
 let createRoot = (function () {
     let root = document.createElement("div");
     root.setAttribute("id", "root");
+    document.body.appendChild(root);
     return root;
 })();
-
-document.body.appendChild(createRoot);
 
 ReactDOM.render((
     <Router>

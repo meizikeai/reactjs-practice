@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "whatwg-fetch";
 
 import Header from "../../model/header/header";
-import ModelLayer from "../../model/model-layer/model-layer";
+import ModeLayer from "../../model/model-layer/model-layer";
 
 import "./order.css";
 
@@ -83,8 +82,7 @@ export default class Index extends Component {
     }
 
     handleTipLayer = (e) => {
-        console.log(window.singleton);
-        window.AppUnitLayer.show({
+        ModeLayer.show({
             content: "不要再点点点的啦，这个功能页面不想写了~"
         });
     }
@@ -234,7 +232,7 @@ export default class Index extends Component {
                 <Header title="订单管理" />
                 {createTitle}
                 {createTemplate}
-                <ModelLayer />
+                {/* <ModelLayer /> */}
             </div>
         );
     }

@@ -62,7 +62,7 @@ export default class Header extends Component {
 
     render() {
         if (this.props.title) {
-            document.title = this.props.title + " - React For Beginners";
+            document.title = this.props.title + " - React For Beginner";
         }
 
         return (
@@ -70,7 +70,7 @@ export default class Header extends Component {
                 <div className="header" ref="header">
                     <span className="back" onClick={this.handleBack}></span>
                     <div className="title">{this.props.title}</div>
-                    <div className="pull" onClick={this.handleCatalog}><span></span></div>
+                    <div className="pull" onClick={this.handleCatalog}></div>
                     <div className={this.state.entry}>
                         <div className="content">
                             <a href="/"><i className="home"></i><span>首页</span></a>

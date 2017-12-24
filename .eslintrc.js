@@ -29,10 +29,7 @@ module.exports = {
         "import"
     ],
     "rules": {
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
+        "linebreak-style": 0,
         "no-console": 0,
         "no-unused-vars": 0
     }

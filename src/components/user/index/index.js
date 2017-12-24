@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "whatwg-fetch";
 
 import Header from "../../model/header/header";
 import Footer from "../../model/footer/footer";
 
-import ModelLayer from "../../model/model-layer/model-layer";
+import ModeLayer from "../../model/model-layer/model-layer";
 import ModelDownload from "../../model/model-download/model-download";
 
 import "./index.css";
@@ -34,8 +33,7 @@ export default class Index extends Component {
     }
 
     handleTipLayer = (e) => {
-        console.log(window.singleton);
-        window.AppUnitLayer.show({
+        ModeLayer.show({
             content: "不要再点点点的啦，这个功能页面不想写了~"
         });
     }
@@ -148,7 +146,6 @@ export default class Index extends Component {
                 {createTemplate}
                 <Footer path={this.props.location.pathname} />
                 <ModelDownload />
-                <ModelLayer />
             </div>
         );
     }

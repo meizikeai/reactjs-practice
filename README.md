@@ -27,6 +27,16 @@
 一切的数据都是假的，都是想出来的~
 
 
+## 效果预览
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-01.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-02.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-03.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-04.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-05.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-06.png)
+![image](https://github.com/meizikeai/reactjs-practice/blob/master/public/preview/preview-07.png)
+
+
 ## 页面入口 - 每个页面总要有入口的~
 
 1、活动页

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import "whatwg-fetch";
 
 import Footer from "./components/model/footer/footer";
 import ModelEmpty from "./components/model/model-empty/model-empty";
-import ModelLayer from "./components/model/model-layer/model-layer";
 import ModelDownload from "./components/model/model-download/model-download";
 
 import BlockHead from "./components/index/block-head/block-head";
@@ -116,7 +114,6 @@ export default class App extends Component {
                 </div>
                 <Footer path={this.props.location.pathname} />
                 <ModelDownload />
-                <ModelLayer />
             </div>
         );
     }
